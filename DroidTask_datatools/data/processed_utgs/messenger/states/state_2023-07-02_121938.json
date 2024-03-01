@@ -1,0 +1,673 @@
+{
+  "tag": "2023-07-02_121938",
+  "state_str": "325687d7c477d59a48c8f3177ae5b8447704989104239d640cb84f283ace8f50",
+  "state_str_content_free": "ab1396164bad37ce2c7966117c8e09c1",
+  "foreground_activity": "com.simplemobiletools.smsmessenger/.activities.ThreadActivity",
+  "activity_stack": [
+    "com.simplemobiletools.smsmessenger/.activities.ThreadActivity",
+    "com.simplemobiletools.smsmessenger/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.apps.tachyon/.call.service.CallService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          194
+        ],
+        [
+          1069,
+          590
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "539*396",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "efe73f2b73c1fa4ff5ca00b3844e278a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          194
+        ],
+        [
+          1069,
+          590
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "539*396",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "b059f3b4826a4d8faa8d71b3c32a155c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3,
+        7,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          194
+        ],
+        [
+          1069,
+          590
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ListView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "539*396",
+      "signature": "[class]android.widget.ListView[resource_id][text][enabled,,]",
+      "view_str": "58b5e936c0970fd6bd063b18a34ec587",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          194
+        ],
+        [
+          1069,
+          326
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "5609dfa3746ac6ad9565358648ceae8d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          194
+        ],
+        [
+          1069,
+          326
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content[text][enabled,,]",
+      "view_str": "5774fd419a17494653ee0b7e0f23b803",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          230
+        ],
+        [
+          1025,
+          289
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "451*59",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "25924e5f35c5ec66130eced8f1138640",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          230
+        ],
+        [
+          1025,
+          289
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/title",
+      "checked": false,
+      "text": "Conversation details",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "451*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title[text]Conversation details[enabled,,]",
+      "view_str": "fdb9e79a8e55ef6e300ddd99b4958781",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          326
+        ],
+        [
+          1069,
+          458
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 7,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "5609dfa3746ac6ad9565358648ceae8d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          326
+        ],
+        [
+          1069,
+          458
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content[text][enabled,,]",
+      "view_str": "5774fd419a17494653ee0b7e0f23b803",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          362
+        ],
+        [
+          1025,
+          421
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "451*59",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "f6a3d69cc02ed5ca5323243a9a18707f",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          362
+        ],
+        [
+          1025,
+          421
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/title",
+      "checked": false,
+      "text": "Block number",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "451*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title[text]Block number[enabled,,]",
+      "view_str": "22b0b9af0c8358b07bb7f736fae81a49",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          458
+        ],
+        [
+          1069,
+          590
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 11,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "5609dfa3746ac6ad9565358648ceae8d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          458
+        ],
+        [
+          1069,
+          590
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "539*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content[text][enabled,,]",
+      "view_str": "5774fd419a17494653ee0b7e0f23b803",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.smsmessenger:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          494
+        ],
+        [
+          1025,
+          553
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "451*59",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "db5b523eb20c4d2cf0e68982507705be",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.smsmessenger",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          574,
+          494
+        ],
+        [
+          1025,
+          553
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.smsmessenger:id/title",
+      "checked": false,
+      "text": "Mark as Unread",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "451*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title[text]Mark as Unread[enabled,,]",
+      "view_str": "8dd767ad6d439de96fc3083c2a9e5d05",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.smsmessenger:id/title"
+    }
+  ]
+}

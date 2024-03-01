@@ -1,0 +1,63 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>test1<br>00:10</button>
+
+    <button id=5>test2<br>00:07</button>
+
+    <p id=6>test1</p>
+
+    <button id=7>Playlists</button>
+
+    <button id=8>Folders</button>
+
+    <button id=9>Artists</button>
+
+    <button id=10>Albums</button>
+
+    <p id=11>Tracks</p>
+
+    <button id=12>go back</button>'
+  new_state_str: 544f10c0bdcf7341ab3efd68404c9cf33b18d33f737acc636385e27291d0ebc8
+  state_str:
+  - eca7a1a7d4a3a9e1355b3e528fe877cf33c4ce35d37fda2ad04107e06fea5b35
+- Choice: 4
+  Input: 'null'
+  State: "<button id=0>Create new playlist</button>\n <button id=1>Create new playlist\
+    \ from folder</button>\n <button id=2>Import playlist</button>\n <button id=3>Sleep\
+    \ timer</button>\n <button id=4>Settings</button>\n <button id=5>About</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: f057ab1d8ea28cccf9a5659bdbc494f12428a9a4034642c6440db0f387d25dbd
+  state_str: b9dffd3eab2d6b872732a491ea7b9e082342e31e4a4168a889ce13f17cee34ab
+- Choice: 10
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <button id=3>Customize widget colors</button>\n <p id=4>GENERAL</p>\n\
+    \ <button id=5>Manage excluded folders</button>\n <button id=6>Manage shown tabs</button>\n\
+    \ <checkbox id=7 checked=False>Swap previous/next headphone buttons</checkbox>\n\
+    \ <button id=8>Show filename as song title<br>If title is not available</button>\n\
+    \ <p id=9>AUDIO</p>\n <checkbox id=10 checked=False>Gapless playback</checkbox>\n\
+    \ <button id=11>go back</button>"
+  new_state_str: d0ed9caef9a21951bf20233048d4c9f49419bff6408409bde7a41eae8755112e
+  state_str: 15285a609c39e3a9e0f41c7f2067e3c61f0f7a9d353aacd5d6cc45a7885298db
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <button id=3>Customize widget colors</button>\n <p id=4>GENERAL</p>\n\
+    \ <button id=5>Manage excluded folders</button>\n <button id=6>Manage shown tabs</button>\n\
+    \ <checkbox id=7 checked=False>Swap previous/next headphone buttons</checkbox>\n\
+    \ <button id=8>Show filename as song title<br>If title is not available</button>\n\
+    \ <p id=9>AUDIO</p>\n <checkbox id=10 checked=True>Gapless playback</checkbox>\n\
+    \ <button id=11>go back</button>"
+  new_state_str: 4736a91ef013aa052da09f09f59ab864785f4e3ef1a635f14ba15503551ab47e
+  state_str: 65ca2a1029687c741c3e0944f8d79716b3353ad15115f1b753d5a16da6d3220d
+step_num: 4
+task_name: set the song to gapless playback

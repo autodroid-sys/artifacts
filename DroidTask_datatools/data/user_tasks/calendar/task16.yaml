@@ -1,0 +1,50 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 1
+  Input: homework
+  State: "<button id=0 text='Collapse'></button>\n<input id=1>Search\u2026</input>\n\
+    <button id=2 text='Change view'></button>\n<button id=3 text='More options'></button>\n\
+    <button id=4>July</button>\n<button id=5>No items found.<br>Type in at least 2\
+    \ characters to start the search.</button>\n<button id=6>go back</button>"
+  new_state_str: a0580636289877f1e38e3d0fb2dc819e0bafcdaa9cfe463ed66522d8f283685a
+  state_str:
+  - c1af3fc254b0fefdd4e361840868dc226dcffcea9154b3a62dbc7d2e7163fca6
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Collapse''></button>
+
+    <input id=1>homework</input>
+
+    <button id=2 text=''Clear query''></button>
+
+    <button id=3 text=''Change view''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>July</button>
+
+    <button id=6>No items found.</button>
+
+    <button id=7>go back</button>'
+  new_state_str: 31e3de127aad86f894e32416403c0c384493f6631dc80f2f969384255486f79f
+  state_str:
+  - 466a2fa64b6408c33077de33c9df6e8d1848fce42a9a42b53d5109eae9fa7153
+step_num: 4
+task_name: search the task 'homework'

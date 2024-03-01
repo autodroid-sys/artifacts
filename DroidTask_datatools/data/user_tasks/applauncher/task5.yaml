@@ -1,0 +1,31 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Column count</button>\n <button id=1>Settings</button>\n <button\
+    \ id=2>About</button>\n <button id=3>go back</button>"
+  new_state_str: ca19303f69337e3b0304675f3593b6929a8f5e20f11c851c7caa0c01e2149f4c
+  state_str: 4aa00a0b2088cff9cf01711cc84ced31f46a408b7dd1e4bc992e0e14003ec750
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <p id=3>GENERAL</p>\n <checkbox id=4 checked=True>Close this\
+    \ app at launching a different one</checkbox>\n <button id=5>go back</button>"
+  new_state_str: c1b06bce7e23dd13a3288977fbdd55b3d1962a9bb93432a712321fd371f52bb7
+  state_str: ad13fc2aeb3d2bc44cc46c16bec9cd521ce8c4a2109a8c41b6e3186a67e681bd
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <p id=3>GENERAL</p>\n <checkbox id=4 checked=False>Close this\
+    \ app at launching a different one</checkbox>\n <button id=5>go back</button>"
+  new_state_str: 6948b52ae5a0012089344c00a0b0521ab8778828b8b4ac3c8552aaa62deb1d77
+  state_str: 856403056505397d1789eb60a5a2a01188ea16b63867d9414e52471da38bd03b
+step_num: 4
+task_name: Disable closing this app when launching a different one

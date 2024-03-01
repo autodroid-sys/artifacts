@@ -1,0 +1,121 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Add to favorites''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal</button>
+
+    <button id=5>Alarms<br>0 items</button>
+
+    <button id=6>Android<br>3 items</button>
+
+    <button id=7>Audiobooks<br>0 items</button>
+
+    <button id=8>DCIM<br>6 items</button>
+
+    <button id=9>Documents<br>0 items</button>
+
+    <button id=10>Download<br>1 item</button>
+
+    <button id=11>Movies<br>0 items</button>
+
+    <button id=12>Music<br>1 item</button>
+
+    <button id=13>Notifications<br>0 items</button>
+
+    <button id=14>Pictures</button>
+
+    <p id=15>Files</p>
+
+    <button id=16>Recents</button>
+
+    <button id=17>Storage</button>
+
+    <button id=18>go back</button>
+
+    <button id=19>Pictures<br>0 items</button>
+
+    <button id=20>Podcasts<br>0 items</button>
+
+    <button id=21>Ringtones<br>0 items</button>
+
+    <button id=22>screen_2023-06-30_141247.png<br>16.1 kB<br>30.06.2023, 02:12 PM</button>
+
+    <button id=23>screen_2023-06-30_143638.png<br>0 B<br>30.06.2023, 02:36 PM</button>
+
+    <p id=24 text=''handleImage''></p>'
+  new_state_str: 4ab22c498122e2ee239fea7ea030f4f60c03229f1e8e59353d5d52832a2837f1
+  state_str:
+  - d53745f040b2294c831e66c9f949824815ecc6d4f467f35b2d79fe988925cec7
+  - 7e878201738c3c18dcb83859b220d3c37e0f67c46b5d75bd15936f8ba9790731
+  - d53745f040b2294c831e66c9f949824815ecc6d4f467f35b2d79fe988925cec7
+  - 7e878201738c3c18dcb83859b220d3c37e0f67c46b5d75bd15936f8ba9790731
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>Select storage</p>\n <checkbox id=1 checked=True>Internal</checkbox>\n\
+    \ <checkbox id=2 checked=False>SD Card</checkbox>\n <button id=3>go back</button>"
+  new_state_str: 6919cfa097bb6dc5bcc70b3a04c75500aeb04e8db499b49ba0c033318894e3aa
+  state_str: 2f92e2a72473dec647207c0fa93dbe9138269c84c1581b8e2a36290cd6289484
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Go to home folder''></button>
+
+    <button id=2 text=''Sort by''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>SD Card</button>
+
+    <button id=5>Alarms<br>0 items</button>
+
+    <button id=6>Android<br>1 item</button>
+
+    <button id=7>Audiobooks<br>0 items</button>
+
+    <button id=8>DCIM<br>0 items</button>
+
+    <button id=9>Documents<br>0 items</button>
+
+    <button id=10>Download<br>0 items</button>
+
+    <button id=11>LOST.DIR<br>0 items</button>
+
+    <button id=12>Movies<br>0 items</button>
+
+    <button id=13>Music<br>0 items</button>
+
+    <button id=14>Notifications</button>
+
+    <p id=15>Files</p>
+
+    <button id=16>Recents</button>
+
+    <button id=17>Storage</button>
+
+    <button id=18>go back</button>
+
+    <button id=19>Notifications<br>0 items</button>
+
+    <button id=20>Pictures<br>0 items</button>
+
+    <button id=21>Podcasts<br>0 items</button>
+
+    <button id=22>Ringtones<br>0 items</button>
+
+    <p id=23 text=''handleImage''></p>'
+  new_state_str: 5f85df70a940e359b72b4d31661621c0d94c5b998ad8e89651396c59162f3e69
+  state_str:
+  - 834dbca7eb85b537784358691c5f8e53154885b616fbbb7c52014fe1081406b8
+  - c5a013a27a7acca75022f0de888126aa97bcbd2e2924974d2b496cd38d4a3b37
+  - 834dbca7eb85b537784358691c5f8e53154885b616fbbb7c52014fe1081406b8
+  - c5a013a27a7acca75022f0de888126aa97bcbd2e2924974d2b496cd38d4a3b37
+step_num: 3
+task_name: change the storage type to sd card

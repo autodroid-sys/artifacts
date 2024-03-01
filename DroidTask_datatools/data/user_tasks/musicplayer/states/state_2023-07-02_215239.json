@@ -1,0 +1,3828 @@
+{
+  "tag": "2023-07-02_215239",
+  "state_str": "aed0181d1afbb995e195fa1dfb76817333cb4ba5aea28bf5b8f3c581bcf4a000",
+  "state_str_content_free": "3796291e13ff0a4025714a1b6c49172c",
+  "foreground_activity": "com.simplemobiletools.musicplayer/.activities.MainActivity",
+  "activity_stack": [
+    "com.simplemobiletools.musicplayer/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        95,
+        96
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "bd46a96a72faa5e0644fa12328058cc8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2148",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "6330d77f67e78663d3e16f1f44fdb624",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "8cbe94a2a02dbc9018243318c77d7917",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/action_bar_root[text][enabled,,]",
+      "view_str": "468394d7bf12c50aadba877859c7c5b0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "8d9ca8b6c5323a31b4dbba7b237cf40e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/main_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1977",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/main_coordinator[text][enabled,,]",
+      "view_str": "e318e077c0f3b67966f4dfd3ef998a6c",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/main_coordinator"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          347
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/main_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/main_menu[text][enabled,,]",
+      "view_str": "e12d5c4dbcba32dbfa5947d02b450d09",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/main_menu"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          171
+        ],
+        [
+          1036,
+          347
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/top_app_bar_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "992*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/top_app_bar_layout[text][enabled,,]",
+      "view_str": "534909754b28193c2d431c8cbbccdefd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/top_app_bar_layout"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        10,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          193
+        ],
+        [
+          1036,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/top_toolbar_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "992*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_holder[text][enabled,,]",
+      "view_str": "c0293898447914aa50cc6e780f4a8121",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          193
+        ],
+        [
+          154,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/top_toolbar_search_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "110*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_search_icon[text][enabled,,]",
+      "view_str": "78832ed75406491f737fc7ce1de091b9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_search_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          193
+        ],
+        [
+          606,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/top_toolbar_search",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "452*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_search[text]Search[enabled,,]",
+      "view_str": "8b20d5f64af2dc8f15219e727f86114b",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar_search"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          606,
+          193
+        ],
+        [
+          1025,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/top_toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 11,
+      "size": "419*132",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar[text][enabled,,]",
+      "view_str": "0db6ac7e285e9eeea2378be89be3750b",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/top_toolbar"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        14,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          650,
+          193
+        ],
+        [
+          1025,
+          325
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "375*132",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id][text][enabled,,]",
+      "view_str": "4af4322d3e35d6244bfb2f5c64112852",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Sort by",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          650,
+          193
+        ],
+        [
+          782,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/sort",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "132*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.musicplayer:id/sort[text][enabled,,]",
+      "view_str": "bedc41b591d8324346f5bce56866e9df",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.musicplayer:id/sort"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Equalizer",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          782,
+          193
+        ],
+        [
+          914,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/equalizer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "132*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.musicplayer:id/equalizer[text][enabled,,]",
+      "view_str": "e3a417b3c7b81bc0103f7d1d51f60201",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.musicplayer:id/equalizer"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          914,
+          193
+        ],
+        [
+          1025,
+          325
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "111*132",
+      "signature": "[class]android.widget.ImageView[resource_id][text][enabled,,]",
+      "view_str": "f60c52283afac4737ab4075a42a9afd3",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/main_nested_scrollview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 16,
+      "size": "1080*1801",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/main_nested_scrollview[text][enabled,,]",
+      "view_str": "531da8b142bbdb1d5982ad0f454b491a",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/main_nested_scrollview"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        73
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/main_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*1801",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/main_holder[text][enabled,,]",
+      "view_str": "8708c30293b3627bf6fabe4384e1d298",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/main_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        28,
+        37,
+        48,
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/view_pager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.b",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1080*1625",
+      "signature": "[class]androidx.viewpager.widget.b[resource_id]com.simplemobiletools.musicplayer:id/view_pager[text][enabled,,]",
+      "view_str": "a1933a34d3953bb61d933a922be31c69",
+      "content_free_signature": "[class]androidx.viewpager.widget.b[resource_id]com.simplemobiletools.musicplayer:id/view_pager"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlists_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/playlists_fragment_holder[text][enabled,,]",
+      "view_str": "9d3a8c2aeca91b82aeaa6b88f92ab496",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/playlists_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        25,
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlists_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1080*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/playlists_fastscroller[text][enabled,,]",
+      "view_str": "2d759c843adf178345ec2cfc221e4be3",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/playlists_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlists_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1080*1625",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/playlists_list[text][enabled,,]",
+      "view_str": "4f2c9bac7ba51060f237eabc4742a348",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/playlists_list"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          555
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlist_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1080*208",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/playlist_frame[text][enabled,,]",
+      "view_str": "7737aa22be7c4ff65c8288f858112d8a",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/playlist_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          391
+        ],
+        [
+          1036,
+          458
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlist_title",
+      "checked": false,
+      "text": "My-Favorites",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "1014*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/playlist_title[text]My-Favorites[enabled,,]",
+      "view_str": "9b979384aaabaa2ffdff9936083c9ebd",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/playlist_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          458
+        ],
+        [
+          1036,
+          511
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/playlist_tracks",
+      "checked": false,
+      "text": "0 Tracks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "1014*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/playlist_tracks[text]0 Tracks[enabled,,]",
+      "view_str": "5a9238b86276040d6b550fb28df1365f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/playlist_tracks"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          964,
+          410
+        ],
+        [
+          964,
+          410
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/fastscrollPopupTV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 25,
+      "size": "0*0",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV[text][enabled,,]",
+      "view_str": "e1862dad36293b14f82d9414d25d7a32",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1008,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/trackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 26,
+      "size": "72*1625",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView[text][enabled,,]",
+      "view_str": "98b9ab01c9ab18043ec0d4fd10c1fa5c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "handleImage",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1044,
+          402
+        ],
+        [
+          1044,
+          402
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/thumbIV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "0*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV[text][enabled,,]",
+      "view_str": "a71331121d4eba5ac3c9fc8a7664b007",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folders_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 28,
+      "size": "0*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/folders_fragment_holder[text][enabled,,]",
+      "view_str": "cb353a3b663ef9c38df443f1600b5007",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/folders_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30,
+        34,
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folders_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "0*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/folders_fastscroller[text][enabled,,]",
+      "view_str": "4675d52cd28d97959b83f355dacd0c7c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/folders_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folders_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "0*1625",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/folders_list[text][enabled,,]",
+      "view_str": "a5872a571073cfaac1c2a73c6c3f110d",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/folders_list"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          347
+        ],
+        [
+          1080,
+          555
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folder_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "0*208",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/folder_frame[text][enabled,,]",
+      "view_str": "d27ce90301a068deb9287c5b539dca51",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/folder_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1102,
+          391
+        ],
+        [
+          1080,
+          458
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folder_title",
+      "checked": false,
+      "text": "Recordings",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "-22*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/folder_title[text]Recordings[enabled,,]",
+      "view_str": "0a3041b5235ebf9b998f724c1217058d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/folder_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1102,
+          458
+        ],
+        [
+          1080,
+          511
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/folder_tracks",
+      "checked": false,
+      "text": "2 Tracks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "-22*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/folder_tracks[text]2 Tracks[enabled,,]",
+      "view_str": "dc1b3a45e2426e8070c5b845c1f76d5d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/folder_tracks"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2044,
+          410
+        ],
+        [
+          1080,
+          410
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/fastscrollPopupTV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 34,
+      "size": "-964*0",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV[text][enabled,,]",
+      "view_str": "51a3d6d3f0fd0d53456242835518854a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2088,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/trackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 35,
+      "size": "-1008*1625",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView[text][enabled,,]",
+      "view_str": "0b2c0c9221e70df2ce5c82abafac1b66",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "handleImage",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2124,
+          402
+        ],
+        [
+          1080,
+          402
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/thumbIV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "-1044*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV[text][enabled,,]",
+      "view_str": "d674378cf04db79164d03ad80437b240",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artists_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 37,
+      "size": "-1080*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/artists_fragment_holder[text][enabled,,]",
+      "view_str": "b0adbf3b25d5e6c5f4cd8f5deb49b1bb",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/artists_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39,
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artists_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "-1080*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/artists_fastscroller[text][enabled,,]",
+      "view_str": "c45eedec5a646703ace88f4a39c4f987",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/artists_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artists_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "-1080*1625",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/artists_list[text][enabled,,]",
+      "view_str": "ccb697595467ee1be42f00bbbbedbf7e",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/artists_list"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          347
+        ],
+        [
+          1080,
+          633
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artist_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "-1080*286",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/artist_frame[text][enabled,,]",
+      "view_str": "fd363ea53a8f89fe0ff681be7a8a4dec",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/artist_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42,
+        43,
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          347
+        ],
+        [
+          1080,
+          633
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artist_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "-1080*286",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/artist_holder[text][enabled,,]",
+      "view_str": "1bcb456a5c8059fadf119f06475b3a02",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/artist_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2193,
+          380
+        ],
+        [
+          1080,
+          600
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artist_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "-1113*220",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/artist_image[text][enabled,,]",
+      "view_str": "31f179e2486e6c608c50a5f96d73f020",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/artist_image"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2413,
+          430
+        ],
+        [
+          1080,
+          497
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artist_title",
+      "checked": false,
+      "text": "<unknown>",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 43,
+      "size": "-1333*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/artist_title[text]<unknown>[enabled,,]",
+      "view_str": "6da9cf5ddfb856f9bb4e9327ac75b914",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/artist_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2413,
+          497
+        ],
+        [
+          1080,
+          550
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/artist_albums_tracks",
+      "checked": false,
+      "text": "1 Album, 2 Tracks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 44,
+      "size": "-1333*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/artist_albums_tracks[text]1 Album, 2 Tracks[enabled,,]",
+      "view_str": "48aca24cde52545f97c3ed85dd658515",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/artist_albums_tracks"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3124,
+          410
+        ],
+        [
+          1080,
+          410
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/fastscrollPopupTV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 45,
+      "size": "-2044*0",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV[text][enabled,,]",
+      "view_str": "05cf3cb8dcd3e84031c7840cbf9c9ee7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3168,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/trackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 46,
+      "size": "-2088*1625",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView[text][enabled,,]",
+      "view_str": "b4387b16f015753241360e1bcc801e7c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "handleImage",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3204,
+          402
+        ],
+        [
+          1080,
+          402
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/thumbIV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "-2124*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV[text][enabled,,]",
+      "view_str": "d1fc624e9ba075cc86b4159c4db5ddd5",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3240,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/albums_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 48,
+      "size": "-2160*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/albums_fragment_holder[text][enabled,,]",
+      "view_str": "ada9c656027f326b96b2b50f8521d5fd",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/albums_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        50,
+        56,
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3240,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/albums_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "-2160*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/albums_fastscroller[text][enabled,,]",
+      "view_str": "0ca0fdf2662c5c26a20a34c0bf888fa9",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/albums_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3240,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/albums_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "-2160*1625",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/albums_list[text][enabled,,]",
+      "view_str": "07464fdb0383489192a261c988aaaa09",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/albums_list"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3240,
+          347
+        ],
+        [
+          1080,
+          633
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/album_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "-2160*286",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/album_frame[text][enabled,,]",
+      "view_str": "add0ed583d0c6a44cdd7acf678fed53c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.musicplayer:id/album_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53,
+        54,
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          3240,
+          347
+        ],
+        [
+          1080,
+          633
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/album_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "-2160*286",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/album_holder[text][enabled,,]",
+      "view_str": "179ee1e827e70d1fbc360892c1a04d6a",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/album_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3273,
+          380
+        ],
+        [
+          1080,
+          600
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/album_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "-2193*220",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/album_image[text][enabled,,]",
+      "view_str": "eddf44e975b18cd638ed1503562d95f2",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/album_image"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3493,
+          434
+        ],
+        [
+          1080,
+          493
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/album_title",
+      "checked": false,
+      "text": "Recordings",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 54,
+      "size": "-2413*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/album_title[text]Recordings[enabled,,]",
+      "view_str": "4f49143517d72d2b026a88910ea9906a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/album_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3493,
+          493
+        ],
+        [
+          1080,
+          546
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/album_tracks",
+      "checked": false,
+      "text": "2 Tracks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 55,
+      "size": "-2413*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/album_tracks[text]2 Tracks[enabled,,]",
+      "view_str": "ffe45f674ffce052c95285acc99cc1ef",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/album_tracks"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4204,
+          410
+        ],
+        [
+          1080,
+          410
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/fastscrollPopupTV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 56,
+      "size": "-3124*0",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV[text][enabled,,]",
+      "view_str": "1d0c56d27e8f1ba40f26fadac385ef1e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4248,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/trackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 57,
+      "size": "-3168*1625",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView[text][enabled,,]",
+      "view_str": "54c7d4b2d8393b9e2b5df191bbeaa9df",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "handleImage",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4284,
+          402
+        ],
+        [
+          1080,
+          402
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/thumbIV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "-3204*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV[text][enabled,,]",
+      "view_str": "9e0d9abbda7596093782a8f2bf337574",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4320,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tracks_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 59,
+      "size": "-3240*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/tracks_fragment_holder[text][enabled,,]",
+      "view_str": "0d81228ebf4efd38e2ca808c60382d27",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/tracks_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        61,
+        70,
+        71
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4320,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tracks_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "-3240*1625",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/tracks_fastscroller[text][enabled,,]",
+      "view_str": "1d96e54ec0e60f3176ff5c393e6a1062",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.musicplayer:id/tracks_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62,
+        66
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4320,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tracks_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 61,
+      "size": "-3240*1625",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/tracks_list[text][enabled,,]",
+      "view_str": "be1fde0feb0a81ef553ffb4039455ae1",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.simplemobiletools.musicplayer:id/tracks_list"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        63,
+        64,
+        65
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4320,
+          347
+        ],
+        [
+          1080,
+          545
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "-3240*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/track_frame[text][enabled,,]",
+      "view_str": "e5995a6ead507c0cb8cc3adbca8c2206",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/track_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4353,
+          391
+        ],
+        [
+          1080,
+          501
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "-3273*110",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/track_image[text][enabled,,]",
+      "view_str": "8eb822af1fd717ef0171fd39053a351b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/track_image"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4463,
+          417
+        ],
+        [
+          1080,
+          476
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_title",
+      "checked": false,
+      "text": "test1",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "-3383*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_title[text]test1[enabled,,]",
+      "view_str": "b364c74b500fd59deffa81b958931d2c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5212,
+          417
+        ],
+        [
+          1080,
+          476
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_duration",
+      "checked": false,
+      "text": "00:10",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 65,
+      "size": "-4132*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_duration[text]00:10[enabled,,]",
+      "view_str": "ce1eca9e7a07b7e57af145a737d0fe56",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_duration"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        67,
+        68,
+        69
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          4320,
+          545
+        ],
+        [
+          1080,
+          743
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 61,
+      "temp_id": 66,
+      "size": "-3240*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/track_frame[text][enabled,,]",
+      "view_str": "2857d16ffc5f8044d50419a06cff3b50",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.musicplayer:id/track_frame"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4353,
+          589
+        ],
+        [
+          1080,
+          699
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "-3273*110",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/track_image[text][enabled,,]",
+      "view_str": "8eb822af1fd717ef0171fd39053a351b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/track_image"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          4463,
+          615
+        ],
+        [
+          1080,
+          674
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_title",
+      "checked": false,
+      "text": "test2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 68,
+      "size": "-3383*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_title[text]test2[enabled,,]",
+      "view_str": "6fbcd44f75f962ccd7279809d6e52ef7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_title"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5212,
+          615
+        ],
+        [
+          1080,
+          674
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/track_duration",
+      "checked": false,
+      "text": "00:07",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 69,
+      "size": "-4132*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_duration[text]00:07[enabled,,]",
+      "view_str": "23faac3cabcd31b4bcd15e9b74ec2d08",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/track_duration"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5284,
+          410
+        ],
+        [
+          1080,
+          410
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/fastscrollPopupTV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 70,
+      "size": "-4204*0",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV[text][enabled,,]",
+      "view_str": "abbb0386381db90d60919246c13f7c1d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/fastscrollPopupTV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        72
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          5328,
+          347
+        ],
+        [
+          1080,
+          1972
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/trackView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 71,
+      "size": "-4248*1625",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView[text][enabled,,]",
+      "view_str": "59551b45bc0e84305414b1ec6ddcac17",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/trackView"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "handleImage",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5364,
+          402
+        ],
+        [
+          1080,
+          402
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/thumbIV",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 72,
+      "size": "-4284*0",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV[text][enabled,,]",
+      "view_str": "c82f411aa77906930bb7b6adb5013594",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/thumbIV"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1972
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/main_tabs_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 73,
+      "size": "1080*176",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.simplemobiletools.musicplayer:id/main_tabs_holder[text][enabled,,]",
+      "view_str": "83111809666d2e107d683a752e80b802",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.simplemobiletools.musicplayer:id/main_tabs_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        75,
+        79,
+        83,
+        87,
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1972
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 73,
+      "temp_id": 74,
+      "size": "1080*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "e3e0b1f7e3a4b752d78c9c761ddce841",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1972
+        ],
+        [
+          216,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "216*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,selected]",
+      "view_str": "0404da4424d8215bf10e5ae7bd3a45a5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        77,
+        78
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          56,
+          2005
+        ],
+        [
+          160,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 76,
+      "size": "104*143",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder[text][enabled,,selected]",
+      "view_str": "d5c8f7532baf77d2765a5c00e480991f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          69,
+          2005
+        ],
+        [
+          146,
+          2082
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon[text][enabled,,selected]",
+      "view_str": "70b3f784bc865bf5d325dcf0ffced04a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          56,
+          2082
+        ],
+        [
+          160,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_label",
+      "checked": false,
+      "text": "Playlists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 78,
+      "size": "104*66",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label[text]Playlists[enabled,,selected]",
+      "view_str": "0a5237545c569515ed20fb46a7cab14f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        80
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          216,
+          1972
+        ],
+        [
+          432,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 79,
+      "size": "216*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ec43457c3430b95b6a21df93366a5501",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81,
+        82
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          278,
+          2005
+        ],
+        [
+          370,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 79,
+      "temp_id": 80,
+      "size": "92*143",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder[text][enabled,,]",
+      "view_str": "aa0b3cf1bd82d73aa83d132f73f35908",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          285,
+          2005
+        ],
+        [
+          362,
+          2082
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon[text][enabled,,]",
+      "view_str": "c5d6a82b2cdac765ebe6e4157f8f079a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          278,
+          2082
+        ],
+        [
+          370,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_label",
+      "checked": false,
+      "text": "Folders",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 82,
+      "size": "92*66",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label[text]Folders[enabled,,]",
+      "view_str": "9b622626f72b70a28f2cda971889f337",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        84
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          432,
+          1972
+        ],
+        [
+          648,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 83,
+      "size": "216*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ec43457c3430b95b6a21df93366a5501",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        85,
+        86
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          499,
+          2005
+        ],
+        [
+          580,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 84,
+      "size": "81*143",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder[text][enabled,,]",
+      "view_str": "9bb44e2b24074217b4b01efb254f8e56",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          501,
+          2005
+        ],
+        [
+          578,
+          2082
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 85,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon[text][enabled,,]",
+      "view_str": "c5d6a82b2cdac765ebe6e4157f8f079a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          499,
+          2082
+        ],
+        [
+          580,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_label",
+      "checked": false,
+      "text": "Artists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 86,
+      "size": "81*66",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label[text]Artists[enabled,,]",
+      "view_str": "9e3baabc1eeb709fac3ba8eb0106a11b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        88
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          648,
+          1972
+        ],
+        [
+          864,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 87,
+      "size": "216*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ec43457c3430b95b6a21df93366a5501",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        89,
+        90
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          708,
+          2005
+        ],
+        [
+          803,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 87,
+      "temp_id": 88,
+      "size": "95*143",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder[text][enabled,,]",
+      "view_str": "c809aa1db212ce122e4fa8a584abc7a7",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          717,
+          2005
+        ],
+        [
+          794,
+          2082
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon[text][enabled,,]",
+      "view_str": "c5d6a82b2cdac765ebe6e4157f8f079a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          708,
+          2082
+        ],
+        [
+          803,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_label",
+      "checked": false,
+      "text": "Albums",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 90,
+      "size": "95*66",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label[text]Albums[enabled,,]",
+      "view_str": "0cde558edf5972edd101138f937f48af",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          1972
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 91,
+      "size": "216*176",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ec43457c3430b95b6a21df93366a5501",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        93,
+        94
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          930,
+          2005
+        ],
+        [
+          1013,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "83*143",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder[text][enabled,,]",
+      "view_str": "12a44f9698b8a764fe1d895a57d8aec8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.musicplayer:id/tab_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          933,
+          2005
+        ],
+        [
+          1010,
+          2082
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 93,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon[text][enabled,,]",
+      "view_str": "c5d6a82b2cdac765ebe6e4157f8f079a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          930,
+          2082
+        ],
+        [
+          1013,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.musicplayer:id/tab_item_label",
+      "checked": false,
+      "text": "Tracks",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 94,
+      "size": "83*66",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label[text]Tracks[enabled,,]",
+      "view_str": "dd4cdf2e963ecce80cbfd82861a9a36c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.musicplayer:id/tab_item_label"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          171
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 95,
+      "size": "1080*171",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text][enabled,,]",
+      "view_str": "4dcaffe3a944e081bd1997a82179220a",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.simplemobiletools.musicplayer",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 96,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text][enabled,,]",
+      "view_str": "817e2ea2fda7519e7f3bf79ee1567787",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

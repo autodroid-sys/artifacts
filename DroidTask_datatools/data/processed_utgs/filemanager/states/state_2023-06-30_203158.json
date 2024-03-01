@@ -1,0 +1,631 @@
+{
+  "tag": "2023-06-30_203158",
+  "state_str": "1dec41ff73a5ebd9e7967eb91880938e3a9781cc22884d3ad0d76be1da3bf334",
+  "state_str_content_free": "06a765938825bcfb00a69dfbd844de37",
+  "foreground_activity": "com.simplemobiletools.filemanager.pro/.activities.SettingsActivity",
+  "activity_stack": [
+    "com.simplemobiletools.filemanager.pro/.activities.SettingsActivity",
+    "com.simplemobiletools.filemanager.pro/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "1e230902b60a270d2e51e87bd13231cd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1024*594",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "062b7d3c57256c3c1b128efa5b2ceb11",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "82017a2a2307f65d4cf603a83783f4a5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/action_bar_root[text][enabled,,]",
+      "view_str": "871b53bee906d138bf3a1c7fea5ef4e4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "8e5a390ea1f568b69d18b450d80a1b85",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1024*594",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.filemanager.pro:id/parentPanel[text][enabled,,]",
+      "view_str": "dd6f8ef49f468f2a4c943d518a61d2c7",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.filemanager.pro:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/customPanel[text][enabled,,]",
+      "view_str": "b30d25aa5395925100fb58eea4e5aa6b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1024*594",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/custom[text][enabled,,]",
+      "view_str": "d7f21e05a55f7adc9912eb0465e802fb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.filemanager.pro:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/dialog_radio_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1024*594",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.filemanager.pro:id/dialog_radio_holder[text][enabled,,]",
+      "view_str": "5e4c6dd344196be4f97b926a53fea4cd",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.filemanager.pro:id/dialog_radio_holder"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          862
+        ],
+        [
+          1052,
+          1456
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.filemanager.pro:id/dialog_radio_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1024*594",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.filemanager.pro:id/dialog_radio_group[text][enabled,,]",
+      "view_str": "1882f75be6f12c4e1b9e14115e355f94",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.filemanager.pro:id/dialog_radio_group"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          895
+        ],
+        [
+          1008,
+          1027
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Small",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Small[enabled,,]",
+      "view_str": "91988fe88bf31ac4e1dc0ffcc26c023e",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1027
+        ],
+        [
+          1008,
+          1159
+        ]
+      ],
+      "resource_id": null,
+      "checked": true,
+      "text": "Medium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Medium[enabled,checked,]",
+      "view_str": "1cbcd32a56059701eab3d1fc95c33408",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1159
+        ],
+        [
+          1008,
+          1291
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Large",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Large[enabled,,]",
+      "view_str": "7234de159053f235f0031e19860d6aff",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.filemanager.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1291
+        ],
+        [
+          1008,
+          1423
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Extra large",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 13,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Extra large[enabled,,]",
+      "view_str": "10aa138a8db9f5f926ec45f9bbf6c7f9",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    }
+  ]
+}

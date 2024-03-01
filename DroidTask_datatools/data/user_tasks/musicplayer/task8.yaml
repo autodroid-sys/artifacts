@@ -1,0 +1,67 @@
+records:
+- Choice: 9
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <p id=8>Albums</p>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str:
+  - ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>test1<br>00:10</button>
+
+    <button id=5>test2<br>00:07</button>
+
+    <button id=6>Playlists</button>
+
+    <button id=7>Folders</button>
+
+    <button id=8>Artists</button>
+
+    <button id=9>Albums</button>
+
+    <p id=10>Tracks</p>
+
+    <button id=11>go back</button>'
+  new_state_str: 1e43e274a76f614fea0fa0b0ca5c223a6a64d533eea8039dbb7d81277c71a122
+  state_str:
+  - 09ec4c800598df967694c07f5d5cdcdf197f1e855a1edb32eb151a6baa5643f7
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0 text='Album'></p>\n <p id=2>1x</p>\n <button id=3>00:10</button>\n\
+    \ <button id=4>test1</button>\n <button id=5><unknown></button>\n <button id=6\
+    \ text='Disable shuffle'></button>\n <button id=7 text='Previous'></button>\n\
+    \ <button id=8 text='Play / Pause'></button>\n <button id=9 text='Next'></button>\n\
+    \ <button id=10 text='Repeat all'></button>\n <button id=11>Next: test2</button>\n\
+    \ <button id=12>go back</button>"
+  new_state_str: 6aa42abe45213f668b54400463b2bb87bc947385dd358bf7323eb53eea484018
+  state_str: dae3959065f4ee8d22f322643ddc25df68c26ad989eb005f1c36cdcf18f91807
+step_num: 3
+task_name: play the song "test1" in the tracks

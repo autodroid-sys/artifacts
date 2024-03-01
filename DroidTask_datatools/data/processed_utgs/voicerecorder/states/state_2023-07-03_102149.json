@@ -1,0 +1,595 @@
+{
+  "tag": "2023-07-03_102149",
+  "state_str": "80668de49c48cd3560b482b28581907278b82a3600cd856b31c9d3f99a945df2",
+  "state_str_content_free": "8760b537b086f494e99fffc44df258eb",
+  "foreground_activity": "com.simplemobiletools.voicerecorder/.activities.SettingsActivity",
+  "activity_stack": [
+    "com.simplemobiletools.voicerecorder/.activities.SettingsActivity",
+    "com.simplemobiletools.voicerecorder/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.apps.tachyon/.call.service.CallService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.simplemobiletools.voicerecorder/.services.RecorderService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "d16c53578cd1c5f30894ebd4fd64085b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1024*462",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ab6eb4125a19bc46d2e6e12b5835954b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "e1d429faea839fb68d859949c5ebb60b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/action_bar_root[text][enabled,,]",
+      "view_str": "4897eaeeae3c9ef45cbdc24995a36547",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "93705ce9feae7b6bd938fe23f82f0eba",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1024*462",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.voicerecorder:id/parentPanel[text][enabled,,]",
+      "view_str": "d1659fea800b0d3cd86b75cfccea5cf9",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.voicerecorder:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/customPanel[text][enabled,,]",
+      "view_str": "e77940c76351ef677f8b57741e5bbd7b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1024*462",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/custom[text][enabled,,]",
+      "view_str": "af13679cc3a1e62049ea46993c470894",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.voicerecorder:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/dialog_radio_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1024*462",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.voicerecorder:id/dialog_radio_holder[text][enabled,,]",
+      "view_str": "f70146d050e4e0f7af98e9a0a43f3be4",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.voicerecorder:id/dialog_radio_holder"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          928
+        ],
+        [
+          1052,
+          1390
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.voicerecorder:id/dialog_radio_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1024*462",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.voicerecorder:id/dialog_radio_group[text][enabled,,]",
+      "view_str": "0a4d02a03d1073610672553769dcaf24",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.voicerecorder:id/dialog_radio_group"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          961
+        ],
+        [
+          1008,
+          1093
+        ]
+      ],
+      "resource_id": null,
+      "checked": true,
+      "text": "m4a",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]m4a[enabled,checked,]",
+      "view_str": "59195887e87cdfb5e6928c34b007c06c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1093
+        ],
+        [
+          1008,
+          1225
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "mp3",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]mp3[enabled,,]",
+      "view_str": "2249173e3e0c44c177a232421f8fa5c7",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.voicerecorder",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1225
+        ],
+        [
+          1008,
+          1357
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "ogg (Opus)",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]ogg (Opus)[enabled,,]",
+      "view_str": "1f74c0a45051cadb8bc6e577bb170e90",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    }
+  ]
+}

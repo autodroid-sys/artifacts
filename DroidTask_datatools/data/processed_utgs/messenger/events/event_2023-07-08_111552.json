@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-08_111552",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.android.settings",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          1203
+        ],
+        [
+          370,
+          1256
+        ]
+      ],
+      "resource_id": "android:id/title",
+      "checked": false,
+      "text": "Advanced",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "172*53",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Advanced[enabled,,]",
+      "view_str": "983f632e4e3f56274bb5619717450f0b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "b726ef027d6656306e37132d15cfd9709959fffd733d1179794d6c719436772a",
+  "stop_state": "08c55a203bb9ceef2e9e36a7566f718c32228f21b3301864cbe42996100dc9d7",
+  "event_str": "TouchEvent(state=b726ef027d6656306e37132d15cfd9709959fffd733d1179794d6c719436772a, view=983f632e4e3f56274bb5619717450f0b(Settings$AppNotificationSettingsActivity/TextView-Advanced))"
+}

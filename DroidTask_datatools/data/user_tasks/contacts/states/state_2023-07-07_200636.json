@@ -1,0 +1,744 @@
+{
+  "tag": "2023-07-07_200636",
+  "state_str": "f8ad670e9a731699680252f02c59a057647e07cd5290c9cc4cb69554d0285bd9",
+  "state_str_content_free": "9ab0ca29ad879a8782ba443033713c35",
+  "foreground_activity": "com.simplemobiletools.contacts.pro/com.simplemobiletools.commons.activities.CustomizationActivity",
+  "activity_stack": [
+    "com.simplemobiletools.contacts.pro/com.simplemobiletools.commons.activities.CustomizationActivity",
+    "com.simplemobiletools.contacts.pro/.activities.SettingsActivity",
+    "com.simplemobiletools.contacts.pro/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "79d336db2c8dda5cf1db8b5e6aad69a5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1024*990",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "ff0e49de1e85e60228ffe61a45c2ac7e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "1e4484cc9bc4ad0bb67777ef415bfcdd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/action_bar_root[text][enabled,,]",
+      "view_str": "901b548dd1d2d17e6a00722b9f89b5f4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "eb8b13ee939ef9c929ad1b0c4b786e8a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1024*990",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.contacts.pro:id/parentPanel[text][enabled,,]",
+      "view_str": "845ae2dd929e281218183cff68aff3fd",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.simplemobiletools.contacts.pro:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/customPanel[text][enabled,,]",
+      "view_str": "1492da9e6e825d7f40e79b222d2a35d5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1024*990",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/custom[text][enabled,,]",
+      "view_str": "5967868792fe22aa29cb22ecd4195a61",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.contacts.pro:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/dialog_radio_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1024*990",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.contacts.pro:id/dialog_radio_holder[text][enabled,,]",
+      "view_str": "d14041e71f7de37e1495d4d37c607908",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.contacts.pro:id/dialog_radio_holder"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 7,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          664
+        ],
+        [
+          1052,
+          1654
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/dialog_radio_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1024*990",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.contacts.pro:id/dialog_radio_group[text][enabled,,]",
+      "view_str": "c9d449fdbe3bf63feb2a4fb12dd4f061",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.contacts.pro:id/dialog_radio_group"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          697
+        ],
+        [
+          1008,
+          829
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Auto light / dark",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Auto light / dark[enabled,,]",
+      "view_str": "9f791a2c2346537e1397e65dcc97f8c4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          829
+        ],
+        [
+          1008,
+          961
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Light",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Light[enabled,,]",
+      "view_str": "d9bde0fe5cf426a4bb1481d7411f5536",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          961
+        ],
+        [
+          1008,
+          1093
+        ]
+      ],
+      "resource_id": null,
+      "checked": true,
+      "text": "Dark",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Dark[enabled,checked,]",
+      "view_str": "b91f0833eabc2fca1af8d5527739a107",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1093
+        ],
+        [
+          1008,
+          1225
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Dark red",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 13,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Dark red[enabled,,]",
+      "view_str": "4daafc8592f5e168af728a83dbca31db",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1225
+        ],
+        [
+          1008,
+          1357
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "White",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 14,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]White[enabled,,]",
+      "view_str": "80f22ab68c9204a6bda2205b7cdb3c64",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1357
+        ],
+        [
+          1008,
+          1489
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Black & White",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 15,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Black & White[enabled,,]",
+      "view_str": "51492efdf666131db95f145b84ab776b",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1489
+        ],
+        [
+          1008,
+          1621
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Custom",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 16,
+      "size": "936*132",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Custom[enabled,,]",
+      "view_str": "a744f90c0fe3bbc138fa56ae54a1cb0f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    }
+  ]
+}

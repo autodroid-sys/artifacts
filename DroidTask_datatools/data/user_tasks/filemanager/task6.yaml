@@ -1,0 +1,131 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Add to favorites''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal</button>
+
+    <button id=5>Alarms<br>0 items</button>
+
+    <button id=6>Android<br>3 items</button>
+
+    <button id=7>Audiobooks<br>0 items</button>
+
+    <button id=8>DCIM<br>6 items</button>
+
+    <button id=9>Documents<br>0 items</button>
+
+    <button id=10>Download<br>1 item</button>
+
+    <button id=11>Movies<br>0 items</button>
+
+    <button id=12>Music<br>1 item</button>
+
+    <button id=13>Notifications<br>0 items</button>
+
+    <button id=14>Pictures</button>
+
+    <p id=15>Files</p>
+
+    <button id=16>Recents</button>
+
+    <button id=17>Storage</button>
+
+    <button id=18>go back</button>
+
+    <button id=19>Pictures<br>0 items</button>
+
+    <button id=20>Podcasts<br>0 items</button>
+
+    <button id=21>Ringtones<br>0 items</button>
+
+    <button id=22>screen_2023-06-30_141247.png<br>16.1 kB<br>30.06.2023, 02:12 PM</button>
+
+    <button id=23>screen_2023-06-30_143638.png<br>0 B<br>30.06.2023, 02:36 PM</button>
+
+    <p id=24 text=''handleImage''></p>'
+  new_state_str: 4ab22c498122e2ee239fea7ea030f4f60c03229f1e8e59353d5d52832a2837f1
+  state_str:
+  - d53745f040b2294c831e66c9f949824815ecc6d4f467f35b2d79fe988925cec7
+  - 7e878201738c3c18dcb83859b220d3c37e0f67c46b5d75bd15936f8ba9790731
+  - d53745f040b2294c831e66c9f949824815ecc6d4f467f35b2d79fe988925cec7
+  - 7e878201738c3c18dcb83859b220d3c37e0f67c46b5d75bd15936f8ba9790731
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Change view type</button>\n <button id=1>Temporarily show hidden</button>\n\
+    \ <button id=2>Settings</button>\n <button id=3>About</button>\n <button id=4>go\
+    \ back</button>"
+  new_state_str: ce01d730ec0ae96e87e9bb5eecb040aef29009e196349116a85f3fcb5d492b95
+  state_str: 82da263807cbbbb1a894c2533925cc016ebe96355a5dcbe031862251886a01b4
+- Choice: 0
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Grid</checkbox>\n <checkbox id=1 checked=True>List</checkbox>\n\
+    \ <checkbox id=2 checked=False>Use for this folder only</checkbox>\n <button id=3>Cancel</button>\n\
+    \ <button id=4>OK</button>\n <button id=5>go back</button>"
+  new_state_str: 3637082f8e47c215b0c148a7bcdcb7567e25c6ba14434360a2a28352f0d527ac
+  state_str: 8a53f4652f551f3f7150b8f59e6c5e9bf24eca7e1f12d07e59c62f2011099577
+- Choice: 4
+  Input: 'null'
+  State: "<checkbox id=0 checked=True>Grid</checkbox>\n <checkbox id=1 checked=False>List</checkbox>\n\
+    \ <checkbox id=2 checked=False>Use for this folder only</checkbox>\n <button id=3>Cancel</button>\n\
+    \ <button id=4>OK</button>\n <button id=5>go back</button>"
+  new_state_str: ff1da44a556ec258a5c6b0172c1131e39abdadda7869d8587af80b5628ddfdfc
+  state_str: fccc553fc6dd54ffa4ea77d34a16c8c2961196e06795851bc062a697b3cba5f7
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Add to favorites''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal</button>
+
+    <button id=5>Alarms</button>
+
+    <button id=6>Android</button>
+
+    <button id=7>Audiobooks</button>
+
+    <button id=8>DCIM</button>
+
+    <button id=9>Documents</button>
+
+    <button id=10>Download</button>
+
+    <button id=11>Movies</button>
+
+    <button id=12>Music</button>
+
+    <button id=13>Notifications</button>
+
+    <button id=14>Pictures</button>
+
+    <button id=15>Podcasts</button>
+
+    <button id=16>Ringtones</button>
+
+    <button id=17>screen_2023-06-30_141247.png</button>
+
+    <button id=18>screen_2023-06-30_143638.png</button>
+
+    <p id=19>Files</p>
+
+    <button id=20>Recents</button>
+
+    <button id=21>Storage</button>
+
+    <button id=22>go back</button>'
+  new_state_str: bb949127e37c93d814b9b954b9785f19117769bfe328908e5e6e0f0abc6f7469
+  state_str:
+  - d7918af6580e3b14c1310816bb9d295e9565b20d731f272a1597d10ac51f4e23
+step_num: 5
+task_name: change the view type to grid

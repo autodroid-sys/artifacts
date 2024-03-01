@@ -1,0 +1,95 @@
+records:
+- Choice: 6
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+- Choice: 0
+  Input: 'null'
+  State: '<button id=0 text=''Sort by''></button>
+
+    <button id=1 text=''More apps from us''></button>
+
+    <button id=2 text=''Settings''></button>
+
+    <button id=3 text=''About''></button>
+
+    <button id=4>7:00 am<br>Mon, Tue, Wed, Thu, Fri</button>
+
+    <button id=5>9:00 am<br>Sun, Sat</button>
+
+    <button id=6>Clock</button>
+
+    <p id=7>Alarm</p>
+
+    <button id=8>Stopwatch</button>
+
+    <button id=9>Timer</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 0fe4d8ae84dc5fed6fb0db2cfae8801722cc0594525a17b91585a9bb6658f07d
+  state_str:
+  - 9c8b7368c467d8fbe3e7eb2c100ef13cc72a98fccaaf829837c42bc9d7e2ed66
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>Creation order</checkbox>\n\
+    \ <checkbox id=2 checked=False>Alarm time</checkbox>\n <checkbox id=3 checked=False>Day\
+    \ and Alarm time</checkbox>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: d4748946837f7b34545b4acf6186cad9c2a3185555418d6e319705f15255a697
+  state_str: 915a93069aa837bd5f187cea088639eb7b16bebf0f7323ad754a36ed5d5edb88
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>Creation order</checkbox>\n\
+    \ <checkbox id=2 checked=False>Alarm time</checkbox>\n <checkbox id=3 checked=True>Day\
+    \ and Alarm time</checkbox>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: f323181bdfb39f4d8f63b26f4f338fb128a1563f8b30160c5d5313e474e8fb37
+  state_str: 397aed41c87beb13b3c71587b29e388035b9e40b1fd598e00540c5bd2f68a411
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Sort by''></button>
+
+    <button id=1 text=''More apps from us''></button>
+
+    <button id=2 text=''Settings''></button>
+
+    <button id=3 text=''About''></button>
+
+    <button id=4>9:00 am<br>Sun, Sat</button>
+
+    <button id=5>7:00 am<br>Mon, Tue, Wed, Thu, Fri</button>
+
+    <button id=6>Clock</button>
+
+    <p id=7>Alarm</p>
+
+    <button id=8>Stopwatch</button>
+
+    <button id=9>Timer</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 8357b4ee7c8ecbf9246c1ddf0e5ef4999645b740e1b271960070e1285f8a2929
+  state_str:
+  - b6003a9ced86aab10b6a1a4ceb8cf8c0abccfbc5e077949d55b6c92d8443d376
+step_num: 5
+task_name: Set the sorting order for alarms by 'Day and Alarm time'

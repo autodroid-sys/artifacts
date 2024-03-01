@@ -1,0 +1,41 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<button id=0 text=''Enable private browsing''></button>
+
+    <p id=1 text=''Search or enter address''></p>
+
+    <button id=2 text=''Google''></button>
+
+    <p id=3>Search or enter address</p>
+
+    <button id=4 text=''0 open tabs. Tap to switch tabs.<br>The tab counter toolbar
+    button.''>0</button>
+
+    <button id=5 text=''Menu<br>Highlighted''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: 8296582e793e9f504816578383d9d54e13b7fac650c9089e45589743940ebf27
+  state_str:
+  - a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+  - a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Bookmarks</button>\n <button id=1>History</button>\n <button\
+    \ id=2>Downloads</button>\n <button id=3>Add-ons</button>\n <button id=4>Sync\
+    \ and save data</button>\n <button id=5>Manage Account and Devices</button>\n\
+    \ <checkbox id=6 checked=False>Desktop site</checkbox>\n <button id=7 text='Highlighted<br>Highlighted,\
+    \ What\u2019s new'>What\u2019s new</button>\n <button id=8>Help</button>\n <button\
+    \ id=9>Customize homepage</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>go back</button>"
+  new_state_str: 39180632bed6820472c6b99209b673b6fc599e7f661164ee753d0964854383bf
+  state_str: 9d1efab623f99dfee6d98a5ef2d601b53e602d98cfdab3f2d3384ff8ca11dcff
+- Choice: -1
+  Input: 'null'
+  State: "<button id=0 text='Navigate up'></button>\n <p id=1>Downloads</p>\n <button\
+    \ id=2 text='Close'></button>\n <p id=3>No downloaded files</p>\n <button id=4>go\
+    \ back</button>"
+  new_state_str: 0c93dc1459af0daa90156ba17264816e789a9755e12d45240bef26020ef0fa56
+  state_str: e2d80544e1f15a9f3a517b557088bf7dc37febe7953831462fa3e3e574ac0afe
+step_num: 3
+task_name: view files dowloaded through firefox

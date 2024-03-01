@@ -1,0 +1,1172 @@
+{
+  "tag": "2023-07-03_220038",
+  "state_str": "314bbe9ac7c9179594055a45533a687e6f19c9ec76cbf4062f8b303c20f853e3",
+  "state_str_content_free": "8a43795d384f50c980c8558a1df97359",
+  "foreground_activity": "com.simplemobiletools.notes.pro/.activities.MainActivity",
+  "activity_stack": [
+    "com.simplemobiletools.notes.pro/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.gms/.wallet.service.PaymentService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "a0252e3062d4a536aa60a13151756096",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2148",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "0c43a26c848881e409d6a14ba2f7612b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "1dd83eb5377c59d8475d74193a002889",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.notes.pro:id/action_bar_root[text][enabled,,]",
+      "view_str": "505094de5f7599fa6eaf4e58c4873dfc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.notes.pro:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "e25a6bdff89c50264813aa9b2b440255",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/main_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1977",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/main_coordinator[text][enabled,,]",
+      "view_str": "5216bc92de9dfec9b2c48b0c479ac71a",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/main_coordinator"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          347
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/main_toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*176",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/main_toolbar[text][enabled,,]",
+      "view_str": "b869910957e6b52eaa077ab35722b0ca",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/main_toolbar"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          573,
+          182
+        ],
+        [
+          1080,
+          336
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "507*154",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id][text][enabled,,]",
+      "view_str": "7d25cd27fc2b1573273adb28574a962f",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          573,
+          193
+        ],
+        [
+          705,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/open_search",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "132*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/open_search[text][enabled,,]",
+      "view_str": "f756ae6d3394121f08a4476d8bdf0768",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/open_search"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Open note",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          705,
+          193
+        ],
+        [
+          837,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/open_note",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "132*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/open_note[text][enabled,,]",
+      "view_str": "dbb7b0fd6298216b14979930d05bb458",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/open_note"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Create a new note",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          837,
+          193
+        ],
+        [
+          969,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/new_note",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 10,
+      "size": "132*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/new_note[text][enabled,,]",
+      "view_str": "60189bc3d1e8d6269ff95f5987612081",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.notes.pro:id/new_note"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          969,
+          193
+        ],
+        [
+          1080,
+          325
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 7,
+      "temp_id": 11,
+      "size": "111*132",
+      "signature": "[class]android.widget.ImageView[resource_id][text][enabled,,]",
+      "view_str": "b17438a1a020afda085398aed589e76b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/main_linear_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 12,
+      "size": "1080*1801",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.notes.pro:id/main_linear_layout[text][enabled,,]",
+      "view_str": "18ceb73e751e63c2dc4fd5efac32e5f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.notes.pro:id/main_linear_layout"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        18,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/view_pager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.c",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1801",
+      "signature": "[class]androidx.viewpager.widget.c[resource_id]com.simplemobiletools.notes.pro:id/view_pager[text][enabled,,]",
+      "view_str": "264f4ab0b16a940fd313117f0ca91fc1",
+      "content_free_signature": "[class]androidx.viewpager.widget.c[resource_id]com.simplemobiletools.notes.pro:id/view_pager"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          347
+        ],
+        [
+          1080,
+          435
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/pager_tab_strip",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1080*88",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/pager_tab_strip[text][enabled,,]",
+      "view_str": "58af08c1218b57a494cb19bf5bac95fd",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.notes.pro:id/pager_tab_strip"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          351
+        ],
+        [
+          257,
+          414
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "General note",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "257*63",
+      "signature": "[class]android.widget.TextView[resource_id][text]General note[enabled,,]",
+      "view_str": "6b06a273396dbe6fb3da6dd3600d8dee",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          501,
+          351
+        ],
+        [
+          579,
+          414
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "test",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 16,
+      "size": "78*63",
+      "signature": "[class]android.widget.TextView[resource_id][text]test[enabled,,]",
+      "view_str": "5b6831184f265ce8b06287227706baf1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          351
+        ],
+        [
+          1080,
+          414
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 17,
+      "size": "0*63",
+      "signature": "[class]android.widget.TextView[resource_id][text][enabled,,]",
+      "view_str": "737aceb0fda0aab742360ba51f056d69",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/note_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 18,
+      "size": "0*1713",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/note_fragment_holder[text][enabled,,]",
+      "view_str": "993c22f235dc87fa338d2293cf318fe8",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/note_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/notes_scrollview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "0*1713",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.notes.pro:id/notes_scrollview[text][enabled,,]",
+      "view_str": "e125fcc1f74d243d3910a2a4039ddef8",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.notes.pro:id/notes_scrollview"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/notes_relative_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "0*1713",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/notes_relative_layout[text][enabled,,]",
+      "view_str": "7d3f450f34bc7f0685d63c383869dfb8",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/notes_relative_layout"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/text_note_view",
+      "checked": false,
+      "text": "Insert text here",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "0*1713",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.notes.pro:id/text_note_view[text]Insert text here[enabled,,]",
+      "view_str": "d59748caff741ec39a0c5e6a95224ed6",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.notes.pro:id/text_note_view"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/note_fragment_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 22,
+      "size": "1080*1713",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/note_fragment_holder[text][enabled,,]",
+      "view_str": "993c22f235dc87fa338d2293cf318fe8",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/note_fragment_holder"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/notes_scrollview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "1080*1713",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.notes.pro:id/notes_scrollview[text][enabled,,]",
+      "view_str": "e125fcc1f74d243d3910a2a4039ddef8",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.notes.pro:id/notes_scrollview"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/notes_relative_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "1080*1713",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/notes_relative_layout[text][enabled,,]",
+      "view_str": "7d3f450f34bc7f0685d63c383869dfb8",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.notes.pro:id/notes_relative_layout"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          435
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.notes.pro:id/text_note_view",
+      "checked": false,
+      "text": "Insert text here",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*1713",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.notes.pro:id/text_note_view[text]Insert text here[enabled,,]",
+      "view_str": "d59748caff741ec39a0c5e6a95224ed6",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.notes.pro:id/text_note_view"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          171
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 26,
+      "size": "1080*171",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text][enabled,,]",
+      "view_str": "6107ab135f8934d3c6f1e186ed4d4470",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.simplemobiletools.notes.pro",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 27,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text][enabled,,]",
+      "view_str": "b78a3ae50134c937a1bf41423ff52291",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

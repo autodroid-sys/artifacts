@@ -1,0 +1,104 @@
+records:
+- Choice: 6
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+- Choice: 4
+  Input: 'null'
+  State: '<button id=0 text=''Sort by''></button>
+
+    <button id=1 text=''More apps from us''></button>
+
+    <button id=2 text=''Settings''></button>
+
+    <button id=3 text=''About''></button>
+
+    <button id=4>7:00 am<br>Mon, Tue, Wed, Thu, Fri</button>
+
+    <button id=5>9:00 am<br>Sun, Sat</button>
+
+    <button id=6>Clock</button>
+
+    <p id=7>Alarm</p>
+
+    <button id=8>Stopwatch</button>
+
+    <button id=9>Timer</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 0fe4d8ae84dc5fed6fb0db2cfae8801722cc0594525a17b91585a9bb6658f07d
+  state_str:
+  - 9c8b7368c467d8fbe3e7eb2c100ef13cc72a98fccaaf829837c42bc9d7e2ed66
+- Choice: 8
+  Input: 'null'
+  State: " <button id=1>S</button>\n <button id=2>M</button>\n <button id=3>T</button>\n\
+    \ <button id=4>W</button>\n <button id=5>T</button>\n <button id=6>F</button>\n\
+    \ <button id=7>S</button>\n <checkbox id=8 checked=False>Vibrate</checkbox>\n\
+    \ <button id=9>Default (Cesium)</button>\n <input id=10 >Label</input>\n <button\
+    \ id=11>Cancel</button>\n <button id=12>OK</button>\n <button id=13>go back</button>"
+  new_state_str: 9d99b0a713bd7cc17a913f7a8127df984fec4d4a9a8e7676f4891f144b126986
+  state_str: 7de92aa931ba8d78196718540fe5be35811650e2b747761270102d1e46452cc0
+- Choice: 12
+  Input: 'null'
+  State: "<button id=0>7:00 am</button>\n <button id=1>S</button>\n <button id=2>M</button>\n\
+    \ <button id=3>T</button>\n <button id=4>W</button>\n <button id=5>T</button>\n\
+    \ <button id=6>F</button>\n <button id=7>S</button>\n <checkbox id=8 checked=True>Vibrate</checkbox>\n\
+    \ <button id=9>Default (Cesium)</button>\n <input id=10 >Label</input>\n <button\
+    \ id=11>Cancel</button>\n <button id=12>OK</button>\n <button id=13>go back</button>"
+  new_state_str: ee270d75c1f4b747739a4ce06479a5131fdee09108a89e44d0e7c1e46254ce75
+  state_str: 09e0a630ecc696d9a6439aef4be393b1170d4fed1dab77700eb533b865e16cb1
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Please make sure the alarm works properly before relying on it.\
+    \ It could misbehave due to system restrictions related to battery saving.</p>\n\
+    \ <button id=1>OK</button>\n <button id=2>go back</button>"
+  new_state_str: 8a8715cba3d1c87e7b24f73cd0cbdb2323dbd4ff450015ef3fb879d0800ab892
+  state_str: 3abc3247e98a930f223adeeeab59508ce5413671a2283c4ac4215bf17a16d685
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Sort by''></button>
+
+    <button id=1 text=''More apps from us''></button>
+
+    <button id=2 text=''Settings''></button>
+
+    <button id=3 text=''About''></button>
+
+    <button id=4>7:00 am<br>Mon, Tue, Wed, Thu, Fri</button>
+
+    <button id=5>9:00 am<br>Sun, Sat</button>
+
+    <button id=6>Clock</button>
+
+    <p id=7>Alarm</p>
+
+    <button id=8>Stopwatch</button>
+
+    <button id=9>Timer</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 0fe4d8ae84dc5fed6fb0db2cfae8801722cc0594525a17b91585a9bb6658f07d
+  state_str:
+  - 994ebd84519218d35a48599376072adb68fb7f9cbbc66c79e0bcdc74e48016e7
+step_num: 6
+task_name: turn on the '7:00 am' alarm clock vibration function

@@ -1,0 +1,55 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <p id=3>00:00</p>
+
+    <p id=4>Recorder</p>
+
+    <button id=5>Player</button>
+
+    <button id=6>go back</button>'
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str:
+  - 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>About</p>\n<p id=1>SUPPORT</p>\n<button id=2>Frequently asked questions</button>\n\
+    <button id=3>hello@simplemobiletools.com</button>\n<p id=4>HELP US</p>\n<button\
+    \ id=5>Contributors</button>\n<button id=6>Donate</button>\n<p id=7>SOCIAL</p>\n\
+    <button id=8>Facebook</button>\n<button id=9>GitHub</button>\n<button id=10>Reddit</button>\n\
+    <button id=11>Telegram</button>\n<button id=12>go back</button>\n<p id=13>OTHER</p>\n\
+    <button id=14>Website</button>\n<button id=15>Privacy policy</button>\n<button\
+    \ id=16>Third party licences</button>\n<button id=17>Version 5.11.3</button>\n\
+    <p id=18>Made with \u2764\uFE0F in Slovakia</p>"
+  new_state_str: 01761c55c458560c451ae5ab946cb58da6702f4ce6f72f6221b0d3ce78e138be
+  state_str:
+  - 9e872d9e8106b8559eda4685643675158b10c4ce89f51fea4ec7d8ac59969a4b
+  - 43a17534d591093614815016111029fb0f8a20993c52ebdfe91605036b06d334
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Frequently asked questions</p>\n <p id=1>Can I hide the notification\
+    \ icon during recording?</p>\n <p id=2>Well, it depends. While you use your device\
+    \ it is no longer possible to fully hide the notifications of apps like this.\
+    \ If you check the proper setting item, the app will do its best to hide it. You\
+    \ can hide it on the lockscreen though, if you disable the displaying of sensitive\
+    \ notifications in your device settings.</p>\n <p id=3>How can I select multiple\
+    \ items at once?</p>\n <p id=4>There are multiple ways of doing that. The first\
+    \ one is starting the selection mode by long pressing one item, then short clicking\
+    \ on others to select them. The second way is similar to selecting items on PCs\
+    \ with a mouse, just start the selection mode by long pressing one item, then\
+    \ with your finger still down drag it across other items for selecting. The third\
+    \ way of selecting multiple items is long pressing one item, then long pressing\
+    \ another one and everything in between gets selected. If you want to select all\
+    \ items, just long press one item, then click at the selected item counter at\
+    \ the top left corner. That will select or unselect all everything.</p>\n <button\
+    \ id=5>go back</button>"
+  new_state_str: e8480ecab5acbe5d2c76e1c22baf5fcfdad8eaa14bed4dd504d2ec5ea576c288
+  state_str: d8acc7eba233d43259f33cc5b461042178956bc80f02c3bb90254b006493c0ae
+step_num: 3
+task_name: open 'frequently asked questions'

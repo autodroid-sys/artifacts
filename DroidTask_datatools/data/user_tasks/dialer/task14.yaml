@@ -1,0 +1,89 @@
+records:
+- Choice: 7
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: 11
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Jack</button>\n <button\
+    \ id=6>333333<br>Mobile</button>\n <button id=7>jack@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: 1f1546c6d2ab69537b7e9a527a2098956e77b57e88f07161004b2030c8762a11
+  state_str: bb08dd60e6e42f7575dfd86061d20f6ac390aeec6712de035f34b4b62343919f
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>Are you sure you want to proceed with the deletion?</p>\n <button\
+    \ id=1>No</button>\n <button id=2>Yes</button>\n <button id=3>go back</button>"
+  new_state_str: bfab4bf7c2c7b54f18f22d052fbdf2b69462dabb826993d560228c72a672c27b
+  state_str: 40751da12fdcb467069d89ada53021d811e303d067cfd10c62caa6f32efac486
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>A
+
+    B</button>
+
+    <button id=8 text=''Dialpad''></button>
+
+    <p id=9>Contacts</p>
+
+    <button id=10>Favorites</button>
+
+    <button id=11>Call History</button>
+
+    <button id=12>go back</button>'
+  new_state_str: 0c185e3afb93e10afd432c02f64a1be0de6945af47eff547674ad71159e353b5
+  state_str:
+  - f1e3658978875fcb435c615763df624b0dbdae9c42b85a19abf41c7c8212dc3b
+step_num: 4
+task_name: delete contact Jack

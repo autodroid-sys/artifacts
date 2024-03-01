@@ -1,0 +1,71 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Sort by</button>\n <button id=1>Filter media</button>\n <button\
+    \ id=2>Change view type</button>\n <button id=3>Temporarily show hidden</button>\n\
+    \ <button id=4>Temporarily show excluded</button>\n <button id=5>Create new folder</button>\n\
+    \ <button id=6>Column count</button>\n <button id=7>Settings</button>\n <button\
+    \ id=8>About</button>\n <button id=9>go back</button>"
+  new_state_str: f27215cd13aecb6d203d7bed4c753284d24de06edc57717b9b126076303b5fdc
+  state_str: 62409de9ff271ddcfd1127b1b0607e1121d86b4c33c729be5a3a7df29dcc02a2
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>Name</checkbox>\n <checkbox\
+    \ id=2 checked=False>Path</checkbox>\n <checkbox id=3 checked=False>Size</checkbox>\n\
+    \ <checkbox id=4 checked=True>Last modified</checkbox>\n <checkbox id=5 checked=False>Date\
+    \ taken</checkbox>\n <checkbox id=6 checked=False>Random</checkbox>\n <checkbox\
+    \ id=7 checked=False>Custom</checkbox>\n <checkbox id=8 checked=False>Ascending</checkbox>\n\
+    \ <checkbox id=9 checked=True>Descending</checkbox>\n <button id=10>Cancel</button>\n\
+    \ <button id=11>OK</button>\n <button id=12>go back</button>"
+  new_state_str: bcdc8bc32ab330c072627acc28b712faa15abff6c965ca31c5db8d7ec7f3ccd3
+  state_str: e320bb03bf9b2201df03239ce7793363fda22ca45cc40f775695b3b936cea660
+- Choice: 12
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>Name</checkbox>\n <checkbox\
+    \ id=2 checked=False>Path</checkbox>\n <checkbox id=3 checked=False>Size</checkbox>\n\
+    \ <checkbox id=4 checked=False>Last modified</checkbox>\n <checkbox id=5 checked=False>Date\
+    \ taken</checkbox>\n <checkbox id=6 checked=False>Random</checkbox>\n <checkbox\
+    \ id=7 checked=False>Custom</checkbox>\n <checkbox id=8 checked=False>Ascending</checkbox>\n\
+    \ <checkbox id=9 checked=True>Descending</checkbox>\n <checkbox id=10 checked=False>Sort\
+    \ numeric parts by actual value</checkbox>\n <button id=11>Cancel</button>\n <button\
+    \ id=12>OK</button>\n <button id=13>go back</button>"
+  new_state_str: 5f4da4092996b61a87447bf5f2dd178299ba381f36e7f86ee5604a77b30270d0
+  state_str: c05d4069994ea4574c4d421a3f87cb224ed4ca1c852a69536c00110c9e69fb42
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+step_num: 5
+task_name: Sort folders in the Gallery app by name in descending order

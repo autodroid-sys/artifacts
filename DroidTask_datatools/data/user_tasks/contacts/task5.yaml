@@ -1,0 +1,52 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Bob</button>\n <button\
+    \ id=6>222222<br>Mobile</button>\n <button id=7>bob@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: 685779cf897df590c66cec9bdaa4a507d5461e0da62c86a77c2cf15ce2920b83
+  state_str: 34669a31d746a7e7130140e51a5d747d6e1a1e92df4603fb990dd3cf131d40c9
+- Choice: 8
+  Input: Goodmorning
+  State: "<p id=0>Bob</p>\n <button id=1 text='Delete'></button>\n <button id=2 text='Dial\
+    \ number'></button>\n <button id=3 text='Add Person'></button>\n <button id=4\
+    \ text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n <button\
+    \ id=6>Hey</button>\n <button id=7 text='Attachment'></button>\n <input id=8 >Type\
+    \ a message\u2026</input>\n <button id=9 text='OK'>SMS</button>\n <button id=10>go\
+    \ back</button>"
+  new_state_str: c5cc038d9eea4609fb58157d1ce379b1880d3b9f69a9359998a58e54a8b38c31
+  state_str: 70051db1819f975757a065abd60ed22eb4a7c0eb0254517d7e5d73d26627a4f8
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0>Bob</p>\n <button id=1 text='Delete'></button>\n <button id=2 text='Dial\
+    \ number'></button>\n <button id=3 text='Add Person'></button>\n <button id=4\
+    \ text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n <button\
+    \ id=6>Hey</button>\n <button id=7 text='Attachment'></button>\n <input id=8 >Goodmorning</input>\n\
+    \ <button id=9 text='OK'>SMS</button>\n <button id=10>go back</button>"
+  new_state_str: d714110041354fa9fcf5f8ed3c8751e18c76aa3eeabf461e6108288814e801aa
+  state_str: fbe62aa7ef73c94e913f39b95a77955517a0f752e58ee311e1ab23184fb6014c
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>SMS Messenger would like to send a message to 222222.</p>\n <p id=1>This\
+    \ may cause charges on your mobile account.</p>\n <p id=2>Remember my choice</p>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>Send</button>\n <button id=5>go\
+    \ back</button>"
+  new_state_str: 4dc2430e5bd61b492fdbc6b5a2139830e6a8cc5f30b7a31614064ae9b752e151
+  state_str: b404888b3416ff7b026214006464db965ba3d531229c4d5b7437b3c47ae95ddf
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Bob</p>\n <button id=1 text='Delete'></button>\n <button id=2 text='Dial\
+    \ number'></button>\n <button id=3 text='Add Person'></button>\n <button id=4\
+    \ text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n <button\
+    \ id=6>Hey</button>\n <button id=7>11:05 AM</button>\n <button id=8>Goodmorning</button>\n\
+    \ <button id=9 text='Attachment'></button>\n <input id=10 >Type a message\u2026\
+    </input>\n <button id=11 text='OK'>SMS</button>\n <button id=12>go back</button>"
+  new_state_str: b8a4f0cef5f67cb9ce4c147f10c1ed13617e09e5a5edd1dc15cae6c61ab86553
+  state_str: fb2d7541320032cb964b6d5e79825b0b7ea334ce980878af83d0094b6308feaa
+step_num: 5
+task_name: Send a text message to Bob with the following content:'Goodmorning'

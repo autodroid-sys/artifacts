@@ -1,0 +1,89 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Alice</button>\n <button\
+    \ id=6>111111<br>Mobile</button>\n <button id=7>alice@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: ac9e8ddcaff512db99365635366aca1bdbb4fdfca1b319d2f3090329874a6e14
+  state_str: b838caf57fe9076ebf57352fef59f9bd7db23e225d27f0abccb05505398fdb6c
+- Choice: 8
+  Input: I-love-you
+  State: "<p id=0>Alice</p>\n <button id=1 text='Delete'></button>\n <button id=2\
+    \ text='Dial number'></button>\n <button id=3 text='Add Person'></button>\n <button\
+    \ id=4 text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n\
+    \ <button id=6>Hello</button>\n <button id=7 text='Attachment'></button>\n <input\
+    \ id=8 >Type a message\u2026</input>\n <button id=9 text='OK'>SMS</button>\n <button\
+    \ id=10>go back</button>"
+  new_state_str: f6018d3c10b04f67973dad0e561b1ada96a741e8b69e7bc99cf265c7529802d0
+  state_str: aeda9619bbd29160179a173542c593dc23dc47b56b6b46f2a5fb631b7fbc9bfa
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0>Alice</p>\n <button id=1 text='Delete'></button>\n <button id=2\
+    \ text='Dial number'></button>\n <button id=3 text='Add Person'></button>\n <button\
+    \ id=4 text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n\
+    \ <button id=6>Hello</button>\n <button id=7 text='Attachment'></button>\n <input\
+    \ id=8 >I-love-you</input>\n <button id=9 text='OK'>SMS</button>\n <button id=10>go\
+    \ back</button>"
+  new_state_str: cd38251c66cf2f57f5f2a7614788dfa1b8fac766ae58862c678e97e4b6d21537
+  state_str: 762733588178224aded77f8a68c00b5f276b31e2134de16a22e5c4446692771b
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>SMS Messenger would like to send a message to 111111.</p>\n <p id=1>This\
+    \ may cause charges on your mobile account.</p>\n <p id=2>Remember my choice</p>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>Send</button>\n <button id=5>go\
+    \ back</button>"
+  new_state_str: a763b786f93751a2ea9714ba001411273683e2641697f0a36ef6d795cde502b2
+  state_str: 4633ee21ca009b8a0db6e9e35a0991f6ffa85b7fb3b58a1c741c952d89ba51a5
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Alice</p>\n <button id=1 text='Delete'></button>\n <button id=2\
+    \ text='Dial number'></button>\n <button id=3 text='Add Person'></button>\n <button\
+    \ id=4 text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n\
+    \ <button id=6>Hello</button>\n <button id=7>11:05 AM</button>\n <button id=8>I-love-you</button>\n\
+    \ <button id=9 text='Attachment'></button>\n <input id=10 >Type a message\u2026\
+    </input>\n <button id=11 text='OK'>SMS</button>\n <button id=12>go back</button>"
+  new_state_str: 2f1d490a8fc38ad45ad08bc8150a7dea50b962706ee126acc7ee003125d14827
+  state_str: 7ee9cace42be6b207cc8f9ee9b3fdf73190fc2bf977b706c62c54e1343a488ee
+step_num: 7
+task_name: text Alice that I-love-you

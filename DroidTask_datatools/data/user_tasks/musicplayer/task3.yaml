@@ -1,0 +1,62 @@
+records:
+- Choice: 6
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <p id=8>Albums</p>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str:
+  - ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <p id=6>Folders</p>
+
+    <button id=7>Artists</button>
+
+    <button id=8>Albums</button>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 3b85df2d3f9c437fd4b40fa0d0053969f0c91e87451211faa22d30e9816a86ae
+  state_str:
+  - d55096874d3850e178a144443fadb52c33a034ad5bd6791ee20600754b424c79
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Recordings</p>\n <button id=1 text='Search'></button>\n <button\
+    \ id=2 text='Sort by'></button>\n <button id=3>test1<br>00:10</button>\n <button\
+    \ id=4>test2<br>00:07</button>\n <button id=5>go back</button>"
+  new_state_str: 2f3ec68271e34d9236a714bce78c7aba3ffa311aeea7d04c336c61be7313c418
+  state_str: e0c0804dee43cc47c77e5f9d568cb5f880ac6bc883c59b2fcd805e05558796e7
+step_num: 3
+task_name: check the 'Recordings' in the Folders

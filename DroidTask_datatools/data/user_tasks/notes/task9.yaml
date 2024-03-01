@@ -1,0 +1,161 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 10
+  Input: 'null'
+  State: "<button id=0>Rename note</button>\n <button id=1>Share</button>\n <button\
+    \ id=2>Create shortcut</button>\n <button id=3>Lock note</button>\n <button id=4>Open\
+    \ file</button>\n <button id=5>Import notes</button>\n <button id=6>Export as\
+    \ file</button>\n <button id=7>Export all notes</button>\n <button id=8>Print</button>\n\
+    \ <button id=9>Delete note</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>About</button>\n <button id=12>go back</button>"
+  new_state_str: d30d629d793bfe53cdcfb3f2984315c78089bafee2ba0f45ef8bc2c0dcf7909a
+  state_str: 4e5778fa48b7653d78c78d9fc93185b3bf480d25f784957a6e6ce8b90ed6573d
+- Choice: 2
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Font size<br>100%</button>
+
+    <p id=6>TEXT</p>
+
+    <checkbox id=7 checked=False>Show word count</checkbox>
+
+    <checkbox id=8 checked=False>Make links and emails clickable</checkbox>
+
+    <checkbox id=9 checked=False>Use monospaced font</checkbox>
+
+    <checkbox id=10 checked=False>Use Incognito mode of keyboards</checkbox>
+
+    <checkbox id=11 checked=True>Enable line wrap</checkbox>
+
+    <button id=12>go back</button>
+
+    <button id=13>Alignment<br>Left</button>
+
+    <p id=14>STARTUP</p>
+
+    <checkbox id=15 checked=True>Place cursor to the end of note</checkbox>
+
+    <checkbox id=16 checked=True>Show keyboard on startup</checkbox>
+
+    <checkbox id=17 checked=False>Show a note picker on startup</checkbox>
+
+    <p id=18>SAVING</p>
+
+    <checkbox id=19 checked=True>Autosave notes</checkbox>
+
+    <checkbox id=20 checked=False>Display save success messages</checkbox>'
+  new_state_str: 10bac2bd974bd90c0972427b375edb6ede4f05a45723e57273aa11236e226809
+  state_str:
+  - 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  - 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1>Theme<br>Dark</button>\n <button\
+    \ id=2>Text color</button>\n <button id=3>Background color</button>\n <button\
+    \ id=4>Primary color</button>\n <button id=5>App icon color</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: 3c8b0bea669823c2829158e0dfc06ff53513a257e62e069e04a6cda9fb014803
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>WARNING: Some launchers do not handle app icon customization properly.\
+    \ In case the icon will disappear, try launching the app via Google Play or some\
+    \ widget, if available. Once launched, just set back the default orange icon #F57C00.\
+    \ You might have to reinstall the app in the worst case.</p>\n <button id=1>OK</button>\n\
+    \ <button id=2>go back</button>"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: 1beb6eb61076f7b97cb5fbee8d7b05256ad7a0f3ddda64595c904f930845f693
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Auto light / dark</checkbox>\n <checkbox id=1\
+    \ checked=False>Light</checkbox>\n <checkbox id=2 checked=True>Dark</checkbox>\n\
+    \ <checkbox id=3 checked=False>Dark red</checkbox>\n <checkbox id=4 checked=False>White</checkbox>\n\
+    \ <checkbox id=5 checked=False>Black & White</checkbox>\n <checkbox id=6 checked=False>Custom</checkbox>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f8ad670e9a731699680252f02c59a057647e07cd5290c9cc4cb69554d0285bd9
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1 text='Save'></button>\n <button\
+    \ id=2>Theme<br>Light</button>\n <button id=3>Text color</button>\n <button id=4>Background\
+    \ color</button>\n <button id=5>Primary color</button>\n <button id=6>App icon\
+    \ color</button>\n <button id=7>go back</button>"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: 354ad5387ada1a627826ddfaa632c2ba523e7cab6fa2b94cdf8b3d77046bc4de
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Font size<br>100%</button>
+
+    <p id=6>TEXT</p>
+
+    <checkbox id=7 checked=False>Show word count</checkbox>
+
+    <checkbox id=8 checked=False>Make links and emails clickable</checkbox>
+
+    <checkbox id=9 checked=False>Use monospaced font</checkbox>
+
+    <checkbox id=10 checked=False>Use Incognito mode of keyboards</checkbox>
+
+    <checkbox id=11 checked=True>Enable line wrap</checkbox>
+
+    <button id=12>go back</button>
+
+    <button id=13>Alignment<br>Left</button>
+
+    <p id=14>STARTUP</p>
+
+    <checkbox id=15 checked=True>Place cursor to the end of note</checkbox>
+
+    <checkbox id=16 checked=True>Show keyboard on startup</checkbox>
+
+    <checkbox id=17 checked=False>Show a note picker on startup</checkbox>
+
+    <p id=18>SAVING</p>
+
+    <checkbox id=19 checked=True>Autosave notes</checkbox>
+
+    <checkbox id=20 checked=False>Display save success messages</checkbox>'
+  new_state_str: 10bac2bd974bd90c0972427b375edb6ede4f05a45723e57273aa11236e226809
+  state_str:
+  - 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  - 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+step_num: 8
+task_name: set app theme to light and save it

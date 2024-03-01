@@ -1,0 +1,48 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <p id=5>Clock</p>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <button id=8>Timer</button>
+
+    <button id=9>go back</button>'
+  new_state_str: b2ddbbfba7219a3fc8de3343b42be3211aa9902802bbb7b8c1f0149e06210499
+  state_str:
+  - 76fca088bb3a7bc73f0502fdbce1da43d3df03dd1f42e5850d1784319a8f21d3
+  - 76fca088bb3a7bc73f0502fdbce1da43d3df03dd1f42e5850d1784319a8f21d3
+step_num: 2
+task_name: open the clock page

@@ -1,0 +1,81 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 1
+  Input: test
+  State: "<p id=0>Add a new note</p>\n <input id=1 >Label</input>\n <p id=2>New note\
+    \ type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox id=4\
+    \ checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 67f3b94e0e34c3430a429ef07289bd7b94c6e3b80719e6fc9d839c0f23ad3b4f
+  state_str: d5209f39a2e32892f7ea467acca08507883580cc984e6f9a7219eb4d0ed70800
+- Choice: 6
+  Input: 'null'
+  State: "<p id=0>Add a new note</p>\n <input id=1 >test</input>\n <p id=2>New note\
+    \ type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox id=4\
+    \ checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 2476c9220a98efe3e81ef3f1d74ff68bce4a453506896d7d195469b888ca66d5
+  state_str: 891277d2fc4582f2dc7ebd77bb02b4f4b3acb2a1cfb000dc59305693bf4a83eb
+- Choice: 6
+  Input: '123456'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>General note</button>
+
+    <p id=5>test</p>
+
+    <input id=6>Insert text here</input>
+
+    <button id=7>go back</button>'
+  new_state_str: d80b5590e20ee4f1cfa5ead6305051272ec838ef0c852f9ccface63d47f4d130
+  state_str:
+  - 314bbe9ac7c9179594055a45533a687e6f19c9ec76cbf4062f8b303c20f853e3
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''Undo''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>General note</button>
+
+    <p id=6>test</p>
+
+    <input id=7>123456</input>
+
+    <button id=8>go back</button>'
+  new_state_str: 2ae0ba1369deb653432f916b42f2a3bcd22f346066073d396e8d77dca0000b49
+  state_str:
+  - 559c1db140507325694890ad23089fa6ed36de56e0d00c1ececcff2a9c30dff9
+step_num: 7
+task_name: Create a new note called 'test' and type '123456'

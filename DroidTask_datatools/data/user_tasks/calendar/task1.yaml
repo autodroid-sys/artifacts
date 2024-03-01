@@ -1,0 +1,43 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Calendar</p>\n <button id=1 text='Search'></button>\n <button id=2\
+    \ text='Change view'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>July</button>\n <button id=5 text='New Event'></button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 3
+  Input: laundry
+  State: "<button id=0 text='Navigate up'></button>\n <p id=1>New Event</p>\n <button\
+    \ id=2 text='Save'></button>\n <input id=3 >Title</input>\n <input id=4 >Location</input>\n\
+    \ <input id=5 >Description</input>\n <checkbox id=6 checked=False>All-day OFF</checkbox>\n\
+    \ <button id=7>July 1 (Sat)</button>\n <button id=8>12:00 PM</button>\n <button\
+    \ id=9>July 1 (Sat)</button>\n <button id=10>12:00 PM</button>\n <button id=11>10\
+    \ minutes before</button>\n <button id=12>Add another reminder</button>\n <button\
+    \ id=13>No repetition</button>\n <button id=14>Regular event</button>\n <button\
+    \ id=15>go back</button>"
+  new_state_str: 77dfea11565b42a31fee51cb52720d35ec189b30db4c597fd2ea88af5f833b2e
+  state_str: f1c1ea25cb8ca110b0ea05d094a45582373af6b36e28972a0cc2c884c447a812
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0 text='Navigate up'></button>\n <p id=1>New Event</p>\n <button\
+    \ id=2 text='Save'></button>\n <input id=3 >laundry</input>\n <input id=4 >Location</input>\n\
+    \ <input id=5 >Description</input>\n <checkbox id=6 checked=False>All-day OFF</checkbox>\n\
+    \ <button id=7>July 1 (Sat)</button>\n <button id=8>12:00 PM</button>\n <button\
+    \ id=9>July 1 (Sat)</button>\n <button id=10>12:00 PM</button>\n <button id=11>10\
+    \ minutes before</button>\n <button id=12>Add another reminder</button>\n <button\
+    \ id=13>No repetition</button>\n <button id=14>Regular event</button>\n <button\
+    \ id=15>go back</button>"
+  new_state_str: 58c0cc64a20b8813e79e54d9c51193ec4b9e2ebce2cb3bc26d44728f05c1c577
+  state_str: 516ab7a529ecf71ffc4d76369e0afb51610b84d318b6809852c11310f56421f1
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Calendar</p>\n <button id=1 text='Search'></button>\n <button id=2\
+    \ text='Change view'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>July</button>\n <button id=5 text='New Event'></button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+step_num: 5
+task_name: create a new event, the task is 'laundry', save it

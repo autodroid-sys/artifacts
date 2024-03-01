@@ -1,0 +1,149 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Bob</button>\n <button\
+    \ id=6>222222<br>Mobile</button>\n <button id=7>bob@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: 685779cf897df590c66cec9bdaa4a507d5461e0da62c86a77c2cf15ce2920b83
+  state_str: 34669a31d746a7e7130140e51a5d747d6e1a1e92df4603fb990dd3cf131d40c9
+- Choice: 4
+  Input: '12345678900'
+  State: '<button id=0 text=''Change photo''></button>
+
+    <button id=1 text=''Toggle favorite''></button>
+
+    <input id=2>Bob</input>
+
+    <input id=3>Surname</input>
+
+    <input id=4>222222</input>
+
+    <button id=5>Mobile</button>
+
+    <input id=6>bob@mails.com</input>
+
+    <button id=7>Home</button>
+
+    <input id=8>Address</input>
+
+    <button id=9>Unknown</button>
+
+    <button id=10>Birthday</button>
+
+    <button id=11 text=''Save''></button>
+
+    <button id=12 text=''Share''></button>
+
+    <button id=13 text=''Delete''></button>
+
+    <button id=14 text=''More options''></button>
+
+    <button id=15>go back</button>
+
+    <input id=16>Notes</input>
+
+    <button id=17>No groups</button>
+
+    <button id=18>Phone storage (not visible by other apps)</button>'
+  new_state_str: 52e178c921ff9d93ab5665339017cf1d2b508ebfca1a68aff58ac3cb4d7c5db2
+  state_str:
+  - 68242d3ed1f4d859748509f57dec0dd2d7ab1c2c66efd301128b1d04b9a77253
+  - a2ad3328bc4fe0beb82237a044595f11e15161f74b919a6a5cd3c9d516c91f32
+- Choice: 11
+  Input: 'null'
+  State: '<button id=0 text=''Change photo''></button>
+
+    <button id=1 text=''Toggle favorite''></button>
+
+    <input id=2>Bob</input>
+
+    <input id=3>Surname</input>
+
+    <input id=4>12345678900</input>
+
+    <button id=5>Mobile</button>
+
+    <input id=6>bob@mails.com</input>
+
+    <button id=7>Home</button>
+
+    <input id=8>Address</input>
+
+    <button id=9>Unknown</button>
+
+    <button id=10>Birthday</button>
+
+    <button id=11 text=''Save''></button>
+
+    <button id=12 text=''Share''></button>
+
+    <button id=13 text=''Delete''></button>
+
+    <button id=14 text=''More options''></button>
+
+    <button id=15>go back</button>
+
+    <input id=16>Notes</input>
+
+    <button id=17>No groups</button>
+
+    <button id=18>Phone storage (not visible by other apps)</button>'
+  new_state_str: f4669d3862b55757500ab42c00801bc3048e0bbafe8597b93d0c1837467af8e8
+  state_str:
+  - 1d82188fc9ec827896919ef1c645182aa1202058700a70e0e36c4037d99ee040
+  - 6038b6e5c4e98291375987bcdd53268c0ce08bd5e9e1a3133ef95e6bdb9e3d3f
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Bob</button>\n <button\
+    \ id=6>12345678900<br>Mobile</button>\n <button id=7>bob@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: 0a0c25378e4f63862e5687c780f3f3caf703e3268be4947d1ab3176059666baf
+  state_str: f8890cc1aa9d8a164b7f23e296c8e376ac59e4b154d57d6eab3ab8f5a16adb14
+step_num: 6
+task_name: Change Bob's mobile number from '222222' to '12345678900'

@@ -1,0 +1,61 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Column count</button>\n <button id=1>Settings</button>\n <button\
+    \ id=2>About</button>\n <button id=3>go back</button>"
+  new_state_str: ca19303f69337e3b0304675f3593b6929a8f5e20f11c851c7caa0c01e2149f4c
+  state_str: 4aa00a0b2088cff9cf01711cc84ced31f46a408b7dd1e4bc992e0e14003ec750
+- Choice: 2
+  Input: 'null'
+  State: '<checkbox id=0 checked=False>1 column</checkbox>
+
+    <checkbox id=1 checked=False>2 columns</checkbox>
+
+    <checkbox id=2 checked=False>3 columns</checkbox>
+
+    <checkbox id=3 checked=False>4 columns</checkbox>
+
+    <checkbox id=4 checked=True>5 columns</checkbox>
+
+    <checkbox id=5 checked=False>6 columns</checkbox>
+
+    <checkbox id=6 checked=False>7 columns</checkbox>
+
+    <checkbox id=7 checked=False>8 columns</checkbox>
+
+    <checkbox id=8 checked=False>9 columns</checkbox>
+
+    <checkbox id=9 checked=False>10 columns</checkbox>
+
+    <checkbox id=10 checked=False>11 columns</checkbox>
+
+    <checkbox id=11 checked=False>12 columns</checkbox>
+
+    <checkbox id=12 checked=False>13 columns</checkbox>
+
+    <checkbox id=13 checked=False>14 columns</checkbox>
+
+    <checkbox id=14 checked=False>15 columns</checkbox>
+
+    <button id=15>go back</button>'
+  new_state_str: e85b04a69566e4dc7f6043bd6ddb896899f3bcc27abca6f9d2d938f92e1c79f2
+  state_str:
+  - 19760e6cfb1069e6424130ef25830411a1b67a0c0432d4defa9b292a0c058f20
+- Choice: -1
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+step_num: 4
+task_name: Change column count to 3

@@ -1,0 +1,2303 @@
+{
+  "tag": "2023-07-03_202829",
+  "state_str": "bdf8d7320cb3e0ae3e7818e623d5e558b6ff6a0f51253ea7556e06edc3fbbdd7",
+  "state_str_content_free": "4fdbfe378af4f66529b2d5ac963815c0",
+  "foreground_activity": "com.simplemobiletools.calendar/.activities.MainActivity",
+  "activity_stack": [
+    "com.simplemobiletools.calendar/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          172
+        ],
+        [
+          1052,
+          2147
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*1975",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "97fecee0d2085fffc6e7ff51d23925f7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "936*1887",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "6d8f651066cfcae24ca7d78f2c20e2a0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "524b728234b7eb11143567cf73606455",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root[text][enabled,,]",
+      "view_str": "d494e456503984a0396cf15bf185c25e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "4c81096a3eb6ae27b282b255f2a4ab5b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.aq",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "936*1887",
+      "signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel[text][enabled,,]",
+      "view_str": "be8e23fd345587283e775a8b71e5f6ad",
+      "content_free_signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel[text][enabled,,]",
+      "view_str": "4e43a6a742f44850dc339747ddd6a3aa",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom[text][enabled,,]",
+      "view_str": "66568391e84b58b068b0b2fdc33ba069",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_radio_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "936*1887",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/dialog_radio_holder[text][enabled,,]",
+      "view_str": "4052c4dafb8eea5cd9d0562b774ead7c",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/dialog_radio_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 48,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_radio_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "936*1887",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_radio_group[text][enabled,,]",
+      "view_str": "11b54158516ce0f35db60f9e6ff9799b",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_radio_group"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4557
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Algeria",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "848*-4773",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Algeria[enabled,,]",
+      "view_str": "4e3b606756be9a612310c233aba5e53f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4416
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Argentina",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "848*-4632",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Argentina[enabled,,]",
+      "view_str": "ce0222a25b8f8ae5399adf5290003215",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4275
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Australia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "848*-4491",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Australia[enabled,,]",
+      "view_str": "a55432150cb7f848db45301699dc6e0a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4134
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Belgi\u00eb",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 13,
+      "size": "848*-4350",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Belgi\u00eb[enabled,,]",
+      "view_str": "4278c419a250eb0bb24554b0b9440853",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3993
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Bolivia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 14,
+      "size": "848*-4209",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Bolivia[enabled,,]",
+      "view_str": "81ec5f9d2261e78e250eee34e3609a26",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3852
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Brasil",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 15,
+      "size": "848*-4068",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Brasil[enabled,,]",
+      "view_str": "31d168ae03ffe39819741512ef543f13",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3711
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Canada",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 16,
+      "size": "848*-3927",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Canada[enabled,,]",
+      "view_str": "b5304710ff424edaf8bc47d1030c1f91",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3570
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "China",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 17,
+      "size": "848*-3786",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]China[enabled,,]",
+      "view_str": "4fbda3ebe66ddf41904be69ce7c78c09",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3429
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Colombia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 18,
+      "size": "848*-3645",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Colombia[enabled,,]",
+      "view_str": "ad3534e5f90983a2e2d4550f9725dabf",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3288
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u010cesk\u00e1 republika",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 19,
+      "size": "848*-3504",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u010cesk\u00e1 republika[enabled,,]",
+      "view_str": "160a7c9a8eafdb3ab94ab426614f1e8f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3147
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Danmark",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 20,
+      "size": "848*-3363",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Danmark[enabled,,]",
+      "view_str": "2c25eba7aa719e7d7b0853d868e0284a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3006
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Deutschland",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 21,
+      "size": "848*-3222",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Deutschland[enabled,,]",
+      "view_str": "a78159072153c3fc75961f3d78248fa1",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2865
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Eesti",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 22,
+      "size": "848*-3081",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Eesti[enabled,,]",
+      "view_str": "1f87e8530f0c20c715b0e8fe4ac17c82",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2724
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Espa\u00f1a",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 23,
+      "size": "848*-2940",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Espa\u00f1a[enabled,,]",
+      "view_str": "9606549166401bdf05266b6227919787",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2583
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u00c9ire",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 24,
+      "size": "848*-2799",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u00c9ire[enabled,,]",
+      "view_str": "3e79bf79476aa428445e242e9daa7f61",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2442
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "France",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 25,
+      "size": "848*-2658",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]France[enabled,,]",
+      "view_str": "f5a318b6245515ffa8e192bc103353df",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2301
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Hanguk",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 26,
+      "size": "848*-2517",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Hanguk[enabled,,]",
+      "view_str": "bbd4e74048543b2eab852455ee339d51",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2160
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Hellas",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 27,
+      "size": "848*-2376",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Hellas[enabled,,]",
+      "view_str": "037094764acf86b4d4051c5a702f551f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2019
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Hrvatska",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 28,
+      "size": "848*-2235",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Hrvatska[enabled,,]",
+      "view_str": "93c310065477ed1e0efc750ef60f6168",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1878
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "India",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 29,
+      "size": "848*-2094",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]India[enabled,,]",
+      "view_str": "a7b20fc70734235bb70ff6e2fe3f69d5",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1737
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Indonesia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 30,
+      "size": "848*-1953",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Indonesia[enabled,,]",
+      "view_str": "d69e24487b7c6863d21cb597e265e80c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1596
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u00cdsland",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 31,
+      "size": "848*-1812",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u00cdsland[enabled,,]",
+      "view_str": "8de4d9e1519daf7e97b27e744ff3864f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1455
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Italia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 32,
+      "size": "848*-1671",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Italia[enabled,,]",
+      "view_str": "8ea7f98f47546ced2344aa083663491e",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1314
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Latvija",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 33,
+      "size": "848*-1530",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Latvija[enabled,,]",
+      "view_str": "7afb6a23aad6582dd80ffd88bb1ccba9",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1173
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Lietuva",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 34,
+      "size": "848*-1389",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Lietuva[enabled,,]",
+      "view_str": "a746e7e13ccd8abcc955704ceb22d915",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1032
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Luxemburg",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 35,
+      "size": "848*-1248",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Luxemburg[enabled,,]",
+      "view_str": "ca6e9b4b3aac9e764681afed8512a6ec",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -891
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Makedonija",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 36,
+      "size": "848*-1107",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Makedonija[enabled,,]",
+      "view_str": "be8dcec4ea2207e6710308527ff04960",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -750
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Magyarorsz\u00e1g",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 37,
+      "size": "848*-966",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Magyarorsz\u00e1g[enabled,,]",
+      "view_str": "dc6ecd04a8436ddb7912b357ad2d6ea9",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -609
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "M\u00e9xico",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 38,
+      "size": "848*-825",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]M\u00e9xico[enabled,,]",
+      "view_str": "bd01ff531c31f11090a204af4747526e",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -468
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Nederland",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 39,
+      "size": "848*-684",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Nederland[enabled,,]",
+      "view_str": "acbe481ea7f856bde93aa37c21076a24",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -327
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u65e5\u672c",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 40,
+      "size": "848*-543",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u65e5\u672c[enabled,,]",
+      "view_str": "fc56774f0c901203d0b583ac78f77635",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -186
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Norge",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 41,
+      "size": "848*-402",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Norge[enabled,,]",
+      "view_str": "483f92606083f433273bf9d6974734a5",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -45
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u00d6sterreich",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 42,
+      "size": "848*-261",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u00d6sterreich[enabled,,]",
+      "view_str": "ed5a4dfa76d9fb44ac46e409c19b17b3",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          96
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "P\u0101kist\u0101n",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 43,
+      "size": "848*-120",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]P\u0101kist\u0101n[enabled,,]",
+      "view_str": "8cced6753c95f694a4e13a2cc4b91f22",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          237
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Polska",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 44,
+      "size": "848*21",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Polska[enabled,,]",
+      "view_str": "25590b84ef74c09da83f9e7c9d2f5c9a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          237
+        ],
+        [
+          964,
+          378
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Portugal",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 45,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Portugal[enabled,,]",
+      "view_str": "97e9aee500166ad962758445e6e62b1b",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          378
+        ],
+        [
+          964,
+          519
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u0420\u043e\u0441\u0441\u0438\u044f",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 46,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]\u0420\u043e\u0441\u0441\u0438\u044f[enabled,,]",
+      "view_str": "9fe321b0242a1226c5f0e034f6b04dab",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          519
+        ],
+        [
+          964,
+          660
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Rom\u00e2nia",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 47,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Rom\u00e2nia[enabled,,]",
+      "view_str": "c70df07d08e205616c1f79ae6e52cc58",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          660
+        ],
+        [
+          964,
+          801
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Schweiz",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 48,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Schweiz[enabled,,]",
+      "view_str": "1fd9e63e30a6ae6db2f99ef7271f2938",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          801
+        ],
+        [
+          964,
+          942
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Srbija",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 49,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Srbija[enabled,,]",
+      "view_str": "ee389033e852f5eb0bfbeed6e892912b",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          942
+        ],
+        [
+          964,
+          1083
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Slovenija",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 50,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Slovenija[enabled,,]",
+      "view_str": "52366e83e9d83ea12e38b7d23d93158f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1083
+        ],
+        [
+          964,
+          1224
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Slovensko",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 51,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Slovensko[enabled,,]",
+      "view_str": "808504dd09928f4a1a27d73d87c25e3c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1224
+        ],
+        [
+          964,
+          1365
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "South Africa",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 52,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]South Africa[enabled,,]",
+      "view_str": "5877650854848c1603637dfaca4da58f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1365
+        ],
+        [
+          964,
+          1506
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Suomi",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 53,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Suomi[enabled,,]",
+      "view_str": "a13f1d2c600622a95af76787c1bf3266",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1506
+        ],
+        [
+          964,
+          1647
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sverige",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 54,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Sverige[enabled,,]",
+      "view_str": "d1ddd0adcedc688df37f0f6bec0162f4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1647
+        ],
+        [
+          964,
+          1788
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Ukraine",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 55,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Ukraine[enabled,,]",
+      "view_str": "9b1e25638cc9a447fb3cec8e0796c0be",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1788
+        ],
+        [
+          964,
+          1929
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "United Kingdom",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 56,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]United Kingdom[enabled,,]",
+      "view_str": "e27f99fc7656189fd45388d75aff495e",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1929
+        ],
+        [
+          964,
+          2070
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "United States",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 57,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]United States[enabled,,]",
+      "view_str": "cfda3fa8eff5e66b0d9b2cd473095f87",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    }
+  ]
+}

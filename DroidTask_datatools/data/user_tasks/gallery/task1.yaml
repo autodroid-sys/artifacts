@@ -1,0 +1,35 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search in DCIM</input>
+
+    <button id=1 text=''Toggle filename visibility''></button>
+
+    <button id=2 text=''Sort by''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>go back</button>'
+  new_state_str: c4867c874a83f1245254d117e2f3761349f3beeeedd4fb03c66f737ccafa242a
+  state_str:
+  - 47203338b2fa5e21d22f1397ac0d72d9e74179220d59ef833c7ad7889aaa726d
+step_num: 2
+task_name: Open DCIM folder in gallery app

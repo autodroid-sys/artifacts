@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-14_164622",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.android.settings",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          766
+        ],
+        [
+          826,
+          825
+        ]
+      ],
+      "resource_id": "android:id/title",
+      "checked": false,
+      "text": "Allow access to manage all files",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "628*59",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Allow access to manage all files[enabled,,]",
+      "view_str": "4f9393a8fa8123bf34c81e07d1790309",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "976600f0a4518a61290c2ffce05e293d651458c03214c28f3a1491e6561ae87d",
+  "stop_state": "18759897bfaa8732e470b570eeb30ea6e2d147482a178b6f60f577cf1b8950b2",
+  "event_str": "TouchEvent(state=976600f0a4518a61290c2ffce05e293d651458c03214c28f3a1491e6561ae87d, view=4f9393a8fa8123bf34c81e07d1790309(Settings$AppManageExternalStorageActivity/TextView-Allow acce))"
+}

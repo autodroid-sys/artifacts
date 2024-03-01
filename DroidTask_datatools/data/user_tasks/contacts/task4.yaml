@@ -1,0 +1,60 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Bob</button>\n <button\
+    \ id=6>222222<br>Mobile</button>\n <button id=7>bob@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: 685779cf897df590c66cec9bdaa4a507d5461e0da62c86a77c2cf15ce2920b83
+  state_str: 34669a31d746a7e7130140e51a5d747d6e1a1e92df4603fb990dd3cf131d40c9
+- Choice: -1
+  Input: 'null'
+  State: "<button id=0 text='Turn microphone off'></button>\n <button id=1 text='Turn\
+    \ speaker off'></button>\n <button id=2 text='Show dialpad'></button>\n <button\
+    \ id=3 text='Hold call'></button>\n <button id=4 text='Add call'></button>\n <button\
+    \ id=5 text='End call'></button>\n <p id=6>Bob</p>\n <p id=7>222222</p>\n <p id=8>Dialing\u2026\
+    </p>\n <button id=9>go back</button>"
+  new_state_str: 33261b024cf187d44cfbd77ea3cc0b387c9dc6a7ca8739e8c64c9449cb33976d
+  state_str: 2ebc7467c38510d5329e146e7843adb1ea219bf6960bf55493fb12c5a463cc65
+step_num: 3
+task_name: Open Bob's information page and call him

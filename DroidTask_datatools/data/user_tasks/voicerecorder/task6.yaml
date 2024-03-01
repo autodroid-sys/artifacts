@@ -1,0 +1,88 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <p id=3>00:00</p>
+
+    <p id=4>Recorder</p>
+
+    <button id=5>Player</button>
+
+    <button id=6>go back</button>'
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str:
+  - 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+- Choice: 7
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Change date and time format</button>
+
+    <checkbox id=6 checked=False>Try hiding the recording notification</checkbox>
+
+    <checkbox id=7 checked=False>Start recording automatically after launching the app</checkbox>
+
+    <button id=8>Save recordings in<br>Internal/Music/Recordings</button>
+
+    <button id=9>Extension<br>m4a</button>
+
+    <button id=10>Audio source<br>Camera</button>
+
+    <button id=11>Bitrate</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>Bitrate<br>128 kbps</button>'
+  new_state_str: 4a49c9cd6a208c6e931246695e44bd78a97eeb47c5a7f11a226d98a6a18bbd98
+  state_str:
+  - b943f4cb9921eb82546a77f88a3d93f1428866f888d881c9684bfbbac638192b
+  - 8dad54d1c673ffe82a49d91fafb59fa1e7d5b1b8c774aa7db8e6b54b7c756c4b
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Change date and time format</button>
+
+    <checkbox id=6 checked=False>Try hiding the recording notification</checkbox>
+
+    <checkbox id=7 checked=True>Start recording automatically after launching the
+    </checkbox>
+
+    <button id=8>Save recordings in<br>Internal/Music/Recordings</button>
+
+    <button id=9>Extension<br>m4a</button>
+
+    <button id=10>Audio source<br>Camera</button>
+
+    <button id=11>Bitrate</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>Bitrate<br>128 kbps</button>'
+  new_state_str: f8bb569a3efd57a817e96acb2b7afb429151be80d42f662fcbea0c703f63e181
+  state_str:
+  - f729f82e9bcdf89dee60795b8d981fb03dc48c9667632beae950fd33ad6ceebf
+  - a706d589ecde26a11a864ae0283644fe09ca7012f3aae36877508c6d4d8ab906
+step_num: 3
+task_name: Start recording automatically after launching the app

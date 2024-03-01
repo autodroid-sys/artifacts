@@ -1,0 +1,80 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <p id=3>00:00</p>
+
+    <p id=4>Recorder</p>
+
+    <button id=5>Player</button>
+
+    <button id=6>go back</button>'
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str:
+  - 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>test1.m4a<br>00:10<br>30.06.2023, 12:26 PM<br>124 kB</button>
+
+    <button id=4>test2.m4a<br>00:07<br>30.06.2023, 12:26 PM<br>86.1 kB</button>
+
+    <button id=5>00:00</button>
+
+    <button id=6 text=''Previous''></button>
+
+    <button id=7 text=''Play / Pause''></button>
+
+    <button id=8 text=''Next''></button>
+
+    <button id=9>Recorder</button>
+
+    <p id=10>Player</p>
+
+    <button id=11>go back</button>'
+  new_state_str: 41f3305e06df4df3ac8ee3f17ad17a40a34230880a4a372f4cdaa288d55541b8
+  state_str:
+  - 2a3bee6c8d378b07a902501cb4ae14da1958fffb0a48042b594942952460e734
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>test1.m4a<br>00:10<br>30.06.2023, 12:26 PM<br>124 kB</button>
+
+    <button id=4>test2.m4a<br>00:07<br>30.06.2023, 12:26 PM<br>86.1 kB</button>
+
+    <button id=5>test2.m4a</button>
+
+    <button id=7>00:07</button>
+
+    <button id=8 text=''Previous''></button>
+
+    <button id=9 text=''Play / Pause''></button>
+
+    <button id=10 text=''Next''></button>
+
+    <button id=11>Recorder</button>
+
+    <p id=12>Player</p>
+
+    <button id=13>go back</button>'
+  new_state_str: dd543c69fde1dcdb416912bf2b51e81268cad2f3d48efcbf6fb7aa837a81d866
+  state_str:
+  - a65ca6361bd2ddbcdb56edb5864266680d9a203096736f96d82775b8bfbbb4e0
+  - a65ca6361bd2ddbcdb56edb5864266680d9a203096736f96d82775b8bfbbb4e0
+step_num: 3
+task_name: use player to play 'test2.m4a'

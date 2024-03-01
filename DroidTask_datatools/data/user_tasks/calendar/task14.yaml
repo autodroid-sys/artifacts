@@ -1,0 +1,150 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 5
+  Input: 'null'
+  State: "<button id=0>Add holidays</button>\n <button id=1>Add contact birthdays</button>\n\
+    \ <button id=2>Add contact anniversaries</button>\n <button id=3>Import events\
+    \ from an .ics file</button>\n <button id=4>Export events to an .ics file</button>\n\
+    \ <button id=5>Settings</button>\n <button id=6>About</button>\n <button id=7>go\
+    \ back</button>"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: 29e004ebcc29cd15fc6cf5fab42c256bfde3ff3e698eda25f7d0c6b9adcbdb3a
+- Choice: 5
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>Settings</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Manage event types</button>
+
+    <checkbox id=4 checked=False>Use 24-hour time format OFF</checkbox>
+
+    <checkbox id=5 checked=True>Start week on Sunday ON</checkbox>
+
+    <checkbox id=6 checked=False>Avoid showing What''s New on startup OFF</checkbox>
+
+    <button id=7>Delete all events</button>
+
+    <p id=8>EVENT REMINDERS</p>
+
+    <checkbox id=9 checked=False>Vibrate on reminder notification OFF</checkbox>
+
+    <button id=10>Reminder sound<br>Default (Pixie Dust)</button>
+
+    <checkbox id=11 checked=True>Always use same snooze time ON</checkbox>
+
+    <button id=12>Snooze time<br>10 minutes</button>
+
+    <button id=13>go back</button>
+
+    <p id=14>CALDAV</p>
+
+    <checkbox id=15 checked=False>CalDAV sync OFF</checkbox>
+
+    <p id=16>WEEKLY VIEW</p>
+
+    <button id=17>Start day at<br>07:00</button>
+
+    <button id=18>End day at<br>23:00</button>
+
+    <p id=19>MONTHLY VIEW</p>
+
+    <checkbox id=20 checked=False>Show week numbers OFF</checkbox>
+
+    <checkbox id=21 checked=False>Show a grid OFF</checkbox>
+
+    <checkbox id=22 checked=False>Replace event description with location OFF</checkbox>
+
+    <p id=23>EVENT LISTS</p>
+
+    <button id=24>Display events from the past<br>Never</button>
+
+    <p id=25>WIDGETS</p>
+
+    <button id=26>Font size<br>Medium</button>'
+  new_state_str: 055544bc7f418b961c362e83e721ec882a708fc5b811620e524757790f25d6fa
+  state_str:
+  - 72b9118f038d2fed5d6bd657cb33cdc94704c73779faf260ddeecd2250c285ba
+  - e5386f89981f73450d2cd7e37fb3783fd68c070eb9ac640787178172f0fbff93
+  - b9a62d042c6e6445099c883eef7f130f9bf1119449a8604436b8fb0b34732482
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>Settings</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Manage event types</button>
+
+    <checkbox id=4 checked=False>Use 24-hour time format OFF</checkbox>
+
+    <checkbox id=5 checked=False>Start week on Sunday OFF</checkbox>
+
+    <checkbox id=6 checked=False>Avoid showing What''s New on startup OFF</checkbox>
+
+    <button id=7>Delete all events</button>
+
+    <p id=8>EVENT REMINDERS</p>
+
+    <checkbox id=9 checked=False>Vibrate on reminder notification OFF</checkbox>
+
+    <button id=10>Reminder sound<br>Default (Pixie Dust)</button>
+
+    <checkbox id=11 checked=True>Always use same snooze time ON</checkbox>
+
+    <button id=12>Snooze time<br>10 minutes</button>
+
+    <button id=13>go back</button>
+
+    <p id=14>CALDAV</p>
+
+    <checkbox id=15 checked=False>CalDAV sync OFF</checkbox>
+
+    <p id=16>WEEKLY VIEW</p>
+
+    <button id=17>Start day at<br>07:00</button>
+
+    <button id=18>End day at<br>23:00</button>
+
+    <p id=19>MONTHLY VIEW</p>
+
+    <checkbox id=20 checked=False>Show week numbers OFF</checkbox>
+
+    <checkbox id=21 checked=False>Show a grid OFF</checkbox>
+
+    <p id=22>EVENT LISTS</p>
+
+    <checkbox id=23 checked=False>Replace event description with location OFF</checkbox>
+
+    <button id=24>Display events from the past<br>Never</button>
+
+    <p id=25>WIDGETS</p>
+
+    <button id=26>Font size<br>Medium</button>'
+  new_state_str: 049f4aa8a2ce249bb8e67d26d7dccaa453bbfe5e7a10385a52bd5193d0da4c71
+  state_str:
+  - 3e572197bdaa8e0632c999a0c311e9407a77464083a036573557da00d45ae612
+  - b5f665dbcf657ba439032666b638998c941e7a9b445b35a9787b37261a9d2f28
+  - b9a62d042c6e6445099c883eef7f130f9bf1119449a8604436b8fb0b34732482
+step_num: 4
+task_name: disable start week on Sunday

@@ -1,0 +1,145 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Import contacts from a .vcf file</button>\n <button id=1>Export\
+    \ contacts to a .vcf file</button>\n <button id=2>Settings</button>\n <button\
+    \ id=3>About</button>\n <button id=4>go back</button>"
+  new_state_str: 519dcdd3d48aae92a24073b13b3e0d2704cfa3f644d023807b499013745623a0
+  state_str: 62a864a557cabecacc3dac2a5699c512b12e453c8993313bec4aa85143b1e15a
+- Choice: 4
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Font size<br>Large</button>
+
+    <button id=5>Manage shown contact fields</button>
+
+    <checkbox id=6 checked=True>Merge duplicate contacts</checkbox>
+
+    <checkbox id=7 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=8 checked=True>Show private contacts to Simple Dialer, Simple SMS</checkbox>
+
+    <p id=9>MAIN SCREEN</p>
+
+    <button id=10>Manage shown tabs</button>
+
+    <button id=11>Tab to open at app start<br>Last used one</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>On contact click<br>View contact details</button>
+
+    <checkbox id=14 checked=True>Show a dialpad button on the main screen</checkbox>
+
+    <checkbox id=15 checked=False>Show only contacts with phone numbers</checkbox>
+
+    <p id=16>LIST VIEW</p>
+
+    <checkbox id=17 checked=True>Show contact thumbnails</checkbox>
+
+    <checkbox id=18 checked=False>Show phone numbers</checkbox>
+
+    <checkbox id=19 checked=False>Start name with surname</checkbox>'
+  new_state_str: 8b528df166c868ad9622db32da094e4f8ffa12ba1f3b3ccc8bd32315b24eeb06
+  state_str:
+  - e89dc181eb0bcf38b4e49c2d8f09e8a6292ef80669515c3915879f71a35dbebc
+  - 51b0f8e2fb3315d6cd0bc3eb5e2857285960a58a18855c22a565f24832f9e10c
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Small</checkbox>\n <checkbox id=1 checked=False>Medium</checkbox>\n\
+    \ <checkbox id=2 checked=True>Large</checkbox>\n <checkbox id=3 checked=False>Extra\
+    \ large</checkbox>\n <button id=4>go back</button>"
+  new_state_str: 0c705b9a74f692e6c4feab6b9d9f9b1b992876e5272ee28d4c03a00597b4ae41
+  state_str: 01b888bbf4f7be2bf82b86b513a56ff2bceb21409864bd6adebce2ed323a72aa
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Font size<br>Medium</button>
+
+    <button id=5>Manage shown contact fields</button>
+
+    <checkbox id=6 checked=True>Merge duplicate contacts</checkbox>
+
+    <checkbox id=7 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=8 checked=True>Show private contacts to Simple Dialer, Simple SMS</checkbox>
+
+    <p id=9>MAIN SCREEN</p>
+
+    <button id=10>Manage shown tabs</button>
+
+    <button id=11>Tab to open at app start<br>Last used one</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>On contact click<br>View contact details</button>
+
+    <checkbox id=14 checked=True>Show a dialpad button on the main screen</checkbox>
+
+    <checkbox id=15 checked=False>Show only contacts with phone numbers</checkbox>
+
+    <p id=16>LIST VIEW</p>
+
+    <checkbox id=17 checked=True>Show contact thumbnails</checkbox>
+
+    <checkbox id=18 checked=False>Show phone numbers</checkbox>
+
+    <checkbox id=19 checked=False>Start name with surname</checkbox>'
+  new_state_str: b190012c2ea79c7b1f499e93e1d8503f66449b264ca44ca85760ba299c353158
+  state_str:
+  - 2f5c4ab68b7820efd83686c38fc035fd032e36f58a3b6dde9b47a037b72058b9
+  - 51b0f8e2fb3315d6cd0bc3eb5e2857285960a58a18855c22a565f24832f9e10c
+step_num: 5
+task_name: Change the font size of the Contacts app to medium

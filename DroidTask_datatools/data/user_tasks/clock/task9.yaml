@@ -1,0 +1,97 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>About</p>\n<p id=1>SUPPORT</p>\n<button id=2>Frequently asked questions</button>\n\
+    <button id=3>hello@simplemobiletools.com</button>\n<p id=4>HELP US</p>\n<button\
+    \ id=5>Rate us</button>\n<button id=6>Invite friends</button>\n<button id=7>Contributors</button>\n\
+    <p id=8>SOCIAL</p>\n<button id=9>Facebook</button>\n<button id=10>GitHub</button>\n\
+    <button id=11>Reddit</button>\n<button id=12>go back</button>\n<button id=13>Telegram</button>\n\
+    <p id=14>OTHER</p>\n<button id=15>Get Simple Phone</button>\n<button id=16>More\
+    \ apps from us</button>\n<button id=17>Privacy policy</button>\n<button id=18>Third\
+    \ party licences</button>\n<button id=19>Version 5.10.0</button>\n<p id=20>Made\
+    \ with \u2764\uFE0F in Slovakia</p>"
+  new_state_str: 347b2a75fbaaa88aa6a79505f82e9a9b5758cc2998ec7c4a09309e530af8d363
+  state_str:
+  - fcd60aa1eac658e068b6a043d6160c1f71672ce87a5ec75c235b51afa5f0d188
+  - d9fac170278868d702d7a3e4728c4f1afc26c3229aee37b89da16c8f4c90e25e
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Frequently asked questions</p>
+
+    <p id=1>How can I change lap sorting at the stopwatch tab?</p>
+
+    <p id=2>Just click on any of the columns, that will make the laps be sorted by
+    the given column. With additional clicks you can toggle between ascending and
+    descending sorting.</p>
+
+    <p id=3>How come I don''t see this apps widget on the list of widgets?</p>
+
+    <p id=4>It is most likely because you moved the app on an SD card. There is an
+    Android system limitation which hides the given app widgets in that case. The
+    only solution is to move the app back onto the Internal Storage via your device
+    settings.</p>
+
+    <p id=5>I don''t like the widget colors, can I change them?</p>
+
+    <p id=6>Yep, as you drag a widget on your home screen a widget config screen appears.
+    You will see colored squares at the bottom left corner, just press them to pick
+    a new color. You can use the slider for adjusting the alpha too.</p>
+
+    <p id=7>How can I select multiple items at once?</p>
+
+    <p id=8>There are multiple ways of doing that. The first one is starting the selection
+    mode by long pressing one item, then short clicking on others to select them.
+    The second way is similar to selecting items on PCs with a mouse, just start the
+    selection mode by long pressing one item, then with your finger still down drag
+    it across other items for selecting. The third way of selecting multiple items
+    is long pressing one item, then long pressing another one and everything in between
+    gets selected. If you want to select all items, just long press one item, then
+    click at the selected item counter at the top left corner. That will select or
+    unselect all everything.</p>
+
+    <button id=9>go back</button>
+
+    <p id=10>I want to support you, but I cannot donate money. Is there anything else
+    I can do?</p>
+
+    <p id=11>Yes, of course. You can spread the word about the apps or give good feedback
+    and ratings. You can also help by translating the apps in a new language, or just
+    update some existing translations. The guide to translating is at this website,
+    or just contact us at hello@simplemobiletools.com if you have any questions. </p>
+
+    <p id=12>The app launcher icon disappeared. What can I do?</p>
+
+    <p id=13>It is caused by your launcher not supporting icon customization properly.
+    Try launching the app via Google Play or some widget, if available. Once launched,
+    just set back the default orange icon #F57C00. You might have to reinstall the
+    app in the worst case.</p>'
+  new_state_str: 1016fa879fa8a66f7c0e847566109ed3d87b60b0407548c4b6bd38fb456598d0
+  state_str:
+  - 5868531de2cb79b4ef6a0600d2c5908659082b78f2c5f4b613ec23ba98331e73
+  - 9dd5041e5dec7ee98e9b9822ef1b74da59f556f54636a7b85f9a15c96fa3bfbf
+step_num: 3
+task_name: check the frequently asked questions

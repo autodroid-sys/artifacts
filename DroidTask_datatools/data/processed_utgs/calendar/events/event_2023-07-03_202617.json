@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-03_202617",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1182
+        ],
+        [
+          1008,
+          1336
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_allow_button",
+      "checked": false,
+      "text": "Allow",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "936*154",
+      "signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_allow_button[text]Allow[enabled,,]",
+      "view_str": "22c66778fbb2b467b4c706dc74acd7cf",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.permissioncontroller:id/permission_allow_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "0a326c728686f297c8cd6e8820d292d53c16dbcfe32b1dc0cd92ec2b0007f6ee",
+  "stop_state": "e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40",
+  "event_str": "TouchEvent(state=0a326c728686f297c8cd6e8820d292d53c16dbcfe32b1dc0cd92ec2b0007f6ee, view=22c66778fbb2b467b4c706dc74acd7cf(GrantPermissionsActivity/Button-Allow))"
+}

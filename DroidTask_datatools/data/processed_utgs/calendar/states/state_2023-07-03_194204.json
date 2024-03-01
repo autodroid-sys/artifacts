@@ -1,0 +1,3090 @@
+{
+  "tag": "2023-07-03_194204",
+  "state_str": "062e03430b0b18a9a937e2f87fdcb6cb18dc92c9fc2f4794b4ee35819bfb127e",
+  "state_str_content_free": "56577f47fcec54d5fcb10abd53ee3739",
+  "foreground_activity": "com.simplemobiletools.calendar/.activities.MainActivity",
+  "activity_stack": [
+    "com.simplemobiletools.calendar/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.chimera.PersistentIntentOperationService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          172
+        ],
+        [
+          1052,
+          2147
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*1975",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "97fecee0d2085fffc6e7ff51d23925f7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "936*1887",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "6d8f651066cfcae24ca7d78f2c20e2a0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "524b728234b7eb11143567cf73606455",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root[text][enabled,,]",
+      "view_str": "d494e456503984a0396cf15bf185c25e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "4c81096a3eb6ae27b282b255f2a4ab5b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        8,
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.aq",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "936*1887",
+      "signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel[text][enabled,,]",
+      "view_str": "6beedb680125da0f5f14a0eb5b24c7a5",
+      "content_free_signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          313
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/topPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "936*97",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/topPanel[text][enabled,,]",
+      "view_str": "77c68b01aa2b53bf2582e1bb4d11d3d5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/topPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          313
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_title_textview",
+      "checked": false,
+      "text": "Select a folder",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "936*97",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_title_textview[text]Select a folder[enabled,,]",
+      "view_str": "ca6f8f0adabfc960054a5ac49d36b478",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_title_textview"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          313
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "936*1636",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel[text][enabled,,]",
+      "view_str": "4e43a6a742f44850dc339747ddd6a3aa",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          313
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "936*1636",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom[text][enabled,,]",
+      "view_str": "bae4bae5b5853e760da7c6a1a3800475",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        73
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          313
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "936*1636",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.calendar:id/filepicker_coordinator[text][enabled,,]",
+      "view_str": "216f06554b1c3f29b722577d63625a3b",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.calendar:id/filepicker_coordinator"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        14,
+        70
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          313
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "936*1636",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_holder[text][enabled,,]",
+      "view_str": "1573321fc17809f6c96fb59afc919943",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          313
+        ],
+        [
+          1008,
+          476
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_breadcrumbs",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "936*163",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_breadcrumbs[text][enabled,,]",
+      "view_str": "96383dfa38997d0bb603f517ac8845e1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_breadcrumbs"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          357
+        ],
+        [
+          292,
+          454
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/breadcrumb_text",
+      "checked": false,
+      "text": "Internal",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "176*97",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/breadcrumb_text[text]Internal[enabled,,]",
+      "view_str": "622a8d2accdedaf0b4387ec93a22958a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/breadcrumb_text"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 11,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          72,
+          476
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_list",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "936*1473",
+      "signature": "[class]android.support.v7.widget.RecyclerView[resource_id]com.simplemobiletools.calendar:id/filepicker_list[text][enabled,,]",
+      "view_str": "809719c5398d759a6e8c98e46d82c269",
+      "content_free_signature": "[class]android.support.v7.widget.RecyclerView[resource_id]com.simplemobiletools.calendar:id/filepicker_list"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          476
+        ],
+        [
+          1008,
+          596
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "936*120",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          476
+        ],
+        [
+          204,
+          596
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "132*120",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          476
+        ],
+        [
+          964,
+          589
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "760*113",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "15c3729201372b8bb5fdc9e3e641c3eb",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          481
+        ],
+        [
+          953,
+          534
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "DCIM",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]DCIM[enabled,,]",
+      "view_str": "d3eef9162ea9d90dc508e20d6bc38e86",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          534
+        ],
+        [
+          953,
+          578
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "6 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 19,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]6 items[enabled,,]",
+      "view_str": "5eb8679826511dfb0c1a4a9c94acaa20",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          599
+        ],
+        [
+          1008,
+          731
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 20,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          599
+        ],
+        [
+          204,
+          731
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          605
+        ],
+        [
+          964,
+          724
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 22,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "b4388bacbef005d6ad4bb03d327e968a",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          616
+        ],
+        [
+          953,
+          669
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Documents",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Documents[enabled,,]",
+      "view_str": "0187848a6dfd0725bd2fa66f97600077",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          669
+        ],
+        [
+          953,
+          713
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          734
+        ],
+        [
+          1008,
+          866
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 25,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          734
+        ],
+        [
+          204,
+          866
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28,
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          740
+        ],
+        [
+          964,
+          859
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 27,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "12cc0f33ab9680d591652d7ca91b3e45",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          751
+        ],
+        [
+          953,
+          804
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Download",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Download[enabled,,]",
+      "view_str": "07141a0fa32b83f6781b1a45bc96f17f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          804
+        ],
+        [
+          953,
+          848
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "1 item",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 29,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]1 item[enabled,,]",
+      "view_str": "1a206ddcdf87e921461f8bbcbca815d1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31,
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          869
+        ],
+        [
+          1008,
+          1001
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 30,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          869
+        ],
+        [
+          204,
+          1001
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33,
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          875
+        ],
+        [
+          964,
+          994
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 32,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "09ab57a001ba715e9efb3274ccebb2fe",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          886
+        ],
+        [
+          953,
+          939
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Movies",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Movies[enabled,,]",
+      "view_str": "89b1ee28719ab79c3f82cb021013d414",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          939
+        ],
+        [
+          953,
+          983
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 34,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1004
+        ],
+        [
+          1008,
+          1136
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 35,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1004
+        ],
+        [
+          204,
+          1136
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38,
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1010
+        ],
+        [
+          964,
+          1129
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "abf472be56a957ceb48ba89ef80628be",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1021
+        ],
+        [
+          953,
+          1074
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Music",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Music[enabled,,]",
+      "view_str": "e91be19dc9bf7a147dfbb1d846e0ae50",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1074
+        ],
+        [
+          953,
+          1118
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "1 item",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 39,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]1 item[enabled,,]",
+      "view_str": "1a206ddcdf87e921461f8bbcbca815d1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1139
+        ],
+        [
+          1008,
+          1271
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 40,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1139
+        ],
+        [
+          204,
+          1271
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43,
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1145
+        ],
+        [
+          964,
+          1264
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 42,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "b1aef1457a47b09e7d7b4f08fee27960",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1156
+        ],
+        [
+          953,
+          1209
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Notifications",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Notifications[enabled,,]",
+      "view_str": "05490d21831207eb56c76bf4ed135677",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1209
+        ],
+        [
+          953,
+          1253
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 44,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        46,
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1274
+        ],
+        [
+          1008,
+          1406
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 45,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1274
+        ],
+        [
+          204,
+          1406
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 46,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        48,
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1280
+        ],
+        [
+          964,
+          1399
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 45,
+      "temp_id": 47,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "7ea10b0aac379f3c3827bc3094c98ba0",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1291
+        ],
+        [
+          953,
+          1344
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Pictures",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 48,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Pictures[enabled,,]",
+      "view_str": "4a11441d6b2473096d35e08de3b1fe4e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1344
+        ],
+        [
+          953,
+          1388
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 47,
+      "temp_id": 49,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51,
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1409
+        ],
+        [
+          1008,
+          1541
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 50,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1409
+        ],
+        [
+          204,
+          1541
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53,
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1415
+        ],
+        [
+          964,
+          1534
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 52,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "ce8fbe05f927cd3511b49e0a35e657b6",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1426
+        ],
+        [
+          953,
+          1479
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Podcasts",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Podcasts[enabled,,]",
+      "view_str": "aa1b900dfa2f63da346a16468954193a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1479
+        ],
+        [
+          953,
+          1523
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 54,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        56,
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1544
+        ],
+        [
+          1008,
+          1676
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 55,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1544
+        ],
+        [
+          204,
+          1676
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58,
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1550
+        ],
+        [
+          964,
+          1669
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 57,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "78e6233142437170839d432efdca3449",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1561
+        ],
+        [
+          953,
+          1614
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "Ringtones",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]Ringtones[enabled,,]",
+      "view_str": "b401940e41c3faada92a599d918257c0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1614
+        ],
+        [
+          953,
+          1658
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 items",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 59,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 items[enabled,,]",
+      "view_str": "8d8f35ea5d2d0fe3bb18c1587971827d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        61,
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1679
+        ],
+        [
+          1008,
+          1811
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 60,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1679
+        ],
+        [
+          204,
+          1811
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 61,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1685
+        ],
+        [
+          964,
+          1804
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 62,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "95d78fad6d5aba8e3eff8dd14ff62135",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1696
+        ],
+        [
+          953,
+          1749
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "screen_2023-06-30_141247.png",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]screen_2023-06-30_141247.png[enabled,,]",
+      "view_str": "417d804fa03b10f1d1cc286caf9500a7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1749
+        ],
+        [
+          953,
+          1793
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "16.1 kB",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]16.1 kB[enabled,,]",
+      "view_str": "ed1725c3b57fa2dd4b4e97c7bbaa29d4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        66,
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1814
+        ],
+        [
+          1008,
+          1946
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 65,
+      "size": "936*132",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder[text][enabled,,]",
+      "view_str": "8a83a0cff6a390620b8119f382338eca",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.calendar:id/list_item_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1814
+        ],
+        [
+          204,
+          1946
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon[text][enabled,,]",
+      "view_str": "0db4c9b05dccf95798e68e38ffdc50c7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/list_item_icon"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        68,
+        69
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1820
+        ],
+        [
+          964,
+          1939
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 67,
+      "size": "760*119",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "43e577d3f58077a041357b30ddbdeb5c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1831
+        ],
+        [
+          953,
+          1884
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_name",
+      "checked": false,
+      "text": "screen_2023-06-30_143638.png",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "738*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name[text]screen_2023-06-30_143638.png[enabled,,]",
+      "view_str": "dcfbb3efc94e197780ad2c92de634417",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_name"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          215,
+          1884
+        ],
+        [
+          953,
+          1928
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/list_item_details",
+      "checked": false,
+      "text": "0 B",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 69,
+      "size": "738*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details[text]0 B[enabled,,]",
+      "view_str": "bfd5297d0dcb0f112bf414a6380de31a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/list_item_details"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        71,
+        72
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          876,
+          476
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_fastscroller",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 70,
+      "size": "132*1473",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_fastscroller[text][enabled,,]",
+      "view_str": "70a4d7b7d56ea3ca4cba5bd3d1d5b39e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/filepicker_fastscroller"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          909,
+          476
+        ],
+        [
+          953,
+          573
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/fastscroller_bubble",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "44*97",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/fastscroller_bubble[text][enabled,,]",
+      "view_str": "24d34a5c9169cff9d36778a965a6cfa1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/fastscroller_bubble"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          986,
+          1839
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/fastscroller_handle",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 72,
+      "size": "22*110",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/fastscroller_handle[text][enabled,,]",
+      "view_str": "47a3ee80c175fa539fc4af3d30940b15",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.calendar:id/fastscroller_handle"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          1751
+        ],
+        [
+          964,
+          1905
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/filepicker_fab",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 73,
+      "size": "154*154",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.simplemobiletools.calendar:id/filepicker_fab[text][enabled,,]",
+      "view_str": "ce23a4a96222eb3923dc893f64c2df8f",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.simplemobiletools.calendar:id/filepicker_fab"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        75
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1949
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 74,
+      "size": "936*154",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/buttonPanel[text][enabled,,]",
+      "view_str": "6ce50804e7ded9da0ce73479dc71c038",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/buttonPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76,
+        77
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1949
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "936*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "0ff01bd1a3ee962afbe186c5cd94f27d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          586,
+          1960
+        ],
+        [
+          799,
+          2092
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 76,
+      "size": "213*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]CANCEL[enabled,,]",
+      "view_str": "ad1a99e4b187ffb00ca0d050b63e6f32",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          799,
+          1960
+        ],
+        [
+          975,
+          2092
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 77,
+      "size": "176*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]OK[enabled,,]",
+      "view_str": "4811b6fc42831cfa34b54930b1e525d5",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  ]
+}

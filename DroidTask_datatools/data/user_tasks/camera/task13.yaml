@@ -1,0 +1,46 @@
+records:
+- Choice: 8
+  Input: 'null'
+  State: "<button id=0 text='Toggle the timer mode'></button>\n <button id=1 text='Resolution'></button>\n\
+    \ <button id=2 text='Settings'></button>\n <button id=3 text='Video'>Video</button>\n\
+    \ <p id=4 text='Photo'></p>\n <p id=5>Photo</p>\n <button id=6 text='Toggle front/back\
+    \ camera'></button>\n <button id=7 text='Shutter'></button>\n <button id=8 text='View\
+    \ last captured media'></button>\n <button id=9>go back</button>"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: 51df7fe2285dc69df6c3991ff2a7245a83238ce0a9f5457cf10100669270ca7a
+- Choice: 2
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str:
+  - 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Properties</p>\n <p id=1>Name</p>\n <p id=2>pic3.jpg</p>\n <p id=3>Path</p>\n\
+    \ <p id=4>/storage/emulated/0/DCIM</p>\n <p id=5>Size</p>\n <p id=6>61.6 kB</p>\n\
+    \ <p id=7>Resolution</p>\n <p id=8>1280 x 606 (0.8MP)</p>\n <p id=9>Last modified</p>\n\
+    \ <p id=10>30.06.2023, 12:15 PM</p>\n <p id=11>Date taken</p>\n <p id=12>30.06.2023,\
+    \ 12:15 PM</p>\n <p id=13>Camera</p>\n <p id=14>Google sdk_gphone_x86</p>\n <p\
+    \ id=15>EXIF</p>\n <p id=16>5.0mm  1/100s  ISO-100</p>\n <button id=17>GPS coordinates<br>0.0,\
+    \ 0.0</button>\n <button id=18>Remove EXIF</button>\n <button id=19>OK</button>\n\
+    \ <button id=20>go back</button>"
+  new_state_str: 3cf22a42809e73155155da854a670a102223427b513185408059c5e9db2b5831
+  state_str: 7dff31f9effa4d1b4534f37af206acaa8fe87351c9e47ae41bbc02acef92b33b
+step_num: 3
+task_name: check the size of the last photo I took

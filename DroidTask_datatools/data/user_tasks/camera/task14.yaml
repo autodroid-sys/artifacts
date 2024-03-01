@@ -1,0 +1,78 @@
+records:
+- Choice: 8
+  Input: 'null'
+  State: "<button id=0 text='Toggle the timer mode'></button>\n <button id=1 text='Resolution'></button>\n\
+    \ <button id=2 text='Settings'></button>\n <button id=3 text='Video'>Video</button>\n\
+    \ <p id=4 text='Photo'></p>\n <p id=5>Photo</p>\n <button id=6 text='Toggle front/back\
+    \ camera'></button>\n <button id=7 text='Shutter'></button>\n <button id=8 text='View\
+    \ last captured media'></button>\n <button id=9>go back</button>"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: 51df7fe2285dc69df6c3991ff2a7245a83238ce0a9f5457cf10100669270ca7a
+- Choice: 3
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str:
+  - 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Rename</button>\n <button id=1>Hide</button>\n <button id=2>Copy\
+    \ to</button>\n <button id=3>Move to</button>\n <button id=4>Create shortcut</button>\n\
+    \ <button id=5>Open with</button>\n <button id=6>Set as</button>\n <button id=7>Change\
+    \ orientation</button>\n <button id=8>Print</button>\n <button id=9>Resize</button>\n\
+    \ <button id=10>Show on map</button>\n <button id=11>Slideshow</button>\n <button\
+    \ id=12>Settings</button>\n <button id=13>go back</button>"
+  new_state_str: 90b09a315edf7d063855fd669828d16be6f1d47b81efdcf37319cc93dff0da22
+  state_str: 627ab4f9b8075b2622088777274cd557b0332b45c7a65d1b4cb44a54992c35d4
+- Choice: 1
+  Input: sunset
+  State: "<p id=0>Rename</p>\n <input id=1 >IMG_20230701_110654</input>\n <input id=2 >jpg</input>\n <button id=3>Cancel</button>\n\
+    \ <button id=4>OK</button>\n <button id=5>go back</button>"
+  new_state_str: 42793c768cdbd375f3174223986399682340508faeb4cf1b7d1dde5e3d0630fc
+  state_str: 7005e6da1e95e3f870c21975dffe1f43afa8f6e60175446e0f23dbb4d8fdd184
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Rename</p>\n <input id=1 >sunset</input>\n <input id=2 >jpg</input>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>OK</button>\n <button id=5>go back</button>"
+  new_state_str: 199670c2beb5610948d6c37b9aa992263960d89f3334f319dde3effe9e109587
+  state_str: ebe7ce200de08993fce91df755e73674f1f2e43bfcfa092d263ea01eb1f95c2d
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>sunset.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: c3a753428e6156e0922fd917db8686fd98ac2846928e516a9aa30e757009bb1e
+  state_str:
+  - 9d4cd640e1c3c3c44c094458f30ea0dd77899341ae9afd16d13f8f4fd45061a8
+step_num: 8
+task_name: rename the last photo to 'sunset'

@@ -1,0 +1,66 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Sort by</button>\n <button id=1>Filter media</button>\n <button\
+    \ id=2>Change view type</button>\n <button id=3>Temporarily show hidden</button>\n\
+    \ <button id=4>Temporarily show excluded</button>\n <button id=5>Create new folder</button>\n\
+    \ <button id=6>Column count</button>\n <button id=7>Settings</button>\n <button\
+    \ id=8>About</button>\n <button id=9>go back</button>"
+  new_state_str: f27215cd13aecb6d203d7bed4c753284d24de06edc57717b9b126076303b5fdc
+  state_str: 62409de9ff271ddcfd1127b1b0607e1121d86b4c33c729be5a3a7df29dcc02a2
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Filter media</p>\n <checkbox id=1 checked=True>Images</checkbox>\n\
+    \ <checkbox id=2 checked=True>Videos</checkbox>\n <checkbox id=3 checked=True>GIFs</checkbox>\n\
+    \ <checkbox id=4 checked=True>RAW images</checkbox>\n <checkbox id=5 checked=True>SVGs</checkbox>\n\
+    \ <checkbox id=6 checked=False>Portraits</checkbox>\n <button id=7>Cancel</button>\n\
+    \ <button id=8>OK</button>\n <button id=9>go back</button>"
+  new_state_str: f296892e0ae3270e7e5851ec7aa50dd071de98f2905930ac1676391c0f1f64dd
+  state_str: f51b84edd57448421e3770471c7d0cf23f31f6b0e500aa3cd2146bd9cec87f15
+- Choice: 8
+  Input: 'null'
+  State: "<p id=0>Filter media</p>\n <checkbox id=1 checked=True>Images</checkbox>\n\
+    \ <checkbox id=2 checked=True>Videos</checkbox>\n <checkbox id=3 checked=False>GIFs</checkbox>\n\
+    \ <checkbox id=4 checked=True>RAW images</checkbox>\n <checkbox id=5 checked=True>SVGs</checkbox>\n\
+    \ <checkbox id=6 checked=False>Portraits</checkbox>\n <button id=7>Cancel</button>\n\
+    \ <button id=8>OK</button>\n <button id=9>go back</button>"
+  new_state_str: c14fa06a177e10cfe4d8f54c03f7f119b492f4d6e777b41a2231df1d0548a41e
+  state_str: 5ae61d8b99eb7b9af0d35205118f4e74368b7f1f9a9a1a2266a7ce33dfa87625
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+step_num: 5
+task_name: Do not display GIF images in the Gallery app

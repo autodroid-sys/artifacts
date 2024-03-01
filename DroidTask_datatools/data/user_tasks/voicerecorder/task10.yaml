@@ -1,0 +1,76 @@
+records:
+- Choice: 0
+  Input: test1
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <p id=3>00:00</p>
+
+    <p id=4>Recorder</p>
+
+    <button id=5>Player</button>
+
+    <button id=6>go back</button>'
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str:
+  - 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>test1</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>test1.m4a<br>00:10<br>30.06.2023, 12:26 PM<br>124 kB</button>
+
+    <button id=4>00:00</button>
+
+    <button id=5 text=''Previous''></button>
+
+    <button id=6 text=''Play / Pause''></button>
+
+    <button id=7 text=''Next''></button>
+
+    <button id=8>Recorder</button>
+
+    <p id=9>Player</p>
+
+    <button id=10>go back</button>'
+  new_state_str: f3cb9b3a0d21b31598319247aece47dc765751a2edf0b2d7979c87a696398bf4
+  state_str:
+  - b03153e12069f7b079704582ea913770ceb40e24bb669827d256980d760cb68d
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>test1</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>test1.m4a<br>00:10<br>30.06.2023, 12:26 PM<br>124 kB</button>
+
+    <button id=4>test1.m4a</button>
+
+    <button id=5>00:10</button>
+
+    <button id=6 text=''Previous''></button>
+
+    <button id=7 text=''Play / Pause''></button>
+
+    <button id=8 text=''Next''></button>
+
+    <button id=9>Recorder</button>
+
+    <p id=10>Player</p>
+
+    <button id=11>go back</button>'
+  new_state_str: 1ef6747db0073c1d5fe3923881923e295b54a0cb51fe603194ecbb9766436b0c
+  state_str:
+  - 3bd5478c541c52bd78f39b8455069a90e6be1e4857d96607a46e6df1ae587a24
+  - 3bd5478c541c52bd78f39b8455069a90e6be1e4857d96607a46e6df1ae587a24
+step_num: 4
+task_name: search for 'test1' and click on the 'test1.m4a'

@@ -1,0 +1,51 @@
+{
+  "tag": "2023-07-03_195353",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          44,
+          369
+        ],
+        [
+          1036,
+          489
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/event_title",
+      "checked": false,
+      "text": "Title",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "992*120",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.calendar:id/event_title[text]Title[enabled,,]",
+      "view_str": "e7b1378681ec5995a42ef8e13c4a1d90",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.calendar:id/event_title"
+    },
+    "x": null,
+    "y": null,
+    "text": "hello"
+  },
+  "start_state": "f1c1ea25cb8ca110b0ea05d094a45582373af6b36e28972a0cc2c884c447a812",
+  "stop_state": "edf73624320a57cc79145f75a6e14a209554848c33e284c4059a77c1b1d22278",
+  "event_str": "SetTextEvent(state=f1c1ea25cb8ca110b0ea05d094a45582373af6b36e28972a0cc2c884c447a812, view=e7b1378681ec5995a42ef8e13c4a1d90(EventActivity/EditText-Title), text=hello)"
+}

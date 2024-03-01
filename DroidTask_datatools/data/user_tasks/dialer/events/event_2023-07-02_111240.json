@@ -1,0 +1,51 @@
+{
+  "tag": "2023-07-02_111240",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.simplemobiletools.dialer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          193
+        ],
+        [
+          606,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.dialer:id/top_toolbar_search",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "452*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.dialer:id/top_toolbar_search[text]Search[enabled,,]",
+      "view_str": "be8c9798068d644093006cadee46efac",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.dialer:id/top_toolbar_search"
+    },
+    "x": null,
+    "y": null,
+    "text": "Bob"
+  },
+  "start_state": "e7d677f2700d8f4f51e85aaf4fd5e7ff1bfc4cf8d9844b33a70e8f8852dc1448",
+  "stop_state": "890f4856adf26c1b298e50f315403270250cee7455e3009bbb717a83cbc926f4",
+  "event_str": "SetTextEvent(state=e7d677f2700d8f4f51e85aaf4fd5e7ff1bfc4cf8d9844b33a70e8f8852dc1448, view=be8c9798068d644093006cadee46efac(MainActivity/EditText-Search), text=Bob)"
+}

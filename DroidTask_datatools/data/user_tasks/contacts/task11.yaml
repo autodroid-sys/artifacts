@@ -1,0 +1,105 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>First name</checkbox>\n\
+    \ <checkbox id=2 checked=False>Middle name</checkbox>\n <checkbox id=3 checked=False>Surname</checkbox>\n\
+    \ <checkbox id=4 checked=False>Full name</checkbox>\n <checkbox id=5 checked=False>Date\
+    \ created</checkbox>\n <checkbox id=6 checked=True>Ascending</checkbox>\n <checkbox\
+    \ id=7 checked=False>Descending</checkbox>\n <button id=8>Cancel</button>\n <button\
+    \ id=9>OK</button>\n <button id=10>go back</button>"
+  new_state_str: 4737a1e3e1b45f45dfd7aa3b76abd69e4905d89bf7748b8b9546a04e62e8ca52
+  state_str: 53c992599f04414f053e2454f6c078a857cc89affd97c22a25f94d91e7aa060a
+- Choice: 7
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>First name</checkbox>\n\
+    \ <checkbox id=2 checked=False>Middle name</checkbox>\n <checkbox id=3 checked=False>Surname</checkbox>\n\
+    \ <checkbox id=4 checked=False>Full name</checkbox>\n <checkbox id=5 checked=True>Date\
+    \ created</checkbox>\n <checkbox id=6 checked=True>Ascending</checkbox>\n <checkbox\
+    \ id=7 checked=False>Descending</checkbox>\n <button id=8>Cancel</button>\n <button\
+    \ id=9>OK</button>\n <button id=10>go back</button>"
+  new_state_str: 81dd32c0b9705a40b88ded0e4f0f21a45c366e279399bc88812e49c939de4268
+  state_str: ccc0b5cfa381c42d299d1c3137b3987ef44f018e413dc21e7e2f21d5c7bf3e13
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>First name</checkbox>\n\
+    \ <checkbox id=2 checked=False>Middle name</checkbox>\n <checkbox id=3 checked=False>Surname</checkbox>\n\
+    \ <checkbox id=4 checked=False>Full name</checkbox>\n <checkbox id=5 checked=True>Date\
+    \ created</checkbox>\n <checkbox id=6 checked=False>Ascending</checkbox>\n <checkbox\
+    \ id=7 checked=True>Descending</checkbox>\n <button id=8>Cancel</button>\n <button\
+    \ id=9>OK</button>\n <button id=10>go back</button>"
+  new_state_str: b8e4e6f511dca8d830a61a92331d9e1a048f63b9be3c418128da465b23f21a1f
+  state_str: 3a1e2154e850e62dde0f9ef8dd2a5524e72d2fb5fed6468d35bed17e730aa4ec
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Jack</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Alice</button>
+
+    <button id=7>J
+
+    B
+
+    A</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 846a4b2101e390ddc1e8061689116b6e010e9faf2605bd5f1095ec2314049ba6
+  state_str:
+  - 2cbc70de36baac464118e74f62bc8e0373039a4bb6eeb8a0a3af6192ac974691
+step_num: 5
+task_name: Sort contacts based on "Date created" in descending order

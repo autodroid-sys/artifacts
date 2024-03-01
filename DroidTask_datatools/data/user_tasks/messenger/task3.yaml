@@ -1,0 +1,63 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Bob<br>Hey<br>30.06</button>
+
+    <button id=5>Alice<br>Hello<br>30.06</button>
+
+    <button id=6>go back</button>'
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str:
+  - ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Import messages</button>\n <button id=1>Export messages</button>\n\
+    \ <button id=2>go back</button>"
+  new_state_str: ed52ffd458f2d820697aeecc26d5fd3e9edbba87d5fa8a4f2c57eadd368ee196
+  state_str: e15ee1bfcdd2f6ce95f9d4d212d239f12b4c5580e6375a9c7c90ac5f6f6b5aef
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Export messages</p>\n <input id=1 >Messages_2023_07_01_11_04_43</input>\n\
+    \ <checkbox id=2 checked=True>Export SMS</checkbox>\n <checkbox id=3 checked=True>Export\
+    \ MMS</checkbox>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 6797a42871b7143eb9d3fa4eb4056e48a414ed6eb364ec4b635bf81b6754460e
+  state_str: 93913875e3ee7cb0bbfc241c5f795c489f1a42fe4ebb2d06d20373f5e14c7c6b
+- Choice: 11
+  Input: 'null'
+  State: "<p id=0>Downloads</p>\n <p id=1>FILES IN DOWNLOADS</p>\n <button id=2 text='List\
+    \ view'></button>\n <button id=3 text='Show roots'></button>\n <p id=4>Downloads</p>\n\
+    \ <button id=5 text='New folder'></button>\n <button id=6 text='More options'></button>\n\
+    \ <p id=7>Diary.pdf</p>\n <p id=8>6.24 kB</p>\n <p id=9>Jun 30</p>\n <input id=10\
+    \ >Messages_2023_07_01_11_04_43.json</input>\n <button id=11>SAVE</button>\n <button\
+    \ id=12>go back</button>"
+  new_state_str: 0a8be119b2468b4a9144900367f4d49faba78125802eda25579df42980900f00
+  state_str: 17d5be9b2a83c49d146d99a7ce0cc49b3d47a526c858299e0becb1e93accee3d
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Bob<br>Hey<br>30.06</button>
+
+    <button id=5>Alice<br>Hello<br>30.06</button>
+
+    <button id=6>go back</button>'
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str:
+  - ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+step_num: 5
+task_name: Export all messages to 'Messages_2023_07_01_11_04_43.json'

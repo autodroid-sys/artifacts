@@ -1,0 +1,56 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>test1<br>00:10</button>
+
+    <button id=5>test2<br>00:07</button>
+
+    <button id=6>Playlists</button>
+
+    <button id=7>Folders</button>
+
+    <button id=8>Artists</button>
+
+    <button id=9>Albums</button>
+
+    <p id=10>Tracks</p>
+
+    <button id=11>go back</button>'
+  new_state_str: 1e43e274a76f614fea0fa0b0ca5c223a6a64d533eea8039dbb7d81277c71a122
+  state_str:
+  - 09ec4c800598df967694c07f5d5cdcdf197f1e855a1edb32eb151a6baa5643f7
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0>Equalizer</p>\n <p id=1>-15</p>\n <p id=2>0</p>\n <p id=3>+15</p>\n\
+    \ <p id=4>60 Hz</p>\n <p id=5>230 Hz</p>\n <p id=6>910 Hz</p>\n <p id=7>3.6 kHz</p>\n\
+    \ <p id=8>14 kHz</p>\n <button id=9>Normal</button>\n <button id=10>go back</button>"
+  new_state_str: 2843821ee379eb6e8f6c817a0d13e47473260c42b50e6d217d41e8c5bd898eba
+  state_str: 56f76c52759ccf6b552197099ae8919c5450965bbf181b54260b6ebc93b982f1
+- Choice: 6
+  Input: 'null'
+  State: "<checkbox id=0 checked=True>Normal</checkbox>\n <checkbox id=1 checked=False>Classical</checkbox>\n\
+    \ <checkbox id=2 checked=False>Dance</checkbox>\n <checkbox id=3 checked=False>Flat</checkbox>\n\
+    \ <checkbox id=4 checked=False>Folk</checkbox>\n <checkbox id=5 checked=False>Heavy\
+    \ Metal</checkbox>\n <checkbox id=6 checked=False>Hip Hop</checkbox>\n <checkbox\
+    \ id=7 checked=False>Jazz</checkbox>\n <checkbox id=8 checked=False>Pop</checkbox>\n\
+    \ <checkbox id=9 checked=False>Rock</checkbox>\n <checkbox id=10 checked=False>Custom</checkbox>\n\
+    \ <button id=11>go back</button>"
+  new_state_str: b981a7915163db4ff747379957e556395bf548060f9b5f93c967bb47d21021b1
+  state_str: 96a3979842dafd0a772a9bda13df01400bf7446859773a4a667aa4139b7693c4
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Equalizer</p>\n <p id=1>-15</p>\n <p id=2>0</p>\n <p id=3>+15</p>\n\
+    \ <p id=4>60 Hz</p>\n <p id=5>230 Hz</p>\n <p id=6>910 Hz</p>\n <p id=7>3.6 kHz</p>\n\
+    \ <p id=8>14 kHz</p>\n <button id=9>Hip Hop</button>\n <button id=10>go back</button>"
+  new_state_str: 7be9d5a0ff55cc30b2190ba7ab960c7384eb120c75f3997e68733bd53986ed1e
+  state_str: fef6118f8cd5911cc7f212c243f96b944ca6ba78214752118b5d8b55493a9b43
+step_num: 4
+task_name: change the mode to "Hip Hop"

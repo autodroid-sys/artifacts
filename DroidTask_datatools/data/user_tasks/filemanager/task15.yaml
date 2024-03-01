@@ -1,0 +1,98 @@
+records:
+- Choice: 10
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Add to favorites''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal</button>
+
+    <button id=5>Alarms<br>0 items</button>
+
+    <button id=6>Android<br>3 items</button>
+
+    <button id=7>Audiobooks<br>0 items</button>
+
+    <button id=8>DCIM<br>6 items</button>
+
+    <button id=9>Documents<br>0 items</button>
+
+    <button id=10>Download<br>1 item</button>
+
+    <button id=11>Movies<br>0 items</button>
+
+    <button id=12>Music<br>1 item</button>
+
+    <button id=13>Notifications<br>0 items</button>
+
+    <button id=14>Pictures</button>
+
+    <p id=15>Files</p>
+
+    <button id=16>Recents</button>
+
+    <button id=17>Storage</button>
+
+    <button id=18>go back</button>
+
+    <button id=19>Pictures<br>0 items</button>
+
+    <button id=20>Podcasts<br>0 items</button>
+
+    <button id=21>Ringtones<br>0 items</button>
+
+    <button id=22>screen_2023-06-30_141247.png<br>16.1 kB<br>30.06.2023, 02:12 PM</button>
+
+    <button id=23>screen_2023-06-30_143638.png<br>0 B<br>30.06.2023, 02:36 PM</button>
+
+    <p id=24 text=''handleImage''></p>'
+  new_state_str: 4ab22c498122e2ee239fea7ea030f4f60c03229f1e8e59353d5d52832a2837f1
+  state_str:
+  - d79cfad652e218cd5a30b834bc83e933482c182c11318b890e0d68fbab50f65b
+  - 8398e99dc3c68bd08572f3eec91d2c64577bd3a1ab36824cd2555585c514ea6c
+  - d79cfad652e218cd5a30b834bc83e933482c182c11318b890e0d68fbab50f65b
+  - 8398e99dc3c68bd08572f3eec91d2c64577bd3a1ab36824cd2555585c514ea6c
+- Choice: 6
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Go to home folder''></button>
+
+    <button id=2 text=''Sort by''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal</button>
+
+    <button id=5>> Download</button>
+
+    <button id=6>Diary.pdf<br>6.1 kB<br>30.06.2023, 12:22 PM</button>
+
+    <p id=7>Files</p>
+
+    <button id=8>Recents</button>
+
+    <button id=9>Storage</button>
+
+    <button id=10>go back</button>'
+  new_state_str: a6f3f975ec008376b10fdf32bf9a997676bb05e3fe04693975364ef4123c7b8d
+  state_str:
+  - 2003f97eb223bc0f4456470aa662d82d3218bce1a40652336d19937faa72a0fe
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Diary.pdf</p>
+
+    <button id=1 text=''Print''></button>
+
+    <p id=2>1 / 1</p>
+
+    <button id=3>go back</button>'
+  new_state_str: 416ae0a1602398e767edb86f73f511ddd12dad6d11a890c7e67324c704667121
+  state_str:
+  - 259d9051f0b9e7bbce38ed23823579cead64c274bf8e6a967557516a4c8b8a0b
+step_num: 3
+task_name: go to 'download' folder and open Diary.pdf

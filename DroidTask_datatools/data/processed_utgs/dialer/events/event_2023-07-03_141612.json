@@ -1,0 +1,51 @@
+{
+  "tag": "2023-07-03_141612",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.simplemobiletools.contacts.pro",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          143,
+          1156
+        ],
+        [
+          843,
+          1272
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.contacts.pro:id/contact_number",
+      "checked": false,
+      "text": "Number",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "700*116",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.contacts.pro:id/contact_number[text]Number[enabled,,]",
+      "view_str": "7d4366237cfd14fd7f1e5356bd9b6abf",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.contacts.pro:id/contact_number"
+    },
+    "x": null,
+    "y": null,
+    "text": "12345678900"
+  },
+  "start_state": "c5395134140dd6c720fb2b0bfcfa3c4316aa98711d64a990852e69936ee3480f",
+  "stop_state": "32547fc32f890365ba19fd13f0a46e4a54610b8df0adee4aa6420d5f13ffaa91",
+  "event_str": "SetTextEvent(state=c5395134140dd6c720fb2b0bfcfa3c4316aa98711d64a990852e69936ee3480f, view=7d4366237cfd14fd7f1e5356bd9b6abf(EditContactActivity/EditText-Number), text=12345678900)"
+}

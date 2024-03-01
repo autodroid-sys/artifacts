@@ -1,0 +1,78 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>No items found.</p>
+
+    <button id=5>Create new playlist</button>
+
+    <p id=6>Playlists</p>
+
+    <button id=7>Folders</button>
+
+    <button id=8>Artists</button>
+
+    <button id=9>Albums</button>
+
+    <button id=10>Tracks</button>
+
+    <button id=11>go back</button>'
+  new_state_str: 72bbcce61f4f658f6a9e25f8e70135aafa6c70a050f16e478bfe3fb1059a0841
+  state_str:
+  - 3ab5ae72b5b5beeffd08731f524ba1820363ded0cb510a80ad632e3b94630ab1
+- Choice: 3
+  Input: 'null'
+  State: "<button id=0>Create new playlist</button>\n <button id=1>Create new playlist\
+    \ from folder</button>\n <button id=2>Import playlist</button>\n <button id=3>Sleep\
+    \ timer</button>\n <button id=4>Settings</button>\n <button id=5>About</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: f057ab1d8ea28cccf9a5659bdbc494f12428a9a4034642c6440db0f387d25dbd
+  state_str: b9dffd3eab2d6b872732a491ea7b9e082342e31e4a4168a889ce13f17cee34ab
+- Choice: 0
+  Input: 'null'
+  State: "<checkbox id=0 checked=True>5 minutes</checkbox>\n <checkbox id=1 checked=False>10\
+    \ minutes</checkbox>\n <checkbox id=2 checked=False>20 minutes</checkbox>\n <checkbox\
+    \ id=3 checked=False>30 minutes</checkbox>\n <checkbox id=4 checked=False>1 hour</checkbox>\n\
+    \ <checkbox id=5 checked=False>Custom</checkbox>\n <button id=6>go back</button>"
+  new_state_str: 62930118ad897625ee0c4cf81cb554fcba6ed4a8afa830e77f2ab7277346a063
+  state_str: 05d4c595883b49b3caa134bcdf0f8f530d79c5d8103ae1bd1a8c390ba010ae4a
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>No items found.</p>
+
+    <button id=5>Create new playlist</button>
+
+    <p id=6>Sleep timer</p>
+
+    <p id=8>Playlists</p>
+
+    <button id=9>Folders</button>
+
+    <button id=10>Artists</button>
+
+    <button id=11>Albums</button>
+
+    <button id=12>Tracks</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 0a4e596515ea6cf4009b190dc76b5abde135c5b772cc848a7f3ea134325cbe7e
+  state_str:
+  - e11bcd4c23f08477d1a1871077151b5522370a4c9834b41cf09dacf1c91f5137
+  - e11bcd4c23f08477d1a1871077151b5522370a4c9834b41cf09dacf1c91f5137
+step_num: 4
+task_name: set the sleep timer for five minutes

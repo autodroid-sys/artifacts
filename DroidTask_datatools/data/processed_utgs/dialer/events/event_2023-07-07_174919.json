@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-07_174919",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.simplemobiletools.dialer",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          61,
+          369
+        ],
+        [
+          1019,
+          501
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.dialer:id/block_unknown",
+      "checked": false,
+      "text": "Block calls from not stored contacts",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "958*132",
+      "signature": "[class]android.widget.CheckBox[resource_id]com.simplemobiletools.dialer:id/block_unknown[text]Block calls from not stored contacts[enabled,,]",
+      "view_str": "4f650783ca054308f8b1f4124eef303e",
+      "content_free_signature": "[class]android.widget.CheckBox[resource_id]com.simplemobiletools.dialer:id/block_unknown"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "ff9fb77982dd13cd0d3a1aa6df3cc5afcaf8f8dd2073ca8c9c5938f324ad1d45",
+  "stop_state": "da7c04badf14b49177254640db4609ec339d71635337960a1da1895725f0bb31",
+  "event_str": "TouchEvent(state=ff9fb77982dd13cd0d3a1aa6df3cc5afcaf8f8dd2073ca8c9c5938f324ad1d45, view=4f650783ca054308f8b1f4124eef303e(ManageBlockedNumbersActivity/CheckBox-Block call))"
+}

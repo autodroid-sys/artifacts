@@ -1,0 +1,187 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Settings</button>\n <button id=1>About</button>\n <button id=2>go\
+    \ back</button>"
+  new_state_str: 77583b11ad5633cfffda3a1c606f2b82cf5edbe5739d839f74bfd29973528d44
+  state_str: 099af374a0533601d9a7d3de46de59e84982c5ed0050cbbf26b0fdc8cb3172d5
+- Choice: 2
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Manage blocked numbers</button>
+
+    <button id=5>Change date and time format</button>
+
+    <button id=6>Manage speed dial</button>
+
+    <button id=7>Font size<br>Large</button>
+
+    <checkbox id=8 checked=False>Start name with surname</checkbox>
+
+    <checkbox id=9 checked=False>Hide dialpad numbers</checkbox>
+
+    <checkbox id=10 checked=True>Enable vibrations on dialpad button clicks</checkbox>
+
+    <checkbox id=11 checked=True>Enable beeps on dialpad button clicks</checkbox>
+
+    <button id=12>go back</button>
+
+    <p id=13>STARTUP</p>
+
+    <button id=14>Manage shown tabs</button>
+
+    <button id=15>Tab to open at app start<br>Last used one</button>
+
+    <checkbox id=16 checked=False>Open the dialpad by default when the app opens</checkbox>
+
+    <p id=17>CALLS</p>
+
+    <checkbox id=18 checked=True>Group subsequent calls with the same number at the</checkbox>
+
+    <checkbox id=19 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=20 checked=False>Disable proximity sensor during calls</checkbox>
+
+    <checkbox id=21 checked=False>Replace swiping at responding to incoming calls
+    wi</checkbox>
+
+    <checkbox id=22 checked=False>Always display incoming calls on full screen</checkbox>'
+  new_state_str: b6bf6a602f0f077f9d35ec740ca71a92dac5e0c34e6c4b74e58bec149547eef3
+  state_str:
+  - 57b577316d43e0bba070049fb483378cf5f2c2b1f1f3630997a44cdd97bf56e9
+  - 4017824c531965689fb12f83f06d9fc86aea4fb76acf2bf8808b50f04cf8f09f
+  - 3840a5477bdf89c508dbd8169dfced0072e2e54156a6dd307d38a12b1901a955
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1>Theme<br>Dark</button>\n <button\
+    \ id=2>Text color</button>\n <button id=3>Background color</button>\n <button\
+    \ id=4>Primary color</button>\n <button id=5>App icon color</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: 3c8b0bea669823c2829158e0dfc06ff53513a257e62e069e04a6cda9fb014803
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>WARNING: Some launchers do not handle app icon customization properly.\
+    \ In case the icon will disappear, try launching the app via Google Play or some\
+    \ widget, if available. Once launched, just set back the default orange icon #F57C00.\
+    \ You might have to reinstall the app in the worst case.</p>\n <button id=1>OK</button>\n\
+    \ <button id=2>go back</button>"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: 1beb6eb61076f7b97cb5fbee8d7b05256ad7a0f3ddda64595c904f930845f693
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Auto light / dark</checkbox>\n <checkbox id=1\
+    \ checked=False>Light</checkbox>\n <checkbox id=2 checked=True>Dark</checkbox>\n\
+    \ <checkbox id=3 checked=False>Dark red</checkbox>\n <checkbox id=4 checked=False>White</checkbox>\n\
+    \ <checkbox id=5 checked=False>Black & White</checkbox>\n <checkbox id=6 checked=False>Custom</checkbox>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f8ad670e9a731699680252f02c59a057647e07cd5290c9cc4cb69554d0285bd9
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1 text='Save'></button>\n <button\
+    \ id=2>Theme<br>Light</button>\n <button id=3>Text color</button>\n <button id=4>Background\
+    \ color</button>\n <button id=5>Primary color</button>\n <button id=6>App icon\
+    \ color</button>\n <button id=7>go back</button>"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: 354ad5387ada1a627826ddfaa632c2ba523e7cab6fa2b94cdf8b3d77046bc4de
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Manage blocked numbers</button>
+
+    <button id=5>Change date and time format</button>
+
+    <button id=6>Manage speed dial</button>
+
+    <button id=7>Font size<br>Large</button>
+
+    <checkbox id=8 checked=False>Start name with surname</checkbox>
+
+    <checkbox id=9 checked=False>Hide dialpad numbers</checkbox>
+
+    <checkbox id=10 checked=True>Enable vibrations on dialpad button clicks</checkbox>
+
+    <checkbox id=11 checked=True>Enable beeps on dialpad button clicks</checkbox>
+
+    <button id=12>go back</button>
+
+    <p id=13>STARTUP</p>
+
+    <button id=14>Manage shown tabs</button>
+
+    <button id=15>Tab to open at app start<br>Last used one</button>
+
+    <checkbox id=16 checked=False>Open the dialpad by default when the app opens</checkbox>
+
+    <p id=17>CALLS</p>
+
+    <checkbox id=18 checked=True>Group subsequent calls with the same number at the</checkbox>
+
+    <checkbox id=19 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=20 checked=False>Disable proximity sensor during calls</checkbox>
+
+    <checkbox id=21 checked=False>Replace swiping at responding to incoming calls
+    wi</checkbox>
+
+    <checkbox id=22 checked=False>Always display incoming calls on full screen</checkbox>'
+  new_state_str: b6bf6a602f0f077f9d35ec740ca71a92dac5e0c34e6c4b74e58bec149547eef3
+  state_str:
+  - 57b577316d43e0bba070049fb483378cf5f2c2b1f1f3630997a44cdd97bf56e9
+  - 4017824c531965689fb12f83f06d9fc86aea4fb76acf2bf8808b50f04cf8f09f
+  - 3840a5477bdf89c508dbd8169dfced0072e2e54156a6dd307d38a12b1901a955
+step_num: 8
+task_name: Switch custom colors to light and save it

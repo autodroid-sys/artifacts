@@ -1,0 +1,58 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+- Choice: 5
+  Input: 'null'
+  State: "<button id=0>05:00</button>\n <checkbox id=1 checked=False>Vibrate</checkbox>\n\
+    \ <button id=2>Default (Cesium)</button>\n <input id=3 >Label</input>\n <button\
+    \ id=4>Cancel</button>\n <button id=5>OK</button>\n <button id=6>go back</button>"
+  new_state_str: e8d6ea2d2c622928441bd48f7d265f64d14c26665a18fdd92d2535e87abe4062
+  state_str: 52065d7b3b7e00f3c0dfb9a3e7fc2a80485cf725cab68b5ba7dee658a0dcc7bf
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 6801c7e0adcdfc0b3e8fa517dcde419bd17624446fdc1bdd71768175c6f51402
+step_num: 3
+task_name: add a new timer of 5:00

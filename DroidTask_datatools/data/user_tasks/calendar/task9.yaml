@@ -1,0 +1,54 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Add holidays</button>\n <button id=1>Add contact birthdays</button>\n\
+    \ <button id=2>Add contact anniversaries</button>\n <button id=3>Import events\
+    \ from an .ics file</button>\n <button id=4>Export events to an .ics file</button>\n\
+    \ <button id=5>Settings</button>\n <button id=6>About</button>\n <button id=7>go\
+    \ back</button>"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: 29e004ebcc29cd15fc6cf5fab42c256bfde3ff3e698eda25f7d0c6b9adcbdb3a
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Allow Calendar to access your contacts?</p>\n <button id=1>Allow</button>\n\
+    \ <button id=2>Deny</button>\n <button id=3>go back</button>"
+  new_state_str: 0dfcd2ff9939bb98a09aca5707c630569835c9f6d66e24ea1e2d8dc53229c7a6
+  state_str: 0a326c728686f297c8cd6e8820d292d53c16dbcfe32b1dc0cd92ec2b0007f6ee
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+step_num: 4
+task_name: add all the contacts anniversaries into Calendar

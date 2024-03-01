@@ -1,0 +1,137 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>General note</button>
+
+    <p id=5>rename</p>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: ffb12c99478a21ba5289668eb86cf8fb124ea0b5365bf61c595a3f906cd238de
+  state_str:
+  - eaf599a2a1114e7298d405db8a39152d15188585d943ea8b2332fe2f36ef2d75
+- Choice: 10
+  Input: 'null'
+  State: "<button id=0>Rename note</button>\n <button id=1>Share</button>\n <button\
+    \ id=2>Create shortcut</button>\n <button id=3>Lock note</button>\n <button id=4>Open\
+    \ file</button>\n <button id=5>Import notes</button>\n <button id=6>Export as\
+    \ file</button>\n <button id=7>Export all notes</button>\n <button id=8>Print</button>\n\
+    \ <button id=9>Delete note</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>About</button>\n <button id=12>go back</button>"
+  new_state_str: d30d629d793bfe53cdcfb3f2984315c78089bafee2ba0f45ef8bc2c0dcf7909a
+  state_str: 4e5778fa48b7653d78c78d9fc93185b3bf480d25f784957a6e6ce8b90ed6573d
+- Choice: 5
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Font size<br>100%</button>
+
+    <p id=6>TEXT</p>
+
+    <checkbox id=7 checked=False>Show word count</checkbox>
+
+    <checkbox id=8 checked=False>Make links and emails clickable</checkbox>
+
+    <checkbox id=9 checked=False>Use monospaced font</checkbox>
+
+    <checkbox id=10 checked=False>Use Incognito mode of keyboards</checkbox>
+
+    <checkbox id=11 checked=True>Enable line wrap</checkbox>
+
+    <button id=12>go back</button>
+
+    <button id=13>Alignment<br>Left</button>
+
+    <p id=14>STARTUP</p>
+
+    <checkbox id=15 checked=True>Place cursor to the end of note</checkbox>
+
+    <checkbox id=16 checked=True>Show keyboard on startup</checkbox>
+
+    <checkbox id=17 checked=False>Show a note picker on startup</checkbox>
+
+    <p id=18>SAVING</p>
+
+    <checkbox id=19 checked=True>Autosave notes</checkbox>
+
+    <checkbox id=20 checked=False>Display save success messages</checkbox>'
+  new_state_str: 10bac2bd974bd90c0972427b375edb6ede4f05a45723e57273aa11236e226809
+  state_str:
+  - 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  - 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+- Choice: 5
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>50%</checkbox>\n <checkbox id=1 checked=False>60%</checkbox>\n\
+    \ <checkbox id=2 checked=False>75%</checkbox>\n <checkbox id=3 checked=False>90%</checkbox>\n\
+    \ <checkbox id=4 checked=True>100%</checkbox>\n <checkbox id=5 checked=False>125%</checkbox>\n\
+    \ <checkbox id=6 checked=False>150%</checkbox>\n <checkbox id=7 checked=False>175%</checkbox>\n\
+    \ <checkbox id=8 checked=False>200%</checkbox>\n <checkbox id=9 checked=False>250%</checkbox>\n\
+    \ <checkbox id=10 checked=False>300%</checkbox>\n <button id=11>go back</button>"
+  new_state_str: fd8e9eec1e1190f930917853fb36ec129ffbf4f33c44958a83392ba675e386d7
+  state_str: 6b99b6d35ddb3e5fb201fdb69970d61c1781dbd65a823517e9ccb88fdb465863
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Customize widget colors</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Font size<br>125%</button>
+
+    <p id=6>TEXT</p>
+
+    <checkbox id=7 checked=False>Show word count</checkbox>
+
+    <checkbox id=8 checked=False>Make links and emails clickable</checkbox>
+
+    <checkbox id=9 checked=False>Use monospaced font</checkbox>
+
+    <checkbox id=10 checked=False>Use Incognito mode of keyboards</checkbox>
+
+    <checkbox id=11 checked=True>Enable line wrap</checkbox>
+
+    <button id=12>go back</button>
+
+    <button id=13>Alignment<br>Left</button>
+
+    <p id=14>STARTUP</p>
+
+    <checkbox id=15 checked=True>Place cursor to the end of note</checkbox>
+
+    <checkbox id=16 checked=True>Show keyboard on startup</checkbox>
+
+    <checkbox id=17 checked=False>Show a note picker on startup</checkbox>
+
+    <p id=18>SAVING</p>
+
+    <checkbox id=19 checked=True>Autosave notes</checkbox>
+
+    <checkbox id=20 checked=False>Display save success messages</checkbox>'
+  new_state_str: e206ba22ecc6321a0aa569ff5a5c471224249e7bb2606bc8be73c477ca31565f
+  state_str:
+  - 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  - 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+step_num: 5
+task_name: Adjust the fontsize of the Notes app to 125%

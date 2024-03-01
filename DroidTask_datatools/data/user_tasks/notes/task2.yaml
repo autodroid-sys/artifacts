@@ -1,0 +1,67 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 1
+  Input: NewCheckList
+  State: "<p id=0>Add a new note</p>\n <input id=1 >Label</input>\n <p id=2>New note\
+    \ type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox id=4\
+    \ checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 67f3b94e0e34c3430a429ef07289bd7b94c6e3b80719e6fc9d839c0f23ad3b4f
+  state_str: d5209f39a2e32892f7ea467acca08507883580cc984e6f9a7219eb4d0ed70800
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Add a new note</p>\n <input id=1 >NewCheckList</input>\n <p id=2>New\
+    \ note type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox\
+    \ id=4 checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: bd72e5df34cc6db33c5e5f8e030a4d121ec8cfaf3b217a097ba2a01640bca24a
+  state_str: 5c3241e697c5ffd85f63c811c6550c0325d493b362dbd1d7c1ea2f6ed3e80ab2
+- Choice: 6
+  Input: 'null'
+  State: "<p id=0>Add a new note</p>\n <input id=1 >NewCheckList</input>\n <p id=2>New\
+    \ note type:</p>\n <checkbox id=3 checked=False>Text note</checkbox>\n <checkbox\
+    \ id=4 checked=True>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: b8deb7826ff55985676147e096b12c5c3ede753f4c942ad602a18c017c16d3ac
+  state_str: 1f0226ab9b08d7805be51dc9272dc8f557fb52ff142cf8a1ac3c120a1e5a41a8
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Open note''></button>
+
+    <button id=1 text=''Create a new note''></button>
+
+    <button id=2 text=''More options''></button>
+
+    <button id=3>General note</button>
+
+    <p id=4>NewCheckList</p>
+
+    <p id=5>The checklist is empty</p>
+
+    <button id=6>Add new checklist items</button>
+
+    <button id=7>go back</button>'
+  new_state_str: c34df6a2db4e80f775e3d63a4ae8ec894a7fa45f3231f3faa777d2a13c6b9202
+  state_str:
+  - d8d9d17cbf60b1fdcfe256c48b14cb26146fea927e8dcde8e1d505f20286e477
+step_num: 6
+task_name: Create a checklist note called 'NewCheckList'

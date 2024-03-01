@@ -1,0 +1,107 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Import contacts from a .vcf file</button>\n <button id=1>Export\
+    \ contacts to a .vcf file</button>\n <button id=2>Settings</button>\n <button\
+    \ id=3>About</button>\n <button id=4>go back</button>"
+  new_state_str: 519dcdd3d48aae92a24073b13b3e0d2704cfa3f644d023807b499013745623a0
+  state_str: 62a864a557cabecacc3dac2a5699c512b12e453c8993313bec4aa85143b1e15a
+- Choice: 1
+  Input: classmate
+  State: "<p id=0>Export contacts</p>\n <input id=1 >contacts_2023_07_01_11_04_52</input>\n\
+    \ <p id=2>Include contact sources</p>\n <checkbox id=3 checked=True>Phone storage\
+    \ (not visible by other apps) (3)</checkbox>\n <button id=4>Cancel</button>\n\
+    \ <button id=5>OK</button>\n <button id=6>go back</button>"
+  new_state_str: 95ce401b78549ad3a99d07e2ed7ec513e05f2601d63261aae3e33630d1f23ce8
+  state_str: d52c3a2f95df0a120f8ec64dfd730556f8de1fc1f8df1809f26dab1d4e943ba6
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Export contacts</p>\n <input id=1 >classmate</input>\n <p id=2>Include\
+    \ contact sources</p>\n <checkbox id=3 checked=True>Phone storage (not visible\
+    \ by other apps) (3)</checkbox>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 565b6cb204cdec04e2a60e2316d317a1cd9f771a601e8ae8c0a483b319ba5758
+  state_str: 5dda727fdbb62964c0c42f4b7bfd29f5172090da2b2eaf538a5ddd1721c77e34
+- Choice: 11
+  Input: 'null'
+  State: "<p id=0>Downloads</p>\n <p id=1>FILES IN DOWNLOADS</p>\n <button id=2 text='List\
+    \ view'></button>\n <button id=3 text='Show roots'></button>\n <p id=4>Downloads</p>\n\
+    \ <button id=5 text='New folder'></button>\n <button id=6 text='More options'></button>\n\
+    \ <p id=7>Diary.pdf</p>\n <p id=8>6.24 kB</p>\n <p id=9>Jun 30</p>\n <input id=10\
+    \ >classmate.vcf</input>\n <button id=11>SAVE</button>\n <button id=12>go back</button>"
+  new_state_str: 6ea48bb20fa44f452d7574ef589451ac1771c3d960cf891518a1a104b2cb3d35
+  state_str: bb8d81168498385b6527e9eb22cd2eb65b6a3dd3d37d784983e5245046bf17b1
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+step_num: 7
+task_name: Export contacts to a .vcf file 'classmate.vcf''

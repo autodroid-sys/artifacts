@@ -1,0 +1,450 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 5
+  Input: 'null'
+  State: "<button id=0>Add holidays</button>\n <button id=1>Add contact birthdays</button>\n\
+    \ <button id=2>Add contact anniversaries</button>\n <button id=3>Import events\
+    \ from an .ics file</button>\n <button id=4>Export events to an .ics file</button>\n\
+    \ <button id=5>Settings</button>\n <button id=6>About</button>\n <button id=7>go\
+    \ back</button>"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: 29e004ebcc29cd15fc6cf5fab42c256bfde3ff3e698eda25f7d0c6b9adcbdb3a
+- Choice: 10
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>Settings</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Manage event types</button>
+
+    <checkbox id=4 checked=False>Use 24-hour time format OFF</checkbox>
+
+    <checkbox id=5 checked=True>Start week on Sunday ON</checkbox>
+
+    <checkbox id=6 checked=False>Avoid showing What''s New on startup OFF</checkbox>
+
+    <button id=7>Delete all events</button>
+
+    <p id=8>EVENT REMINDERS</p>
+
+    <checkbox id=9 checked=False>Vibrate on reminder notification OFF</checkbox>
+
+    <button id=10>Reminder sound<br>Default (Pixie Dust)</button>
+
+    <checkbox id=11 checked=True>Always use same snooze time ON</checkbox>
+
+    <button id=12>Snooze time<br>10 minutes</button>
+
+    <button id=13>go back</button>
+
+    <p id=14>CALDAV</p>
+
+    <checkbox id=15 checked=False>CalDAV sync OFF</checkbox>
+
+    <p id=16>WEEKLY VIEW</p>
+
+    <button id=17>Start day at<br>07:00</button>
+
+    <button id=18>End day at<br>23:00</button>
+
+    <p id=19>MONTHLY VIEW</p>
+
+    <checkbox id=20 checked=False>Show week numbers OFF</checkbox>
+
+    <checkbox id=21 checked=False>Show a grid OFF</checkbox>
+
+    <p id=22>EVENT LISTS</p>
+
+    <checkbox id=23 checked=False>Replace event description with location OFF</checkbox>
+
+    <button id=24>Display events from the past<br>Never</button>
+
+    <p id=25>WIDGETS</p>
+
+    <button id=26>Font size<br>Medium</button>'
+  new_state_str: e5bb0f7b3eb647b48936f7e4e35769d570c6ae713970b911aa4297f24275ca7f
+  state_str:
+  - 72b9118f038d2fed5d6bd657cb33cdc94704c73779faf260ddeecd2250c285ba
+  - b5f665dbcf657ba439032666b638998c941e7a9b445b35a9787b37261a9d2f28
+  - b9a62d042c6e6445099c883eef7f130f9bf1119449a8604436b8fb0b34732482
+- Choice: 5
+  Input: 'null'
+  State: '<p id=0>Your sounds</p>
+
+    <checkbox id=1 checked=False>Add a new sound</checkbox>
+
+    <p id=2>System sounds</p>
+
+    <checkbox id=3 checked=False>No sound</checkbox>
+
+    <checkbox id=4 checked=True>Default (Pixie Dust)</checkbox>
+
+    <checkbox id=5 checked=False>Adara</checkbox>
+
+    <checkbox id=6 checked=False>Aldebaran</checkbox>
+
+    <checkbox id=7 checked=False>Altair</checkbox>
+
+    <checkbox id=8 checked=False>Alya</checkbox>
+
+    <checkbox id=9 checked=False>Antares</checkbox>
+
+    <checkbox id=10 checked=False>Antimony</checkbox>
+
+    <checkbox id=11 checked=False>Arcturus</checkbox>
+
+    <checkbox id=12 checked=False>Argon</checkbox>
+
+    <button id=13>CANCEL</button>
+
+    <button id=14>OK</button>
+
+    <button id=15>go back</button>
+
+    <checkbox id=16 checked=False>Beat Box Android</checkbox>
+
+    <checkbox id=17 checked=False>Bellatrix</checkbox>
+
+    <checkbox id=18 checked=False>Beryllium</checkbox>
+
+    <checkbox id=19 checked=False>Betelgeuse</checkbox>
+
+    <checkbox id=20 checked=False>Caffeinated Rattlesnake</checkbox>
+
+    <checkbox id=21 checked=False>Canopus</checkbox>
+
+    <checkbox id=22 checked=False>Capella</checkbox>
+
+    <checkbox id=23 checked=False>Captain''s Log</checkbox>
+
+    <checkbox id=24 checked=False>Castor</checkbox>
+
+    <checkbox id=25 checked=False>Ceti Alpha</checkbox>
+
+    <checkbox id=26 checked=False>Cobalt</checkbox>
+
+    <checkbox id=27 checked=False>Cricket</checkbox>
+
+    <checkbox id=28 checked=False>Dear Deer</checkbox>
+
+    <checkbox id=29 checked=False>Deneb</checkbox>
+
+    <checkbox id=30 checked=False>Doink</checkbox>
+
+    <checkbox id=31 checked=False>Don''t Panic</checkbox>
+
+    <checkbox id=32 checked=False>Drip</checkbox>
+
+    <checkbox id=33 checked=False>Electra</checkbox>
+
+    <checkbox id=34 checked=False>Fluorine</checkbox>
+
+    <checkbox id=35 checked=False>Fomalhaut</checkbox>
+
+    <checkbox id=36 checked=False>Gallium</checkbox>
+
+    <checkbox id=37 checked=False>Heaven</checkbox>
+
+    <checkbox id=38 checked=False>Helium</checkbox>
+
+    <checkbox id=39 checked=False>Highwire</checkbox>
+
+    <checkbox id=40 checked=False>Hojus</checkbox>
+
+    <checkbox id=41 checked=False>Iridium</checkbox>
+
+    <checkbox id=42 checked=False>Krypton</checkbox>
+
+    <checkbox id=43 checked=False>Kzurb Sonar</checkbox>
+
+    <checkbox id=44 checked=False>Lalande</checkbox>
+
+    <checkbox id=45 checked=False>Look At Me</checkbox>
+
+    <checkbox id=46 checked=False>Merope</checkbox>
+
+    <checkbox id=47 checked=False>Mira</checkbox>
+
+    <checkbox id=48 checked=False>Missed It</checkbox>
+
+    <checkbox id=49 checked=False>Moonbeam</checkbox>
+
+    <checkbox id=50 checked=False>On The Hunt</checkbox>
+
+    <checkbox id=51 checked=False>Palladium</checkbox>
+
+    <checkbox id=52 checked=False>Pixie Dust</checkbox>
+
+    <checkbox id=53 checked=False>Pizzicato</checkbox>
+
+    <checkbox id=54 checked=False>Plastic Pipe</checkbox>
+
+    <checkbox id=55 checked=False>Polaris</checkbox>
+
+    <checkbox id=56 checked=False>Pollux</checkbox>
+
+    <checkbox id=57 checked=False>Procyon</checkbox>
+
+    <checkbox id=58 checked=False>Proxima</checkbox>
+
+    <checkbox id=59 checked=False>Radon</checkbox>
+
+    <checkbox id=60 checked=False>Regulus</checkbox>
+
+    <checkbox id=61 checked=False>Rubidium</checkbox>
+
+    <checkbox id=62 checked=False>Selenium</checkbox>
+
+    <checkbox id=63 checked=False>Shaula</checkbox>
+
+    <checkbox id=64 checked=False>Sirius</checkbox>
+
+    <checkbox id=65 checked=False>Sirrah</checkbox>
+
+    <checkbox id=66 checked=False>Space Seed</checkbox>
+
+    <checkbox id=67 checked=False>Spica</checkbox>
+
+    <checkbox id=68 checked=False>Strontium</checkbox>
+
+    <checkbox id=69 checked=False>Syrma</checkbox>'
+  new_state_str: 1d37b5a0628f5da09a91909ab5aa8fb175ef4f5e000c8e7b2baa06df4938b113
+  state_str:
+  - 346a936f789495fdfd656fc7ca495fc13ddca5e39405c64a00d29036cc18d3e9
+  - 81dbe89234f9685ff94c324d39c62dcde4717fbc3fabcfb8fff46ee86f653076
+  - 8e041d2c912b534f7c9c682b8d15a2e39281f52bbbcc40e1edc32a86505beb47
+  - 5b5088fa01e0c520f8d9cbd263d9b56fe3834fdbe1c65c71bde8af30a761617c
+  - 577ea552fb32a79717534b6a55c9f20c49e0ca460a759d37055aafbdfcc2da97
+  - 3ee8d86508f9f1406bfe08248045134d238e368b378c8d3ad7e5cc7c90c09da4
+  - f1c70fa1bb8cd3c9c582cd0983eea2d78cffe0ab3334569521087f05a760ca6b
+- Choice: 14
+  Input: 'null'
+  State: '<p id=0>Your sounds</p>
+
+    <checkbox id=1 checked=False>Add a new sound</checkbox>
+
+    <p id=2>System sounds</p>
+
+    <checkbox id=3 checked=False>No sound</checkbox>
+
+    <checkbox id=4 checked=False>Default (Pixie Dust)</checkbox>
+
+    <checkbox id=5 checked=True>Adara</checkbox>
+
+    <checkbox id=6 checked=False>Aldebaran</checkbox>
+
+    <checkbox id=7 checked=False>Altair</checkbox>
+
+    <checkbox id=8 checked=False>Alya</checkbox>
+
+    <checkbox id=9 checked=False>Antares</checkbox>
+
+    <checkbox id=10 checked=False>Antimony</checkbox>
+
+    <checkbox id=11 checked=False>Arcturus</checkbox>
+
+    <checkbox id=12 checked=False>Argon</checkbox>
+
+    <button id=13>CANCEL</button>
+
+    <button id=14>OK</button>
+
+    <button id=15>go back</button>
+
+    <checkbox id=16 checked=False>Beat Box Android</checkbox>
+
+    <checkbox id=17 checked=False>Bellatrix</checkbox>
+
+    <checkbox id=18 checked=False>Beryllium</checkbox>
+
+    <checkbox id=19 checked=False>Betelgeuse</checkbox>
+
+    <checkbox id=20 checked=False>Caffeinated Rattlesnake</checkbox>
+
+    <checkbox id=21 checked=False>Canopus</checkbox>
+
+    <checkbox id=22 checked=False>Capella</checkbox>
+
+    <checkbox id=23 checked=False>Captain''s Log</checkbox>
+
+    <checkbox id=24 checked=False>Castor</checkbox>
+
+    <checkbox id=25 checked=False>Ceti Alpha</checkbox>
+
+    <checkbox id=26 checked=False>Cobalt</checkbox>
+
+    <checkbox id=27 checked=False>Cricket</checkbox>
+
+    <checkbox id=28 checked=False>Dear Deer</checkbox>
+
+    <checkbox id=29 checked=False>Deneb</checkbox>
+
+    <checkbox id=30 checked=False>Doink</checkbox>
+
+    <checkbox id=31 checked=False>Don''t Panic</checkbox>
+
+    <checkbox id=32 checked=False>Drip</checkbox>
+
+    <checkbox id=33 checked=False>Electra</checkbox>
+
+    <checkbox id=34 checked=False>Fluorine</checkbox>
+
+    <checkbox id=35 checked=False>Fomalhaut</checkbox>
+
+    <checkbox id=36 checked=False>Gallium</checkbox>
+
+    <checkbox id=37 checked=False>Heaven</checkbox>
+
+    <checkbox id=38 checked=False>Helium</checkbox>
+
+    <checkbox id=39 checked=False>Highwire</checkbox>
+
+    <checkbox id=40 checked=False>Hojus</checkbox>
+
+    <checkbox id=41 checked=False>Iridium</checkbox>
+
+    <checkbox id=42 checked=False>Krypton</checkbox>
+
+    <checkbox id=43 checked=False>Kzurb Sonar</checkbox>
+
+    <checkbox id=44 checked=False>Lalande</checkbox>
+
+    <checkbox id=45 checked=False>Look At Me</checkbox>
+
+    <checkbox id=46 checked=False>Merope</checkbox>
+
+    <checkbox id=47 checked=False>Mira</checkbox>
+
+    <checkbox id=48 checked=False>Missed It</checkbox>
+
+    <checkbox id=49 checked=False>Moonbeam</checkbox>
+
+    <checkbox id=50 checked=False>On The Hunt</checkbox>
+
+    <checkbox id=51 checked=False>Palladium</checkbox>
+
+    <checkbox id=52 checked=False>Pixie Dust</checkbox>
+
+    <checkbox id=53 checked=False>Pizzicato</checkbox>
+
+    <checkbox id=54 checked=False>Plastic Pipe</checkbox>
+
+    <checkbox id=55 checked=False>Polaris</checkbox>
+
+    <checkbox id=56 checked=False>Pollux</checkbox>
+
+    <checkbox id=57 checked=False>Procyon</checkbox>
+
+    <checkbox id=58 checked=False>Proxima</checkbox>
+
+    <checkbox id=59 checked=False>Radon</checkbox>
+
+    <checkbox id=60 checked=False>Regulus</checkbox>
+
+    <checkbox id=61 checked=False>Rubidium</checkbox>
+
+    <checkbox id=62 checked=False>Selenium</checkbox>
+
+    <checkbox id=63 checked=False>Shaula</checkbox>
+
+    <checkbox id=64 checked=False>Sirius</checkbox>
+
+    <checkbox id=65 checked=False>Sirrah</checkbox>
+
+    <checkbox id=66 checked=False>Space Seed</checkbox>
+
+    <checkbox id=67 checked=False>Spica</checkbox>
+
+    <checkbox id=68 checked=False>Strontium</checkbox>
+
+    <checkbox id=69 checked=False>Syrma</checkbox>'
+  new_state_str: 9888c83e7351b54bb56f2f0567b5250299c0b9c8d7e7921c8e638da5cf346b8d
+  state_str:
+  - 29d753aeb7275e575680035e78b2bd3a3df634030ace02aa30c8204883faff2b
+  - 81dbe89234f9685ff94c324d39c62dcde4717fbc3fabcfb8fff46ee86f653076
+  - 8e041d2c912b534f7c9c682b8d15a2e39281f52bbbcc40e1edc32a86505beb47
+  - acfb3071b12580f1869f00093240ccce5cf1d1d88fb773d953e28786bfd3c515
+  - 5f83dbcfc5ae210aafcb92aa5f4f5776e9bd55d93ed439b40848459a9dfeda04
+  - 3ee8d86508f9f1406bfe08248045134d238e368b378c8d3ad7e5cc7c90c09da4
+  - f1c70fa1bb8cd3c9c582cd0983eea2d78cffe0ab3334569521087f05a760ca6b
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>Settings</p>
+
+    <button id=2>Customize colors</button>
+
+    <button id=3>Manage event types</button>
+
+    <checkbox id=4 checked=False>Use 24-hour time format OFF</checkbox>
+
+    <checkbox id=5 checked=True>Start week on Sunday ON</checkbox>
+
+    <checkbox id=6 checked=False>Avoid showing What''s New on startup OFF</checkbox>
+
+    <button id=7>Delete all events</button>
+
+    <p id=8>EVENT REMINDERS</p>
+
+    <checkbox id=9 checked=False>Vibrate on reminder notification OFF</checkbox>
+
+    <button id=10>Reminder sound<br>Adara</button>
+
+    <checkbox id=11 checked=True>Always use same snooze time ON</checkbox>
+
+    <button id=12>Snooze time<br>10 minutes</button>
+
+    <button id=13>go back</button>
+
+    <p id=14>CALDAV</p>
+
+    <checkbox id=15 checked=False>CalDAV sync OFF</checkbox>
+
+    <p id=16>WEEKLY VIEW</p>
+
+    <button id=17>Start day at<br>07:00</button>
+
+    <button id=18>End day at<br>23:00</button>
+
+    <p id=19>MONTHLY VIEW</p>
+
+    <checkbox id=20 checked=False>Show week numbers OFF</checkbox>
+
+    <checkbox id=21 checked=False>Show a grid OFF</checkbox>
+
+    <p id=22>EVENT LISTS</p>
+
+    <checkbox id=23 checked=False>Replace event description with location OFF</checkbox>
+
+    <button id=24>Display events from the past<br>Never</button>
+
+    <p id=25>WIDGETS</p>
+
+    <button id=26>Font size<br>Medium</button>'
+  new_state_str: a7d6ebc909fa8758b2912ae42b2f20e640d9e6debc721d99e7afad68d69d4fb5
+  state_str:
+  - 4bdbc029c2035e6adcad83fdb5143a3b05369f62fd44e31ed2f1751f6dae7f2c
+  - 3cfc9a268622e1fa0c16a46c43fd81a6c9071ffee4826d91f4f84d00315e18ef
+  - b9a62d042c6e6445099c883eef7f130f9bf1119449a8604436b8fb0b34732482
+step_num: 6
+task_name: change the event reminder sound of Calendar app to adara

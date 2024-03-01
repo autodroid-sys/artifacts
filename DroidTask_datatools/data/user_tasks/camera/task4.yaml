@@ -1,0 +1,98 @@
+records:
+- Choice: 8
+  Input: 'null'
+  State: "<button id=0 text='Toggle the timer mode'></button>\n <button id=1 text='Resolution'></button>\n\
+    \ <button id=2 text='Settings'></button>\n <button id=3 text='Video'>Video</button>\n\
+    \ <p id=4 text='Photo'></p>\n <p id=5>Photo</p>\n <button id=6 text='Toggle front/back\
+    \ camera'></button>\n <button id=7 text='Shutter'></button>\n <button id=8 text='View\
+    \ last captured media'></button>\n <button id=9>go back</button>"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: 51df7fe2285dc69df6c3991ff2a7245a83238ce0a9f5457cf10100669270ca7a
+- Choice: 1
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str:
+  - 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Rotate right</button>\n <button id=1>Rotate left</button>\n\
+    \ <button id=2>Rotate by 180\xBA</button>\n <button id=3>go back</button>"
+  new_state_str: b85c0edc1b54705cf5f91dce3d464afe475ee6043af156be966ffc0fabc49582
+  state_str: 5ed1b12b6d9176e662558f882bbfa204f4fc0fcd2793168d90835cb88b1711ae
+- Choice: 1
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Save as''></button>
+
+    <button id=2 text=''Rotate''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: 1c3d85795f30f7072b53f1c0021459dc742227f450e3f438ef74fc857a7015fe
+  state_str:
+  - 22eab9935f1bc623cac0ff9de250fc8b4923a528f2835877398dc962fece6e96
+- Choice: 2
+  Input: pic4
+  State: "<p id=0>Save as</p>\n <input id=1 >Internal/DCIM/</input>\n <input id=2\
+    \ >pic3</input>\n <input id=3 >jpg</input>\n <button id=4>Cancel</button>\n <button\
+    \ id=5>OK</button>\n <button id=6>go back</button>"
+  new_state_str: 34c71e0a523c1ff4c2a477ffecb8038723d8c79322d8aa899f938f42a0ade947
+  state_str: de5bbe0ca175dda6eeea0091f2d15b99484c66812291397b4e18a53ea7db6b31
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Save as</p>\n <input id=1 >Internal/DCIM/</input>\n <input id=2\
+    \ >pic4</input>\n <input id=3 >jpg</input>\n <button id=4>Cancel</button>\n <button\
+    \ id=5>OK</button>\n <button id=6>go back</button>"
+  new_state_str: 4fdbe7d830fd2ac3b736afa7bf44f82bfc34e12392f41e2246a4e952a770874c
+  state_str: d21f2dec29f6676f57652870ccd3d9e21588739cc61f97a5d757e33b35a58217
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str:
+  - 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+step_num: 8
+task_name: rotate right the last picture I took and save it as pic4.jpg

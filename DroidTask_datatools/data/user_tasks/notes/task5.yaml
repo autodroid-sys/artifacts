@@ -1,0 +1,63 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Rename note</button>\n <button id=1>Share</button>\n <button\
+    \ id=2>Create shortcut</button>\n <button id=3>Lock note</button>\n <button id=4>Open\
+    \ file</button>\n <button id=5>Import notes</button>\n <button id=6>Export as\
+    \ file</button>\n <button id=7>Export all notes</button>\n <button id=8>Print</button>\n\
+    \ <button id=9>Delete note</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>About</button>\n <button id=12>go back</button>"
+  new_state_str: d30d629d793bfe53cdcfb3f2984315c78089bafee2ba0f45ef8bc2c0dcf7909a
+  state_str: 4e5778fa48b7653d78c78d9fc93185b3bf480d25f784957a6e6ce8b90ed6573d
+- Choice: 1
+  Input: events
+  State: "<p id=0>Rename note</p>\n <input id=1 >Diary</input>\n <button id=2>Cancel</button>\n\
+    \ <button id=3>OK</button>\n <button id=4>go back</button>"
+  new_state_str: d85b7ab3ab074ba9075255e6c07f590bcb9b0a4311164df52f1242687e153a6a
+  state_str: 0eedfbd8b89d5c7c8d5825d51b8de2a6a19b19caae8ef593c3ab49e9d573883a
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Rename note</p>\n <button id=2>Cancel</button>\n <button id=3>OK</button>\n\
+    \ <button id=4>go back</button>"
+  new_state_str: 379cf1780e4c05c56a958978a8bc73ae9def77081f0dbd7a92f5eb2d3ddc0b32
+  state_str: 66d7f5092103cce6b8d41156a69a2df968a2c9a9ab5a01d623ea264ce8ae9abc
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: ac739f92522c9323d0676997f50ed6d7f32c842a0c506fd58e0a2a9ec3202a1f
+  state_str:
+  - eaf599a2a1114e7298d405db8a39152d15188585d943ea8b2332fe2f36ef2d75
+step_num: 6
+task_name: Rename the note 'diary' to 'events'

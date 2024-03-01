@@ -1,0 +1,143 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>A
+
+    B</button>
+
+    <button id=8 text=''Dialpad''></button>
+
+    <p id=9>Contacts</p>
+
+    <button id=10>Favorites</button>
+
+    <button id=11>Call History</button>
+
+    <button id=12>go back</button>'
+  new_state_str: 0c185e3afb93e10afd432c02f64a1be0de6945af47eff547674ad71159e353b5
+  state_str:
+  - f1e3658978875fcb435c615763df624b0dbdae9c42b85a19abf41c7c8212dc3b
+- Choice: 9
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Alice</button>\n <button\
+    \ id=6>123456<br>Mobile</button>\n <button id=7>alice@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage</button>\n <button id=9 text='Edit contact'></button>\n\
+    \ <button id=10 text='Share'></button>\n <button id=11 text='Delete'></button>\n\
+    \ <button id=12 text='More options'></button>\n <button id=13>go back</button>"
+  new_state_str: f2e82db6a77e461d904c435bd52078eb008f16f3a843a151ad6c6df883eb939a
+  state_str: 008f4288123ee1952e1f9603b5172869bdcf7c07e99a42166921310998de3570
+- Choice: 4
+  Input: '1234567890'
+  State: '<button id=0 text=''Change photo''></button>
+
+    <button id=1 text=''Toggle favorite''></button>
+
+    <input id=2>Alice</input>
+
+    <input id=3>Surname</input>
+
+    <input id=4>123456</input>
+
+    <button id=5>Mobile</button>
+
+    <input id=6>alice@mails.com</input>
+
+    <button id=7>Home</button>
+
+    <input id=8>Address</input>
+
+    <button id=9>Unknown</button>
+
+    <button id=10>Birthday</button>
+
+    <button id=11 text=''Save''></button>
+
+    <button id=12 text=''Share''></button>
+
+    <button id=13 text=''Delete''></button>
+
+    <button id=14 text=''More options''></button>
+
+    <button id=15>go back</button>
+
+    <input id=16>Notes</input>
+
+    <button id=17>No groups</button>
+
+    <button id=18>Phone storage</button>'
+  new_state_str: 0d0357b2f47f6d25d5887ee7b65e2b6f2c53e00987b85c2acebe7694a75bed34
+  state_str:
+  - 72a051cd8130e40837e4800116a8b1794ee80c2853c0e99c1f78b375bf8d4802
+  - 3acc525b75d0eeb615dc07a6eb05cbee5df89603da3120f1a892b8a45f182f63
+- Choice: 11
+  Input: 'null'
+  State: '<button id=0 text=''Change photo''></button>
+
+    <button id=1 text=''Toggle favorite''></button>
+
+    <input id=2>Alice</input>
+
+    <input id=3>Surname</input>
+
+    <input id=4>1234567890</input>
+
+    <button id=5>Mobile</button>
+
+    <input id=6>alice@mails.com</input>
+
+    <button id=7>Home</button>
+
+    <input id=8>Address</input>
+
+    <button id=9>Unknown</button>
+
+    <button id=10>Birthday</button>
+
+    <button id=11 text=''Save''></button>
+
+    <button id=12 text=''Share''></button>
+
+    <button id=13 text=''Delete''></button>
+
+    <button id=14 text=''More options''></button>
+
+    <button id=15>go back</button>
+
+    <input id=16>Notes</input>
+
+    <button id=17>No groups</button>
+
+    <button id=18>Phone storage</button>'
+  new_state_str: 5dea48f25a1bc3c0eef24caa4fff6907a1f5317ec2aa9b4549ad757160a7d10f
+  state_str:
+  - 6cce95b055ce7661235421ce4cf1ff06cf52287b7ff4dbd37ac0c0d7aafcc3e1
+  - 1ff91d40ba6db0f65a4fee02ec533ae86c532dd4f2252e155593e7dda386bdad
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Alice</button>\n <button\
+    \ id=6>1234567890<br>Mobile</button>\n <button id=7>alice@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage</button>\n <button id=9 text='Edit contact'></button>\n\
+    \ <button id=10 text='Share'></button>\n <button id=11 text='Delete'></button>\n\
+    \ <button id=12 text='More options'></button>\n <button id=13>go back</button>"
+  new_state_str: 64cdb56a9152edcd3cea70cdbab6021bee85419c3bf565614ac4f76347002d03
+  state_str: 1394fecc43f70b2db98261d621a36862b8ed563c2324e154ee455ece0620f9d4
+step_num: 6
+task_name: Modify Alice's mobile number to 1234567890 and save it

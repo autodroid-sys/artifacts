@@ -1,0 +1,42 @@
+records:
+- Choice: 0
+  Input: Clock
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+- Choice: 4
+  Input: 'null'
+  State: "<input id=0 >Clock</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Clock</button>\n <button id=5>go back</button>"
+  new_state_str: ef4cb2b7f5b1e85ac7426d6f120709e1a0e67a7c8b0bc90bdd9a90ed3beb1f60
+  state_str: acf566b0abeeca2407aab2ef15cb101bf78a2b81b0e1ddcce4049f5950783e11
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''More apps from us''></button>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3>05:00</button>
+
+    <button id=4 text=''New Timer''></button>
+
+    <button id=5>Clock</button>
+
+    <button id=6>Alarm</button>
+
+    <button id=7>Stopwatch</button>
+
+    <p id=8>Timer</p>
+
+    <button id=9>go back</button>'
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str:
+  - 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+step_num: 4
+task_name: search 'Clock' app and open it

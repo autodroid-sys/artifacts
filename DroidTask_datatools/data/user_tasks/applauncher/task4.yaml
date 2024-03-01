@@ -1,0 +1,65 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Column count</button>\n <button id=1>Settings</button>\n <button\
+    \ id=2>About</button>\n <button id=3>go back</button>"
+  new_state_str: ca19303f69337e3b0304675f3593b6929a8f5e20f11c851c7caa0c01e2149f4c
+  state_str: 4aa00a0b2088cff9cf01711cc84ced31f46a408b7dd1e4bc992e0e14003ec750
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <p id=3>GENERAL</p>\n <checkbox id=4 checked=True>Close this\
+    \ app at launching a different one</checkbox>\n <button id=5>go back</button>"
+  new_state_str: c1b06bce7e23dd13a3288977fbdd55b3d1962a9bb93432a712321fd371f52bb7
+  state_str: ad13fc2aeb3d2bc44cc46c16bec9cd521ce8c4a2109a8c41b6e3186a67e681bd
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1>Theme<br>Dark</button>\n <button\
+    \ id=2>Text color</button>\n <button id=3>Background color</button>\n <button\
+    \ id=4>Primary color</button>\n <button id=5>App icon color</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: 3c8b0bea669823c2829158e0dfc06ff53513a257e62e069e04a6cda9fb014803
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>WARNING: Some launchers do not handle app icon customization properly.\
+    \ In case the icon will disappear, try launching the app via Google Play or some\
+    \ widget, if available. Once launched, just set back the default orange icon #F57C00.\
+    \ You might have to reinstall the app in the worst case.</p>\n <button id=1>OK</button>\n\
+    \ <button id=2>go back</button>"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: 1beb6eb61076f7b97cb5fbee8d7b05256ad7a0f3ddda64595c904f930845f693
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Auto light / dark</checkbox>\n <checkbox id=1\
+    \ checked=False>Light</checkbox>\n <checkbox id=2 checked=True>Dark</checkbox>\n\
+    \ <checkbox id=3 checked=False>Dark red</checkbox>\n <checkbox id=4 checked=False>White</checkbox>\n\
+    \ <checkbox id=5 checked=False>Black & White</checkbox>\n <checkbox id=6 checked=False>Custom</checkbox>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f8ad670e9a731699680252f02c59a057647e07cd5290c9cc4cb69554d0285bd9
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1 text='Save'></button>\n <button\
+    \ id=2>Theme<br>Light</button>\n <button id=3>Text color</button>\n <button id=4>Background\
+    \ color</button>\n <button id=5>Primary color</button>\n <button id=6>App icon\
+    \ color</button>\n <button id=7>go back</button>"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: 354ad5387ada1a627826ddfaa632c2ba523e7cab6fa2b94cdf8b3d77046bc4de
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Settings</p>\n <p id=1>COLOR CUSTOMIZATION</p>\n <button id=2>Customize\
+    \ colors</button>\n <p id=3>GENERAL</p>\n <checkbox id=4 checked=True>Close this\
+    \ app at launching a different one</checkbox>\n <button id=5>go back</button>"
+  new_state_str: c1b06bce7e23dd13a3288977fbdd55b3d1962a9bb93432a712321fd371f52bb7
+  state_str: ad13fc2aeb3d2bc44cc46c16bec9cd521ce8c4a2109a8c41b6e3186a67e681bd
+step_num: 8
+task_name: Change theme color to light

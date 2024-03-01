@@ -1,0 +1,79 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <p id=8>Albums</p>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str:
+  - ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>Title</checkbox>\n <checkbox\
+    \ id=2 checked=False>Artist Name</checkbox>\n <checkbox id=3 checked=False>Year</checkbox>\n\
+    \ <checkbox id=4 checked=True>Ascending</checkbox>\n <checkbox id=5 checked=False>Descending</checkbox>\n\
+    \ <button id=6>Cancel</button>\n <button id=7>OK</button>\n <button id=8>go back</button>"
+  new_state_str: 6a675183d60ceb8222f615f2cf48f1e114fa456864573bf0da3e4b6097e966c6
+  state_str: 32ca80dbddfe85f6320707ad101fa8cdf5189bf611a9715bd096fbaaaa3eb65e
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>Title</checkbox>\n <checkbox\
+    \ id=2 checked=False>Artist Name</checkbox>\n <checkbox id=3 checked=True>Year</checkbox>\n\
+    \ <checkbox id=4 checked=True>Ascending</checkbox>\n <checkbox id=5 checked=False>Descending</checkbox>\n\
+    \ <button id=6>Cancel</button>\n <button id=7>OK</button>\n <button id=8>go back</button>"
+  new_state_str: 1bb92e92aa00f59a4d4ab53ac713a5540faa5126f3ff62a5d86115d198acbbb5
+  state_str: f5c51ddb951980c1b3a9ccb4d5b83adb683fb85e279650ac3d3331876ce14f00
+- Choice: 7
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=False>Title</checkbox>\n <checkbox\
+    \ id=2 checked=False>Artist Name</checkbox>\n <checkbox id=3 checked=True>Year</checkbox>\n\
+    \ <checkbox id=4 checked=False>Ascending</checkbox>\n <checkbox id=5 checked=True>Descending</checkbox>\n\
+    \ <button id=6>Cancel</button>\n <button id=7>OK</button>\n <button id=8>go back</button>"
+  new_state_str: 7873127b104c462341af0e48625245eac0e8b1565c2a3fbed25393123d632c1d
+  state_str: eeabd4b415f1ad3fa6434ed9f233d40a4cccf7b19e785f1858549bf9e4575f2c
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <p id=8>Albums</p>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str:
+  - ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+step_num: 5
+task_name: sort by year in descending order

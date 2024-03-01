@@ -1,0 +1,59 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 1
+  Input: NewTextNote
+  State: "<p id=0>Add a new note</p>\n <input id=1 >Label</input>\n <p id=2>New note\
+    \ type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox id=4\
+    \ checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 67f3b94e0e34c3430a429ef07289bd7b94c6e3b80719e6fc9d839c0f23ad3b4f
+  state_str: d5209f39a2e32892f7ea467acca08507883580cc984e6f9a7219eb4d0ed70800
+- Choice: 6
+  Input: 'null'
+  State: "<p id=0>Add a new note</p>\n <input id=1 >NewTextNote</input>\n <p id=2>New\
+    \ note type:</p>\n <checkbox id=3 checked=True>Text note</checkbox>\n <checkbox\
+    \ id=4 checked=False>Checklist</checkbox>\n <button id=5>Cancel</button>\n <button\
+    \ id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 02f311fa0b9fdc5a58ef60b6acd9b5fd5c4347ed0e95450d2d24530b20008be7
+  state_str: 6c0a229eacb835a706733c6600346ec92b617fe88efdf1505a3864cffd3da128
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>General note</button>
+
+    <p id=5>NewTextNote</p>
+
+    <input id=6>Insert text here</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 878e684217c9692cd3ef1bf236cc8027d43b5c5afb87691eaff060c73be786c1
+  state_str:
+  - 27a64a05ea6919a5845e5b019975e995dd626b716574072452a91dae449a98f3
+step_num: 4
+task_name: Create a text note named 'NewTextNote'

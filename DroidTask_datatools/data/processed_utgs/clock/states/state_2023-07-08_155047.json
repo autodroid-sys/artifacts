@@ -1,0 +1,783 @@
+{
+  "tag": "2023-07-08_155047",
+  "state_str": "a2419674a1f7c74b092a7035bc4de643941b82e82396c2575a6cdd684c881539",
+  "state_str_content_free": "02c8b42d4112b0f04ca6992d9a212754",
+  "foreground_activity": "com.simplemobiletools.clock/.activities.WidgetDigitalConfigureActivity",
+  "activity_stack": [
+    "com.simplemobiletools.clock/.activities.WidgetDigitalConfigureActivity",
+    "com.simplemobiletools.clock/.activities.SettingsActivity",
+    "com.simplemobiletools.clock/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "52a8967ced895a92de4751e3ad2ec5f2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2148",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "9405a8bf0b93cde4b15ada0f4ce45c72",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "e1a32293da6481821aa36b8a9a58d714",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.clock:id/action_bar_root[text][enabled,,]",
+      "view_str": "c51cdcd30fb5e0d90fe6242d3b798c43",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.clock:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1977",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "2e2d94a802b2e18e48129456b739e534",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1977",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.clock:id/config_coordinator[text][enabled,,]",
+      "view_str": "42507a59708af9a693c3e5d41a4f8168",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.clock:id/config_coordinator"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        11,
+        12,
+        14,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          215
+        ],
+        [
+          1036,
+          2104
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "992*1889",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_holder[text][enabled,,]",
+      "view_str": "7a28ffd7c99291b3dc20d9b59be165ce",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_holder"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          215
+        ],
+        [
+          1036,
+          415
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "992*200",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_wrapper[text][enabled,,]",
+      "view_str": "83e8e785b0f51adbe2fb1e609d67ae09",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_wrapper"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          215
+        ],
+        [
+          1036,
+          404
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_background",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "992*189",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_background[text][enabled,,]",
+      "view_str": "8846443d8bb506e04c166473baf6363d",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_background"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "11:06",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          215
+        ],
+        [
+          1036,
+          347
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_time",
+      "checked": false,
+      "text": "11:06",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "992*132",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.clock:id/config_digital_time[text]11:06[enabled,,]",
+      "view_str": "1eb69c8c75577424014ed3ac17b85b6e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.clock:id/config_digital_time"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Sat, 1 Jul",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          347
+        ],
+        [
+          1036,
+          404
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_date",
+      "checked": false,
+      "text": "Sat, 1 Jul",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 10,
+      "size": "992*57",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.clock:id/config_digital_date[text]Sat, 1 Jul[enabled,,]",
+      "view_str": "877d864e6576bfdb6283e1835a6ca79f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.clock:id/config_digital_date"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          50,
+          1810
+        ],
+        [
+          188,
+          1948
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_bg_color",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 11,
+      "size": "138*138",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_bg_color[text][enabled,,]",
+      "view_str": "4ec13933b09f4c9805ed193f3148873c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_bg_color"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          216,
+          1810
+        ],
+        [
+          1036,
+          1948
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_seekbar_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 12,
+      "size": "820*138",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_seekbar_holder[text][enabled,,]",
+      "view_str": "b8e40ad056baba66c72bbb470205bc37",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.clock:id/config_digital_seekbar_holder"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          216,
+          1854
+        ],
+        [
+          1036,
+          1904
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_bg_seekbar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.SeekBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "820*50",
+      "signature": "[class]android.widget.SeekBar[resource_id]com.simplemobiletools.clock:id/config_digital_bg_seekbar[text][enabled,,]",
+      "view_str": "b53a1cbd93d2ee765175de1da7f8745f",
+      "content_free_signature": "[class]android.widget.SeekBar[resource_id]com.simplemobiletools.clock:id/config_digital_bg_seekbar"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          50,
+          1966
+        ],
+        [
+          188,
+          2104
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_text_color",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 14,
+      "size": "138*138",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_text_color[text][enabled,,]",
+      "view_str": "a8366911588526fc3bfcb73e59360821",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.clock:id/config_digital_text_color"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          794,
+          1972
+        ],
+        [
+          1036,
+          2104
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.clock:id/config_digital_save",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 15,
+      "size": "242*132",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.clock:id/config_digital_save[text]OK[enabled,,]",
+      "view_str": "9003e3c46b5bd83455476776c59f01df",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.clock:id/config_digital_save"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          171
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 16,
+      "size": "1080*171",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text][enabled,,]",
+      "view_str": "809e7ae3523e00b2fb7f8d44edbee417",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.simplemobiletools.clock",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 17,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text][enabled,,]",
+      "view_str": "93bde8a8e397b2da4198f30cfc944896",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

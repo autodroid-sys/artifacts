@@ -1,0 +1,3674 @@
+{
+  "tag": "2023-07-03_194731",
+  "state_str": "77017ba27f069e0e3e3f03761bcfb443fe599a3869e34fc39c7feedd071d767c",
+  "state_str_content_free": "f725a141f0b883df17fcd7ebd2a98585",
+  "foreground_activity": "com.simplemobiletools.calendar/.activities.SettingsActivity",
+  "activity_stack": [
+    "com.simplemobiletools.calendar/.activities.SettingsActivity",
+    "com.simplemobiletools.calendar/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          172
+        ],
+        [
+          1052,
+          2147
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*1975",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "ae64f74aff42f01426529113d82d5e70",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "936*1887",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "0e001e90badf3887a985b29b49c306af",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "056e087fa2145a344f4805cc5c761d6b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root[text][enabled,,]",
+      "view_str": "5ab420b49d585daa4ca749fcb359a983",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "936*1887",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "89a0579f8b612885ac1653aa92447a48",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        90
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.aq",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "936*1887",
+      "signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel[text][enabled,,]",
+      "view_str": "6a6b2c32fb6d987bd6085174547fa9d0",
+      "content_free_signature": "[class]android.support.v7.widget.aq[resource_id]com.simplemobiletools.calendar:id/parentPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "936*1733",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel[text][enabled,,]",
+      "view_str": "d7a5650d0c4ed361478ee336a47802a0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/customPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "936*1733",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom[text][enabled,,]",
+      "view_str": "d87d83f29a92119623bbc149d2d6e42f",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.calendar:id/custom"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_scrollview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "936*1733",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_scrollview[text][enabled,,]",
+      "view_str": "39bd21d84966b4cd65674590e75ea46e",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_scrollview"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        13,
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "936*1733",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_holder[text][enabled,,]",
+      "view_str": "eed142ff31d1f7b63e54a7e0a283fc27",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_holder"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          344,
+          -7876
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_your_label",
+      "checked": false,
+      "text": "Your sounds",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "272*-8092",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_your_label[text]Your sounds[enabled,,]",
+      "view_str": "bd04beeb3a84051666bc028269fb0b7c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_your_label"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          -7713
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_your_radio",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "936*-7929",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_your_radio[text][enabled,,]",
+      "view_str": "16a492d06949b6782d047d4410d9de3c",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_your_radio"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -7713
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Add a new sound",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "848*-7929",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Add a new sound[enabled,,]",
+      "view_str": "43e1f0a7228b85104b504c825af31bfe",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          394,
+          -7638
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_system_label",
+      "checked": false,
+      "text": "System sounds",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 13,
+      "size": "322*-7854",
+      "signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_system_label[text]System sounds[enabled,,]",
+      "view_str": "b296fb8b14bdd6b1e05b1736a3157a70",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_system_label"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 75,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          216
+        ],
+        [
+          1008,
+          1949
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/dialog_select_alarm_system_radio",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 14,
+      "size": "936*1733",
+      "signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_system_radio[text][enabled,,]",
+      "view_str": "2710cbfad2b166960aa3459aafe68641",
+      "content_free_signature": "[class]android.widget.RadioGroup[resource_id]com.simplemobiletools.calendar:id/dialog_select_alarm_system_radio"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -7475
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "No sound",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "848*-7691",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]No sound[enabled,,]",
+      "view_str": "c52776206cf64af0f33ec7703a16a599",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -7334
+        ]
+      ],
+      "resource_id": null,
+      "checked": true,
+      "text": "Default (Pixie Dust)",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 16,
+      "size": "848*-7550",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Default (Pixie Dust)[enabled,checked,]",
+      "view_str": "e15af6713907ae26f2b0ab14fa218aa4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -7193
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Adara",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 17,
+      "size": "848*-7409",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Adara[enabled,,]",
+      "view_str": "a6fb526d8a17e14b4db7c5f7e7687610",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -7052
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Aldebaran",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 18,
+      "size": "848*-7268",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Aldebaran[enabled,,]",
+      "view_str": "453d1671f2ee840ef96266484388b54d",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6911
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Altair",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 19,
+      "size": "848*-7127",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Altair[enabled,,]",
+      "view_str": "38d5df7f621220fe9a102cd9b3deba2f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6770
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Alya",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 20,
+      "size": "848*-6986",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Alya[enabled,,]",
+      "view_str": "d58bf504ae96b383944e7f7d5a34323a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6629
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Antares",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 21,
+      "size": "848*-6845",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Antares[enabled,,]",
+      "view_str": "ce4859d5b7dd844cd2118debe0c1039c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6488
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Antimony",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 22,
+      "size": "848*-6704",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Antimony[enabled,,]",
+      "view_str": "6e1429756ba19a386f71ad07a2dad5cc",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6347
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Arcturus",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 23,
+      "size": "848*-6563",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Arcturus[enabled,,]",
+      "view_str": "5b7a532d514eef563980ecc74f0351cb",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6206
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Argon",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 24,
+      "size": "848*-6422",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Argon[enabled,,]",
+      "view_str": "5708ec68a2357ed27a1c505e74929925",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -6065
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Beat Box Android",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 25,
+      "size": "848*-6281",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Beat Box Android[enabled,,]",
+      "view_str": "d32e5cd07cee0683d7210ccd164b7f01",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5924
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Bellatrix",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 26,
+      "size": "848*-6140",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Bellatrix[enabled,,]",
+      "view_str": "d4df521fdc8aa28f47bf4c5904c077a4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5783
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Beryllium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 27,
+      "size": "848*-5999",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Beryllium[enabled,,]",
+      "view_str": "10873119a7d326eb4be176e7cac66ad6",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5642
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Betelgeuse",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 28,
+      "size": "848*-5858",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Betelgeuse[enabled,,]",
+      "view_str": "ae8bccad597edfd0742e9ee8b21d2454",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5501
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Caffeinated Rattlesnake",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 29,
+      "size": "848*-5717",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Caffeinated Rattlesnake[enabled,,]",
+      "view_str": "cff92b44a9a38780b44c4070feac855a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5360
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Canopus",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 30,
+      "size": "848*-5576",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Canopus[enabled,,]",
+      "view_str": "1cb00636f1056613faefc6207d62e163",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5219
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Capella",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 31,
+      "size": "848*-5435",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Capella[enabled,,]",
+      "view_str": "c28e92bd5ec2db44f7d9782221b6afd0",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -5078
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Captain's Log",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 32,
+      "size": "848*-5294",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Captain's Log[enabled,,]",
+      "view_str": "008e8b6ef2a9f08e408677b3772ffb22",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4937
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Castor",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 33,
+      "size": "848*-5153",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Castor[enabled,,]",
+      "view_str": "be9b7e62721037cb767200648d8e683c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4796
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Ceti Alpha",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 34,
+      "size": "848*-5012",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Ceti Alpha[enabled,,]",
+      "view_str": "71d27a5cabdf8abc4eb09baad9095665",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4655
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Cobalt",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 35,
+      "size": "848*-4871",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Cobalt[enabled,,]",
+      "view_str": "8d7be2eadf40f9022a3c70d3fb35e662",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4514
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Cricket",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 36,
+      "size": "848*-4730",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Cricket[enabled,,]",
+      "view_str": "6f04143149241c7565ed4a1ee4d0a4e1",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4373
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Dear Deer",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 37,
+      "size": "848*-4589",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Dear Deer[enabled,,]",
+      "view_str": "62d35fe3c776cd6d6204cf0a74e66550",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4232
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Deneb",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 38,
+      "size": "848*-4448",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Deneb[enabled,,]",
+      "view_str": "5ac95d933a6b763c08bafa2a0e456b0c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -4091
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Doink",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 39,
+      "size": "848*-4307",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Doink[enabled,,]",
+      "view_str": "9049b9c164458bfc852d5a4bdb076df6",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3950
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Don't Panic",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 40,
+      "size": "848*-4166",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Don't Panic[enabled,,]",
+      "view_str": "1a309604333b2894b700963bfbf8a451",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3809
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Drip",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 41,
+      "size": "848*-4025",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Drip[enabled,,]",
+      "view_str": "628ebe73c16db4eb15d06c5d9e64c8e0",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3668
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Electra",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 42,
+      "size": "848*-3884",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Electra[enabled,,]",
+      "view_str": "c153f14d146b683bfc769ed53082f008",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3527
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Fluorine",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 43,
+      "size": "848*-3743",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Fluorine[enabled,,]",
+      "view_str": "9c7c72232e47cf2999006d9323cd9bd3",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3386
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Fomalhaut",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 44,
+      "size": "848*-3602",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Fomalhaut[enabled,,]",
+      "view_str": "9998c4d86d52b9cda48dc519afc50ed0",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3245
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Gallium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 45,
+      "size": "848*-3461",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Gallium[enabled,,]",
+      "view_str": "965156c7a61c7ac9d2d8501aa6815a3a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -3104
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Heaven",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 46,
+      "size": "848*-3320",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Heaven[enabled,,]",
+      "view_str": "08ce3c654d3e7df4747b13d3f9e60b51",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2963
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Helium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 47,
+      "size": "848*-3179",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Helium[enabled,,]",
+      "view_str": "21b83274b2018612eecbaf1cc8c5c7f6",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2822
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Highwire",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 48,
+      "size": "848*-3038",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Highwire[enabled,,]",
+      "view_str": "8ecc4d3c154f77347bc14cfcb6603e7c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2681
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Hojus",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 49,
+      "size": "848*-2897",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Hojus[enabled,,]",
+      "view_str": "a6fb0ad0be4eb846a37b81c60470c644",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2540
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Iridium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 50,
+      "size": "848*-2756",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Iridium[enabled,,]",
+      "view_str": "ab1c15123eab50018f6e47cc9710c311",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2399
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Krypton",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 51,
+      "size": "848*-2615",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Krypton[enabled,,]",
+      "view_str": "06ee97b84753672f064ecd16e3d3ff73",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2258
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Kzurb Sonar",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 52,
+      "size": "848*-2474",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Kzurb Sonar[enabled,,]",
+      "view_str": "e40e7622b1bfa10c954bdb87c69e012a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2117
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Lalande",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 53,
+      "size": "848*-2333",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Lalande[enabled,,]",
+      "view_str": "c9f9d85a7af2afa2fb546b210097b43c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1976
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Look At Me",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 54,
+      "size": "848*-2192",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Look At Me[enabled,,]",
+      "view_str": "bcdd56b91c3c8eb68bc0e7b0bc49d1bf",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1835
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Merope",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 55,
+      "size": "848*-2051",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Merope[enabled,,]",
+      "view_str": "94ead4022d58af7cb4d780243f798b4d",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1694
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Mira",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 56,
+      "size": "848*-1910",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Mira[enabled,,]",
+      "view_str": "17a0aea1efc55a30082b61cc92b0e840",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1553
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Missed It",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 57,
+      "size": "848*-1769",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Missed It[enabled,,]",
+      "view_str": "446095884ddfb9af5243804487893f21",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1412
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Moonbeam",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 58,
+      "size": "848*-1628",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Moonbeam[enabled,,]",
+      "view_str": "0d6fa683e5e03706ef10360fef40aa8a",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1271
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "On The Hunt",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 59,
+      "size": "848*-1487",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]On The Hunt[enabled,,]",
+      "view_str": "88bc4039b78344dbf9a7f20db4014a3b",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -1130
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Palladium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 60,
+      "size": "848*-1346",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Palladium[enabled,,]",
+      "view_str": "a919e41027b2b8334afe2504aa5c46b4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -989
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Pixie Dust",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 61,
+      "size": "848*-1205",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Pixie Dust[enabled,,]",
+      "view_str": "cdcf3b6ff679e20aca66384ef0c98459",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -848
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Pizzicato",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 62,
+      "size": "848*-1064",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Pizzicato[enabled,,]",
+      "view_str": "2b95908b5750b1d4f8c372e524cbd368",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -707
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Plastic Pipe",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 63,
+      "size": "848*-923",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Plastic Pipe[enabled,,]",
+      "view_str": "b0a82d6a46fa65774d57db84438d1079",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -566
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Polaris",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 64,
+      "size": "848*-782",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Polaris[enabled,,]",
+      "view_str": "ddce5ae3d7d329efb9805ab1581a4721",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -425
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Pollux",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 65,
+      "size": "848*-641",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Pollux[enabled,,]",
+      "view_str": "77307fee6c779dc78a5d1f7c80a1e6fc",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -284
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Procyon",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 66,
+      "size": "848*-500",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Procyon[enabled,,]",
+      "view_str": "abcf2ccffc25fa65e2fca5321f6ffbf6",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -143
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Proxima",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 67,
+      "size": "848*-359",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Proxima[enabled,,]",
+      "view_str": "3c4140027991d10f168927bde20116d4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          -2
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Radon",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 68,
+      "size": "848*-218",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Radon[enabled,,]",
+      "view_str": "5a291c127c4fc5619022c97a73a521a2",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          139
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Regulus",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 69,
+      "size": "848*-77",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Regulus[enabled,,]",
+      "view_str": "d150041c522ddbb7f7c6bc2eed1d460f",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          216
+        ],
+        [
+          964,
+          280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Rubidium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 70,
+      "size": "848*64",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Rubidium[enabled,,]",
+      "view_str": "0e2544d4f7c93c3d947516e70890c594",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          280
+        ],
+        [
+          964,
+          421
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Selenium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 71,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Selenium[enabled,,]",
+      "view_str": "8b9dc91ea18d40fb84793d22ab43f9aa",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          421
+        ],
+        [
+          964,
+          562
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Shaula",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 72,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Shaula[enabled,,]",
+      "view_str": "cbe3263e1c1cbd4665562a76ed17876b",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          562
+        ],
+        [
+          964,
+          703
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sirius",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 73,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Sirius[enabled,,]",
+      "view_str": "32fc1ece93c27ae1d899c08cb33cdecb",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          703
+        ],
+        [
+          964,
+          844
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Sirrah",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 74,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Sirrah[enabled,,]",
+      "view_str": "9a630f0dcf9eac318dabf39f292ca0e3",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          844
+        ],
+        [
+          964,
+          985
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Space Seed",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 75,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Space Seed[enabled,,]",
+      "view_str": "e3c82f159ab9b1b1163504b3de795bf4",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          985
+        ],
+        [
+          964,
+          1126
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Spica",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 76,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Spica[enabled,,]",
+      "view_str": "6f063aac37a86bd5151185ddea477e37",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1126
+        ],
+        [
+          964,
+          1267
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Strontium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 77,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Strontium[enabled,,]",
+      "view_str": "c13cfe588783cd7286dcdcb703cbd2e7",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1267
+        ],
+        [
+          964,
+          1408
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Syrma",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 78,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Syrma[enabled,,]",
+      "view_str": "56e32f6d9a1637afb091f4fc0840b9da",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1408
+        ],
+        [
+          964,
+          1549
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Ta Da",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 79,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Ta Da[enabled,,]",
+      "view_str": "a37096bcc6621cae569cf594018674e8",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1549
+        ],
+        [
+          964,
+          1690
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Talitha",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 80,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Talitha[enabled,,]",
+      "view_str": "644d23c8ed5c5fafa3d20ff31a500676",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1690
+        ],
+        [
+          964,
+          1831
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Tejat",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 81,
+      "size": "848*141",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Tejat[enabled,,]",
+      "view_str": "f09d0052bd8dfe3afbde7fc90857d0ae",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1831
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Thallium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 82,
+      "size": "848*118",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Thallium[enabled,,]",
+      "view_str": "5e5fd51fe51078cfe5d2af5914315056",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          1972
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Tinkerbell",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 83,
+      "size": "848*-23",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Tinkerbell[enabled,,]",
+      "view_str": "ac629ab31c3f0057f5e49a40c1527f05",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2113
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Tweeters",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 84,
+      "size": "848*-164",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Tweeters[enabled,,]",
+      "view_str": "4bdf84f187dfcf62683e02606a988bf2",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2254
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Upsilon",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 85,
+      "size": "848*-305",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Upsilon[enabled,,]",
+      "view_str": "3c8d0ee8f032715eeaa6518d1fb05b44",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2395
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Vega",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 86,
+      "size": "848*-446",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Vega[enabled,,]",
+      "view_str": "31c91cf3038bba926a04f567700691c6",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2536
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Voila",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 87,
+      "size": "848*-587",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Voila[enabled,,]",
+      "view_str": "34b88c861624e5673ce7a99e3a880626",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2677
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Xenon",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 88,
+      "size": "848*-728",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Xenon[enabled,,]",
+      "view_str": "dcc0ffc909dc152bebf9b894f432a777",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": false,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          116,
+          2818
+        ],
+        [
+          964,
+          1949
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Zirconium",
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 89,
+      "size": "848*-869",
+      "signature": "[class]android.widget.RadioButton[resource_id][text]Zirconium[enabled,,]",
+      "view_str": "c3e03db66cfd2b028dcb663372fbc10c",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1949
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.calendar:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 90,
+      "size": "936*154",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/buttonPanel[text][enabled,,]",
+      "view_str": "8f719674c2500fd584b550fdd9e0f543",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.simplemobiletools.calendar:id/buttonPanel"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92,
+        93
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1949
+        ],
+        [
+          1008,
+          2103
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 91,
+      "size": "936*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "f7a99ff00bc3963f882b3952a35db50f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          586,
+          1960
+        ],
+        [
+          799,
+          2092
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "213*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]CANCEL[enabled,,]",
+      "view_str": "fd4fa95c2556afca43a892eca2f42694",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    },
+    {
+      "package": "com.simplemobiletools.calendar",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          799,
+          1960
+        ],
+        [
+          975,
+          2092
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "OK",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 93,
+      "size": "176*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]OK[enabled,,]",
+      "view_str": "d30cadd93d4acc8bd18a5f2596e62076",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  ]
+}

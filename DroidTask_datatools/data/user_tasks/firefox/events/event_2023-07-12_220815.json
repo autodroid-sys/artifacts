@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-12_220815",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "org.mozilla.firefox",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1381
+        ],
+        [
+          401,
+          1440
+        ]
+      ],
+      "resource_id": "android:id/title",
+      "checked": false,
+      "text": "HTTPS-Only Mode",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "357*59",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]HTTPS-Only Mode[enabled,,]",
+      "view_str": "ddc0fa45cca57071f2f8c1fb4c149313",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "aaed14718841d25f2c417698fbcee833b7a7f7ece9ade9bd412cc07b5c8776b5",
+  "stop_state": "c1785c0b0dd171fc90da6c07d8a92a9316f2742b36955b32c93d77d8d02977a3",
+  "event_str": "TouchEvent(state=aaed14718841d25f2c417698fbcee833b7a7f7ece9ade9bd412cc07b5c8776b5, view=ddc0fa45cca57071f2f8c1fb4c149313(HomeActivity/TextView-HTTPS-Only))"
+}

@@ -1,0 +1,120 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<button id=0 text=''Enable private browsing''></button>
+
+    <p id=1 text=''Search or enter address''></p>
+
+    <button id=2 text=''Google''></button>
+
+    <p id=3>Search or enter address</p>
+
+    <button id=4 text=''0 open tabs. Tap to switch tabs.<br>The tab counter toolbar
+    button.''>0</button>
+
+    <button id=5 text=''Menu<br>Highlighted''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: 8296582e793e9f504816578383d9d54e13b7fac650c9089e45589743940ebf27
+  state_str:
+  - a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+  - a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+- Choice: 10
+  Input: 'null'
+  State: "<button id=0>Bookmarks</button>\n <button id=1>History</button>\n <button\
+    \ id=2>Downloads</button>\n <button id=3>Add-ons</button>\n <button id=4>Sync\
+    \ and save data</button>\n <button id=5>Manage Account and Devices</button>\n\
+    \ <checkbox id=6 checked=False>Desktop site</checkbox>\n <button id=7 text='Highlighted<br>Highlighted,\
+    \ What\u2019s new'>What\u2019s new</button>\n <button id=8>Help</button>\n <button\
+    \ id=9>Customize homepage</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>go back</button>"
+  new_state_str: 39180632bed6820472c6b99209b673b6fc599e7f661164ee753d0964854383bf
+  state_str: 9d1efab623f99dfee6d98a5ef2d601b53e602d98cfdab3f2d3384ff8ca11dcff
+- Choice: 31
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>Settings</p>
+
+    <button id=2>Sync and save your data<br>Sign in to sync tabs, bookmarks, passwords,
+    and mo</button>
+
+    <button id=3>Use domestic China service</button>
+
+    <p id=4>General</p>
+
+    <button id=5>Search<br>Google</button>
+
+    <button id=6>Tabs<br>Close manually</button>
+
+    <button id=7>Homepage<br>Open on homepage after four hours</button>
+
+    <button id=8>Customize</button>
+
+    <button id=9>Logins and passwords</button>
+
+    <button id=10>Autofill</button>
+
+    <button id=11>Accessibility</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>Language</button>
+
+    <button id=14>Set as default browser</button>
+
+    <p id=15>Privacy and security</p>
+
+    <button id=16>Private browsing</button>
+
+    <button id=17>HTTPS-Only Mode<br>Off</button>
+
+    <button id=18>Enhanced Tracking Protection<br>Standard</button>
+
+    <button id=19>Site permissions</button>
+
+    <button id=20>Delete browsing data</button>
+
+    <button id=21>Delete browsing data on quit<br>Off</button>
+
+    <button id=22>Notifications<br>Allowed</button>
+
+    <button id=23>Data collection</button>
+
+    <p id=24>Advanced</p>
+
+    <button id=25>Add-ons</button>
+
+    <button id=26>Open links in apps<br>Never</button>
+
+    <button id=27>External download manager</button>
+
+    <button id=28>Remote debugging via USB</button>
+
+    <p id=29>About</p>
+
+    <button id=30>Rate on Google Play</button>
+
+    <button id=31>About Firefox</button>'
+  new_state_str: 7a817b721d1abfd6c27bfde5f105932dcea6ae150b78ccd945861b17390b83b9
+  state_str:
+  - 411d8b61b5b9dd76b97e389b3169497abbad10387a64572e381574e059a452ae
+  - aaed14718841d25f2c417698fbcee833b7a7f7ece9ade9bd412cc07b5c8776b5
+  - bce14ee98fa403b56b1cb0300d46e65e0b591417509a5a72b79f6486db9a2a9b
+  - 6380e12c6cbbc1409cf2dbc50f24e516023b88bdda0506dc5a3e0b2225269041
+- Choice: -1
+  Input: 'null'
+  State: "<button id=0 text='Navigate up'></button>\n<p id=1>About Firefox</p>\n<button\
+    \ id=2 text='Firefox'></button>\n<p id=3>Firefox is produced by Mozilla.</p>\n\
+    <button id=4>115.0.1 (Build #2015960409), af14c95f26+\nGV: 115.0</button>\n<button\
+    \ id=5>2023-07-05T03:57:06.222423</button>\n<button id=6>What\u2019s new in Firefox</button>\n\
+    <button id=7>Support</button>\n<button id=8>Crashes</button>\n<button id=9>Privacy\
+    \ notice</button>\n<button id=10>Know your rights</button>\n<button id=11>Licensing\
+    \ information</button>\n<button id=12>go back</button>\n<button id=13>Libraries\
+    \ that we use</button>"
+  new_state_str: 111550fe29e239939d7015ce2189b06981f0b80efaddad581b0b25e2f806e330
+  state_str:
+  - f2c930411446b5854b0235dd6cac525e6a905802345b5e3bd11b53675f45effd
+  - 56fc7ac082ccdbc198e6698644233f607a03582f31f2eeeb980250d2b1ab5f33
+step_num: 4
+task_name: check firefox version

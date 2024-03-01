@@ -1,0 +1,67 @@
+records:
+- Choice: 8
+  Input: 'null'
+  State: "<button id=0 text='Toggle the timer mode'></button>\n <button id=1 text='Resolution'></button>\n\
+    \ <button id=2 text='Settings'></button>\n <button id=3 text='Video'>Video</button>\n\
+    \ <p id=4 text='Photo'></p>\n <p id=5>Photo</p>\n <button id=6 text='Toggle front/back\
+    \ camera'></button>\n <button id=7 text='Shutter'></button>\n <button id=8 text='View\
+    \ last captured media'></button>\n <button id=9>go back</button>"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: 51df7fe2285dc69df6c3991ff2a7245a83238ce0a9f5457cf10100669270ca7a
+- Choice: 7
+  Input: 'null'
+  State: '<p id=0>pic3.jpg</p>
+
+    <button id=1 text=''Rotate''></button>
+
+    <button id=2 text=''Properties''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4 text=''Toggle favorite''></button>
+
+    <button id=5 text=''Edit''></button>
+
+    <button id=6 text=''Share''></button>
+
+    <button id=7 text=''Delete''></button>
+
+    <button id=8>go back</button>'
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str:
+  - 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Are you sure you want to move \"pic3.jpg\" (61.6 kB) into the Recycle\
+    \ Bin?</p>\n <checkbox id=1 checked=False>Do not ask again in this session</checkbox>\n\
+    \ <button id=2>No</button>\n <button id=3>Yes</button>\n <button id=4>go back</button>"
+  new_state_str: 41137f271d1117adc9affead36b9da3fdce4a5f5eaaf124a58f03f6658a980d2
+  state_str: c9e49d3d239dc59e3cb0d07b7d7352434ae823549bc78a8994ac67fc4ac6f49f
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0>00:00</button>
+
+    <button id=1>16:27</button>
+
+    <p id=2>video3.mp4</p>
+
+    <button id=3 text=''Properties''></button>
+
+    <button id=4 text=''Rename''></button>
+
+    <button id=5 text=''More options''></button>
+
+    <button id=6 text=''Toggle favorite''></button>
+
+    <button id=7 text=''Edit''></button>
+
+    <button id=8 text=''Share''></button>
+
+    <button id=9 text=''Delete''></button>
+
+    <button id=10>go back</button>'
+  new_state_str: a7dafb09ddf6977de0575058e986d9e812f6d5f4cd6e43473dd3899049a694f0
+  state_str:
+  - 84f9bebfd022b31a52622235b0fae88272ab188c3db9f76a856884a2a8940a6c
+step_num: 4
+task_name: delete the last photo I took

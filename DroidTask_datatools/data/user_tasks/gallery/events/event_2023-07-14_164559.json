@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-14_164559",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.google.android.permissioncontroller",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          975
+        ],
+        [
+          942,
+          1113
+        ]
+      ],
+      "resource_id": "com.android.permissioncontroller:id/permission_message",
+      "checked": false,
+      "text": "Allow Gallery to access photos and media on your device?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "804*138",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message[text]None[enabled,,]",
+      "view_str": "131455546635abd8f2978c00643a913f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.permissioncontroller:id/permission_message"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "b04f0cc53dd4e33d35e2d09781aac2b878baf325c64a635fcfe332005d1ae228",
+  "stop_state": "b04f0cc53dd4e33d35e2d09781aac2b878baf325c64a635fcfe332005d1ae228",
+  "event_str": "TouchEvent(state=b04f0cc53dd4e33d35e2d09781aac2b878baf325c64a635fcfe332005d1ae228, view=131455546635abd8f2978c00643a913f(GrantPermissionsActivity/TextView-Allow Gall))"
+}

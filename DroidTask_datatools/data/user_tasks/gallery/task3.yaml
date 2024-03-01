@@ -1,0 +1,37 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search files</input>
+
+    <button id=1 text=''Toggle filename visibility''></button>
+
+    <button id=2 text=''Switch to folder view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Yesterday</button>
+
+    <button id=5>go back</button>'
+  new_state_str: 827a24e214c3d5fda9cba05c5e5bc5c9d0e6d3e81a093a080e8cc952e01740c9
+  state_str:
+  - 28e7102d7cd52a46b68fd080f33254ac5eea5d7372f06e4b5e580b62d1a1cd6c
+step_num: 2
+task_name: Show all contents in all folders within the gallery app

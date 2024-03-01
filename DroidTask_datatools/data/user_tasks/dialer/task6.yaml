@@ -1,0 +1,60 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0 text='Change photo'></p>\n <button id=1 text='Toggle favorite'></button>\n\
+    \ <button id=2 text='Send email'></button>\n <button id=3 text='Call contact'></button>\n\
+    \ <button id=4 text='Send SMS'></button>\n <button id=5>Alice</button>\n <button\
+    \ id=6>111111<br>Mobile</button>\n <button id=7>alice@mails.com<br>Home</button>\n\
+    \ <button id=8>Phone storage (not visible by other apps)</button>\n <button id=9\
+    \ text='Edit contact'></button>\n <button id=10 text='Share'></button>\n <button\
+    \ id=11 text='Delete'></button>\n <button id=12 text='More options'></button>\n\
+    \ <button id=13>go back</button>"
+  new_state_str: ac9e8ddcaff512db99365635366aca1bdbb4fdfca1b319d2f3090329874a6e14
+  state_str: b838caf57fe9076ebf57352fef59f9bd7db23e225d27f0abccb05505398fdb6c
+- Choice: -1
+  Input: 'null'
+  State: "<button id=0 text='Turn microphone off'></button>\n <button id=1 text='Turn\
+    \ speaker off'></button>\n <button id=2 text='Show dialpad'></button>\n <button\
+    \ id=3 text='Hold call'></button>\n <button id=4 text='Add call'></button>\n <button\
+    \ id=5 text='End call'></button>\n <p id=6>Alice</p>\n <p id=7>111111</p>\n <p\
+    \ id=8>Dialing\u2026</p>\n <button id=9>go back</button>"
+  new_state_str: 467d921c37c70b9fd0d0f21ea8b93c3025ef4d0984d7aab6e67e6c940756c3e0
+  state_str: 21f0449399a68c531e2a03a8725de6316198090e923ff6871cf74b7c3a1505fe
+step_num: 3
+task_name: call Alice

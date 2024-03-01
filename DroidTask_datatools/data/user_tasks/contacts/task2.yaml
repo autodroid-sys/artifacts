@@ -1,0 +1,172 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Import contacts from a .vcf file</button>\n <button id=1>Export\
+    \ contacts to a .vcf file</button>\n <button id=2>Settings</button>\n <button\
+    \ id=3>About</button>\n <button id=4>go back</button>"
+  new_state_str: 519dcdd3d48aae92a24073b13b3e0d2704cfa3f644d023807b499013745623a0
+  state_str: 62a864a557cabecacc3dac2a5699c512b12e453c8993313bec4aa85143b1e15a
+- Choice: 2
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Font size<br>Large</button>
+
+    <button id=5>Manage shown contact fields</button>
+
+    <checkbox id=6 checked=True>Merge duplicate contacts</checkbox>
+
+    <checkbox id=7 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=8 checked=True>Show private contacts to Simple Dialer, Simple SMS</checkbox>
+
+    <p id=9>MAIN SCREEN</p>
+
+    <button id=10>Manage shown tabs</button>
+
+    <button id=11>Tab to open at app start<br>Last used one</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>On contact click<br>View contact details</button>
+
+    <checkbox id=14 checked=True>Show a dialpad button on the main screen</checkbox>
+
+    <checkbox id=15 checked=False>Show only contacts with phone numbers</checkbox>
+
+    <p id=16>LIST VIEW</p>
+
+    <checkbox id=17 checked=True>Show contact thumbnails</checkbox>
+
+    <checkbox id=18 checked=False>Show phone numbers</checkbox>
+
+    <checkbox id=19 checked=False>Start name with surname</checkbox>'
+  new_state_str: 8b528df166c868ad9622db32da094e4f8ffa12ba1f3b3ccc8bd32315b24eeb06
+  state_str:
+  - e89dc181eb0bcf38b4e49c2d8f09e8a6292ef80669515c3915879f71a35dbebc
+  - 51b0f8e2fb3315d6cd0bc3eb5e2857285960a58a18855c22a565f24832f9e10c
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1>Theme<br>Dark</button>\n <button\
+    \ id=2>Text color</button>\n <button id=3>Background color</button>\n <button\
+    \ id=4>Primary color</button>\n <button id=5>App icon color</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: 3c8b0bea669823c2829158e0dfc06ff53513a257e62e069e04a6cda9fb014803
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>WARNING: Some launchers do not handle app icon customization properly.\
+    \ In case the icon will disappear, try launching the app via Google Play or some\
+    \ widget, if available. Once launched, just set back the default orange icon #F57C00.\
+    \ You might have to reinstall the app in the worst case.</p>\n <button id=1>OK</button>\n\
+    \ <button id=2>go back</button>"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: 1beb6eb61076f7b97cb5fbee8d7b05256ad7a0f3ddda64595c904f930845f693
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Auto light / dark</checkbox>\n <checkbox id=1\
+    \ checked=False>Light</checkbox>\n <checkbox id=2 checked=True>Dark</checkbox>\n\
+    \ <checkbox id=3 checked=False>Dark red</checkbox>\n <checkbox id=4 checked=False>White</checkbox>\n\
+    \ <checkbox id=5 checked=False>Black & White</checkbox>\n <checkbox id=6 checked=False>Custom</checkbox>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f8ad670e9a731699680252f02c59a057647e07cd5290c9cc4cb69554d0285bd9
+- Choice: 1
+  Input: 'null'
+  State: "<p id=0>Customize colors</p>\n <button id=1 text='Save'></button>\n <button\
+    \ id=2>Theme<br>Light</button>\n <button id=3>Text color</button>\n <button id=4>Background\
+    \ color</button>\n <button id=5>Primary color</button>\n <button id=6>App icon\
+    \ color</button>\n <button id=7>go back</button>"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: 354ad5387ada1a627826ddfaa632c2ba523e7cab6fa2b94cdf8b3d77046bc4de
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Font size<br>Large</button>
+
+    <button id=5>Manage shown contact fields</button>
+
+    <checkbox id=6 checked=True>Merge duplicate contacts</checkbox>
+
+    <checkbox id=7 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=8 checked=True>Show private contacts to Simple Dialer, Simple SMS</checkbox>
+
+    <p id=9>MAIN SCREEN</p>
+
+    <button id=10>Manage shown tabs</button>
+
+    <button id=11>Tab to open at app start<br>Last used one</button>
+
+    <button id=12>go back</button>
+
+    <button id=13>On contact click<br>View contact details</button>
+
+    <checkbox id=14 checked=True>Show a dialpad button on the main screen</checkbox>
+
+    <checkbox id=15 checked=False>Show only contacts with phone numbers</checkbox>
+
+    <p id=16>LIST VIEW</p>
+
+    <checkbox id=17 checked=True>Show contact thumbnails</checkbox>
+
+    <checkbox id=18 checked=False>Show phone numbers</checkbox>
+
+    <checkbox id=19 checked=False>Start name with surname</checkbox>'
+  new_state_str: 8b528df166c868ad9622db32da094e4f8ffa12ba1f3b3ccc8bd32315b24eeb06
+  state_str:
+  - e89dc181eb0bcf38b4e49c2d8f09e8a6292ef80669515c3915879f71a35dbebc
+  - 51b0f8e2fb3315d6cd0bc3eb5e2857285960a58a18855c22a565f24832f9e10c
+step_num: 8
+task_name: Change theme color to light

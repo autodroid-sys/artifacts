@@ -1,0 +1,55 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Bob<br>Hey<br>30.06</button>
+
+    <button id=5>Alice<br>Hello<br>30.06</button>
+
+    <button id=6>go back</button>'
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str:
+  - ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Bob</p>\n <button id=1 text='Delete'></button>\n <button id=2 text='Dial\
+    \ number'></button>\n <button id=3 text='Add Person'></button>\n <button id=4\
+    \ text='More options'></button>\n <button id=5>30.06, 12:18 PM</button>\n <button\
+    \ id=6>Hey</button>\n <button id=7 text='Attachment'></button>\n <input id=8 >Type\
+    \ a message\u2026</input>\n <button id=9 text='OK'>SMS</button>\n <button id=10>go\
+    \ back</button>"
+  new_state_str: c5cc038d9eea4609fb58157d1ce379b1880d3b9f69a9359998a58e54a8b38c31
+  state_str: 70051db1819f975757a065abd60ed22eb4a7c0eb0254517d7e5d73d26627a4f8
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Conversation details</button>\n <button id=1>Block number</button>\n\
+    \ <button id=2>Mark as Unread</button>\n <button id=3>go back</button>"
+  new_state_str: 9ffbb234505400b8464dea1efcb086d4a7b9be36e8cbadae0702e4e3638808e9
+  state_str: 325687d7c477d59a48c8f3177ae5b8447704989104239d640cb84f283ace8f50
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Bob<br>Hey<br>30.06</button>
+
+    <button id=5>Alice<br>Hello<br>30.06</button>
+
+    <button id=6>go back</button>'
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str:
+  - ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+step_num: 4
+task_name: Mark the chat with Bob as Unread

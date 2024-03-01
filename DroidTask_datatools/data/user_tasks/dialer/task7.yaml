@@ -1,0 +1,63 @@
+records:
+- Choice: 11
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>No contacts found</p>
+
+    <button id=5 text=''Dialpad''></button>
+
+    <button id=6>Contacts</button>
+
+    <p id=7>Favorites</p>
+
+    <button id=8>Call History</button>
+
+    <button id=9>go back</button>'
+  new_state_str: 52a5299065b902fc4c15bdb017cc11e6f7016b4f196812630def508dd44cf179
+  state_str:
+  - c6000785747bf9c1445e40c2299c8cbb339d0f85347362af488022045bf90eac
+step_num: 2
+task_name: view favorite contacts

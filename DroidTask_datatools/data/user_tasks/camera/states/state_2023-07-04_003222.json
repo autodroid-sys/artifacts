@@ -1,0 +1,1170 @@
+{
+  "tag": "2023-07-04_003222",
+  "state_str": "e08a12cfbd14afc5316e2d814766739d3de0c0a4f79194887fab3324790ced3c",
+  "state_str_content_free": "bce2964f28c201d9f21e127632c9de0a",
+  "foreground_activity": "com.simplemobiletools.camera/.activities.MainActivity",
+  "activity_stack": [
+    "com.simplemobiletools.camera/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/.beacon.BleService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.inputmethod.latin/com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.gms/.checkin.CheckinService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.chimera.PersistentIntentOperationService",
+    "com.android.bluetooth/.hid.HidDeviceService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/.nearby.messages.service.NearbyMessagesService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.hid.HidHostService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.android.bluetooth/.avrcp.AvrcpTargetService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "23cee536b4d2bafa5bfec093ffafa5e1",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "a55d931dce42c48aec3d9b6f5f371e8f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "b95b1a0f82cb8aa90b0784c8d1ccfd40",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/action_bar_root[text][enabled,,]",
+      "view_str": "973a9f797776b8abde3564dfe2ec922b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/action_bar_root"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "e43db957aea95865699710f5e210d81b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 10,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        7,
+        8,
+        10,
+        15,
+        17,
+        18,
+        25,
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/view_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2280",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.camera:id/view_holder[text][enabled,,]",
+      "view_str": "962481a4d6a5ecaf32549e51cbb65993",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.simplemobiletools.camera:id/view_holder"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/shutter_animation",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2280",
+      "signature": "[class]android.view.View[resource_id]com.simplemobiletools.camera:id/shutter_animation[text][enabled,,]",
+      "view_str": "0db84a1210fa2e12bc4420a79a5b37b0",
+      "content_free_signature": "[class]android.view.View[resource_id]com.simplemobiletools.camera:id/shutter_animation"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "1080*2280",
+      "signature": "[class]android.view.ViewGroup[resource_id][text][enabled,,]",
+      "view_str": "b6538c291622c7b7e757f2419f64ab2d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/preview_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "1080*2280",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/preview_view[text][enabled,,]",
+      "view_str": "35e87b74e1c38285329c883da3efccd9",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/preview_view"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          180
+        ],
+        [
+          1080,
+          2100
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1080*1920",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "2dd965d48f5bf4733d4e888df1f83f07",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/top_options",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 10,
+      "size": "1080*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/top_options[text][enabled,,]",
+      "view_str": "65c32d3267dd73d820b4974b479d3f4a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.simplemobiletools.camera:id/top_options"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        13,
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          1080,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/default_icons",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.camera:id/default_icons[text][enabled,,]",
+      "view_str": "ff1ab68ab48f80d50eff5421987e82e5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.simplemobiletools.camera:id/default_icons"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Toggle the flashlight mode",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          171
+        ],
+        [
+          360,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/toggle_flash",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "360*154",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/toggle_flash[text][enabled,,]",
+      "view_str": "4f536cc7a555aa70fb2706936cbec4fa",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/toggle_flash"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Resolution",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          360,
+          171
+        ],
+        [
+          720,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/change_resolution",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "360*154",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/change_resolution[text][enabled,,]",
+      "view_str": "0a4e907dfbb0c5906389d653af6989b7",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/change_resolution"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Settings",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          720,
+          171
+        ],
+        [
+          1080,
+          325
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/settings",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "360*154",
+      "signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/settings[text][enabled,,]",
+      "view_str": "0356d8e1a91d9ac6882de13b59d90031",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.simplemobiletools.camera:id/settings"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          671
+        ],
+        [
+          540,
+          1329
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/timer_text",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextSwitcher",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 15,
+      "size": "0*658",
+      "signature": "[class]android.widget.TextSwitcher[resource_id]com.simplemobiletools.camera:id/timer_text[text][enabled,,]",
+      "view_str": "04119d8d0a81d43ee87d697c32d4acec",
+      "content_free_signature": "[class]android.widget.TextSwitcher[resource_id]com.simplemobiletools.camera:id/timer_text"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          671
+        ],
+        [
+          540,
+          1329
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "0*658",
+      "signature": "[class]android.widget.TextView[resource_id][text][enabled,,]",
+      "view_str": "d4e7129746561f7dcba806ce70fb0592",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1675
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/bottom_overlay",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 17,
+      "size": "1080*605",
+      "signature": "[class]android.view.View[resource_id]com.simplemobiletools.camera:id/bottom_overlay[text][enabled,,]",
+      "view_str": "5e1192f5e52459a7117e1bc4d49cb1fa",
+      "content_free_signature": "[class]android.view.View[resource_id]com.simplemobiletools.camera:id/bottom_overlay"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1675
+        ],
+        [
+          1080,
+          1895
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/camera_mode_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 18,
+      "size": "1080*220",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.camera:id/camera_mode_holder[text][enabled,,]",
+      "view_str": "4b5a999da671e209966f8263d7705317",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.simplemobiletools.camera:id/camera_mode_holder"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1697
+        ],
+        [
+          1080,
+          1829
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/camera_mode_tab",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*132",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.simplemobiletools.camera:id/camera_mode_tab[text][enabled,,]",
+      "view_str": "24efc9f6d2d49806464f5bd3d395ff41",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.simplemobiletools.camera:id/camera_mode_tab"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1697
+        ],
+        [
+          1080,
+          1829
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1080*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "2b545f3849212963a7a4c3d739db58df",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Video",
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          342,
+          1697
+        ],
+        [
+          540,
+          1829
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "198*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,selected]",
+      "view_str": "d335c3b22cd5028722cbcbee3e166de0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          390,
+          1736
+        ],
+        [
+          492,
+          1789
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Video",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "102*53",
+      "signature": "[class]android.widget.TextView[resource_id][text]Video[enabled,,selected]",
+      "view_str": "987d2674ac14cdfecff95e40979ca15d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Photo",
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1697
+        ],
+        [
+          738,
+          1829
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 23,
+      "size": "198*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "b01728ab2cd13f96e08e4a2a1714d391",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          586,
+          1736
+        ],
+        [
+          691,
+          1789
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Photo",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "105*53",
+      "signature": "[class]android.widget.TextView[resource_id][text]Photo[enabled,,]",
+      "view_str": "3c4178b76cf60c1f0839d0d76805f494",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Toggle front/back camera",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          144,
+          1917
+        ],
+        [
+          298,
+          2071
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/toggle_camera",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 25,
+      "size": "154*154",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/toggle_camera[text][enabled,,]",
+      "view_str": "cef807a1dfd1e648c1a57080f9c23222",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/toggle_camera"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Shutter",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          441,
+          1895
+        ],
+        [
+          639,
+          2093
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/shutter",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 26,
+      "size": "198*198",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/shutter[text][enabled,,]",
+      "view_str": "360d7aef671ce350742e20bff7bc7fce",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/shutter"
+    },
+    {
+      "package": "com.simplemobiletools.camera",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "View last captured media",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          783,
+          1917
+        ],
+        [
+          937,
+          2071
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.camera:id/last_photo_video_preview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 27,
+      "size": "154*154",
+      "signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/last_photo_video_preview[text][enabled,,]",
+      "view_str": "8e81299bf97967a90ac3785d66b1d039",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.simplemobiletools.camera:id/last_photo_video_preview"
+    }
+  ]
+}

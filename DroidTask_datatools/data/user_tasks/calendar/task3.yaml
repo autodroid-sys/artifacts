@@ -1,0 +1,67 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 3
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Daily view</checkbox>\n <checkbox id=1 checked=False>Weekly\
+    \ view</checkbox>\n <checkbox id=2 checked=True>Monthly view</checkbox>\n <checkbox\
+    \ id=3 checked=False>Yearly view</checkbox>\n <checkbox id=4 checked=False>Simple\
+    \ event list</checkbox>\n <button id=5>go back</button>"
+  new_state_str: 41fab8a8229a01a4c4c0872b6e5932eaf07f8213f9a950020253a3a4f0f484b3
+  state_str: f0bfe9dde1b043cdedd98387de9c2d6efa247728c2821790023078d33e646c69
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Calendar - 2023</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>JANUARY</p>
+
+    <p id=5>FEBRUARY</p>
+
+    <p id=6>MARCH</p>
+
+    <p id=7>APRIL</p>
+
+    <p id=8>MAY</p>
+
+    <p id=9>JUNE</p>
+
+    <p id=10>JULY</p>
+
+    <p id=11>AUGUST</p>
+
+    <p id=12>SEPTEMBER</p>
+
+    <p id=13>OCTOBER</p>
+
+    <p id=14>NOVEMBER</p>
+
+    <p id=15>DECEMBER</p>
+
+    <button id=16>go back</button>'
+  new_state_str: 0ed19d027d8fdc936b197c48b8404f2133c8b4e7bb704aa43b291515f14a0716
+  state_str:
+  - 967906168e57214f55fdcc4a722a625b86678fe0c61a766dd23e5d596571085e
+step_num: 3
+task_name: change the view from monthly to yearly

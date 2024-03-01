@@ -1,0 +1,153 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''Create new contact''></button>
+
+    <button id=4 text=''More options''></button>
+
+    <button id=5>Alice</button>
+
+    <button id=6>Bob</button>
+
+    <button id=7>Jack</button>
+
+    <button id=8>A
+
+    B
+
+    J</button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Call History</button>
+
+    <button id=13>go back</button>'
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str:
+  - a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Settings</button>\n <button id=1>About</button>\n <button id=2>go\
+    \ back</button>"
+  new_state_str: 77583b11ad5633cfffda3a1c606f2b82cf5edbe5739d839f74bfd29973528d44
+  state_str: 099af374a0533601d9a7d3de46de59e84982c5ed0050cbbf26b0fdc8cb3172d5
+- Choice: 9
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Manage blocked numbers</button>
+
+    <button id=5>Change date and time format</button>
+
+    <button id=6>Manage speed dial</button>
+
+    <button id=7>Font size<br>Large</button>
+
+    <checkbox id=8 checked=False>Start name with surname</checkbox>
+
+    <checkbox id=9 checked=False>Hide dialpad numbers</checkbox>
+
+    <checkbox id=10 checked=True>Enable vibrations on dialpad button clicks</checkbox>
+
+    <checkbox id=11 checked=True>Enable beeps on dialpad button clicks</checkbox>
+
+    <button id=12>go back</button>
+
+    <p id=13>STARTUP</p>
+
+    <button id=14>Manage shown tabs</button>
+
+    <button id=15>Tab to open at app start<br>Last used one</button>
+
+    <checkbox id=16 checked=False>Open the dialpad by default when the app opens</checkbox>
+
+    <p id=17>CALLS</p>
+
+    <checkbox id=18 checked=True>Group subsequent calls with the same number at the</checkbox>
+
+    <checkbox id=19 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=20 checked=False>Disable proximity sensor during calls</checkbox>
+
+    <checkbox id=21 checked=False>Replace swiping at responding to incoming calls
+    wi</checkbox>
+
+    <checkbox id=22 checked=False>Always display incoming calls on full screen</checkbox>'
+  new_state_str: b6bf6a602f0f077f9d35ec740ca71a92dac5e0c34e6c4b74e58bec149547eef3
+  state_str:
+  - 57b577316d43e0bba070049fb483378cf5f2c2b1f1f3630997a44cdd97bf56e9
+  - 4017824c531965689fb12f83f06d9fc86aea4fb76acf2bf8808b50f04cf8f09f
+  - 3840a5477bdf89c508dbd8169dfced0072e2e54156a6dd307d38a12b1901a955
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Manage blocked numbers</button>
+
+    <button id=5>Change date and time format</button>
+
+    <button id=6>Manage speed dial</button>
+
+    <button id=7>Font size<br>Large</button>
+
+    <checkbox id=8 checked=False>Start name with surname</checkbox>
+
+    <checkbox id=9 checked=True>Hide dialpad numbers</checkbox>
+
+    <checkbox id=10 checked=True>Enable vibrations on dialpad button clicks</checkbox>
+
+    <checkbox id=11 checked=True>Enable beeps on dialpad button clicks</checkbox>
+
+    <button id=12>go back</button>
+
+    <p id=13>STARTUP</p>
+
+    <button id=14>Manage shown tabs</button>
+
+    <button id=15>Tab to open at app start<br>Last used one</button>
+
+    <checkbox id=16 checked=False>Open the dialpad by default when the app opens</checkbox>
+
+    <p id=17>CALLS</p>
+
+    <checkbox id=18 checked=True>Group subsequent calls with the same number at the</checkbox>
+
+    <checkbox id=19 checked=False>Show a call confirmation dialog before initiating
+    </checkbox>
+
+    <checkbox id=20 checked=False>Disable proximity sensor during calls</checkbox>
+
+    <checkbox id=21 checked=False>Replace swiping at responding to incoming calls
+    wi</checkbox>
+
+    <checkbox id=22 checked=False>Always display incoming calls on full screen</checkbox>'
+  new_state_str: 7817ad9fef085a8caca87bc447d03f2d40c09d8965f0ae73cbc85ce92ef5957b
+  state_str:
+  - 03d127ec72c077db0952e879385eea3cb3109a72698dd01880a9d5845d8c242b
+  - 4017824c531965689fb12f83f06d9fc86aea4fb76acf2bf8808b50f04cf8f09f
+  - 3840a5477bdf89c508dbd8169dfced0072e2e54156a6dd307d38a12b1901a955
+step_num: 4
+task_name: turn on hide dialpad numbers

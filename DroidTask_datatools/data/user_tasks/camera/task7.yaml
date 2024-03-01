@@ -1,0 +1,86 @@
+records:
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0 text='Toggle the timer mode'></button>\n <button id=1 text='Resolution'></button>\n\
+    \ <button id=2 text='Settings'></button>\n <button id=3 text='Video'>Video</button>\n\
+    \ <p id=4 text='Photo'></p>\n <p id=5>Photo</p>\n <button id=6 text='Toggle front/back\
+    \ camera'></button>\n <button id=7 text='Shutter'></button>\n <button id=8 text='View\
+    \ last captured media'></button>\n <button id=9>go back</button>"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: 51df7fe2285dc69df6c3991ff2a7245a83238ce0a9f5457cf10100669270ca7a
+- Choice: 8
+  Input: 'null'
+  State: '<button id=0 text=''About''></button>
+
+    <button id=1 text=''More options''></button>
+
+    <p id=2>COLOR CUSTOMIZATION</p>
+
+    <button id=3>Customize colors (Locked)</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Purchase Simple Thank You</button>
+
+    <p id=6>SHUTTER</p>
+
+    <checkbox id=7 checked=True>Shutter sound</checkbox>
+
+    <checkbox id=8 checked=False>Use volume buttons as shutter</checkbox>
+
+    <p id=9>SAVING</p>
+
+    <checkbox id=10 checked=True>Save photo exif metadata</checkbox>
+
+    <checkbox id=11 checked=True>Flip front camera photos horizontally</checkbox>
+
+    <button id=12>Save photos and videos to (Locked)<br>DCIM</button>
+
+    <button id=13>Photo compression quality<br>80%</button>
+
+    <button id=14>go back</button>
+
+    <button id=15>Capture mode<br>Minimize latency</button>'
+  new_state_str: be4494fd25abe78afe86c224e86b0aba60534f39525371c837a1d3bedff9919f
+  state_str:
+  - f55f1d91388cb111d4a14a982462962845bf4fabda611f347376c4ee6609d74b
+  - 0e07f0e1d67a5715fae0d722eef47f9a0369d0a621087c1ebfa773c2bd449d0a
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''About''></button>
+
+    <button id=1 text=''More options''></button>
+
+    <p id=2>COLOR CUSTOMIZATION</p>
+
+    <button id=3>Customize colors (Locked)</button>
+
+    <p id=4>GENERAL</p>
+
+    <button id=5>Purchase Simple Thank You</button>
+
+    <p id=6>SHUTTER</p>
+
+    <checkbox id=7 checked=True>Shutter sound</checkbox>
+
+    <checkbox id=8 checked=True>Use volume buttons as shutter</checkbox>
+
+    <p id=9>SAVING</p>
+
+    <checkbox id=10 checked=True>Save photo exif metadata</checkbox>
+
+    <checkbox id=11 checked=True>Flip front camera photos horizontally</checkbox>
+
+    <button id=12>Save photos and videos to (Locked)<br>DCIM</button>
+
+    <button id=13>Photo compression quality<br>80%</button>
+
+    <button id=14>go back</button>
+
+    <button id=15>Capture mode<br>Minimize latency</button>'
+  new_state_str: a1ecb65e762c79a4ede8de1c33dd1c385eb49d153faeee424302c42ad031ce81
+  state_str:
+  - ee3ce83140c419d6f92fb95dec5940b3591305795268f7133a48cd504aa438c4
+  - 24daeedb48053b9f6b4e208c2d37c3cc2c0192e06bd906e6664c04b505d9a418
+step_num: 3
+task_name: use volume button as shutter

@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-12_215611",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "org.mozilla.firefox",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1400
+        ],
+        [
+          259,
+          1459
+        ]
+      ],
+      "resource_id": "android:id/title",
+      "checked": false,
+      "text": "Homepage",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "215*59",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Homepage[enabled,,]",
+      "view_str": "9623f71ff16a9bae051e121c7ac5e624",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "411d8b61b5b9dd76b97e389b3169497abbad10387a64572e381574e059a452ae",
+  "stop_state": "d53a1eb68c2aadb363beb4f7b879d2c0422bb423d51409a8415078b19b67f929",
+  "event_str": "TouchEvent(state=411d8b61b5b9dd76b97e389b3169497abbad10387a64572e381574e059a452ae, view=9623f71ff16a9bae051e121c7ac5e624(HomeActivity/TextView-Homepage))"
+}

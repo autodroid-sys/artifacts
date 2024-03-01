@@ -1,0 +1,51 @@
+{
+  "tag": "2023-07-02_104418",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.simplemobiletools.dialer",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          196,
+          199
+        ],
+        [
+          670,
+          367
+        ]
+      ],
+      "resource_id": "com.simplemobiletools.dialer:id/top_toolbar_search",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "474*168",
+      "signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.dialer:id/top_toolbar_search[text]Search[enabled,,]",
+      "view_str": "be8c9798068d644093006cadee46efac",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.simplemobiletools.dialer:id/top_toolbar_search"
+    },
+    "x": null,
+    "y": null,
+    "text": "Alice"
+  },
+  "start_state": "f1e3658978875fcb435c615763df624b0dbdae9c42b85a19abf41c7c8212dc3b",
+  "stop_state": "47e819078c57785c36cf8d7bb57eede6ad06127d2aecc7a9b51d332ece62fc71",
+  "event_str": "SetTextEvent(state=f1e3658978875fcb435c615763df624b0dbdae9c42b85a19abf41c7c8212dc3b, view=be8c9798068d644093006cadee46efac(MainActivity/EditText-Search), text=Alice)"
+}

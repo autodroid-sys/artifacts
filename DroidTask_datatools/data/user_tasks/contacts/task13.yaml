@@ -1,0 +1,198 @@
+records:
+- Choice: 12
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Filter''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Alice</button>
+
+    <button id=5>Bob</button>
+
+    <button id=6>Jack</button>
+
+    <button id=7>A
+
+    B
+
+    J</button>
+
+    <button id=8 text=''Create new contact''></button>
+
+    <button id=9 text=''Dialpad''></button>
+
+    <p id=10>Contacts</p>
+
+    <button id=11>Favorites</button>
+
+    <button id=12>Groups</button>
+
+    <button id=13>go back</button>'
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str:
+  - 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+- Choice: 6
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>No items found.</p>
+
+    <button id=5>Create group</button>
+
+    <button id=6 text=''Create group''></button>
+
+    <button id=7 text=''Dialpad''></button>
+
+    <button id=8>Contacts</button>
+
+    <button id=9>Favorites</button>
+
+    <p id=10>Groups</p>
+
+    <button id=11>go back</button>'
+  new_state_str: a967b4b00c494385f6b35449b1575c183f258ab736c946a12a3697c9c1f82ec0
+  state_str:
+  - c63064e229bcbae2bac93a01d81c647d900fe3718710714dd9b5faf615103b2a
+- Choice: 1
+  Input: Classmates
+  State: "<p id=0>Create a new group</p>\n <input id=1 >Title</input>\n <button id=2>Cancel</button>\n\
+    \ <button id=3>OK</button>\n <button id=4>go back</button>"
+  new_state_str: 7e3352e3b885ef4bbfde43426dbdda6e6b967889e5eba218e0277b36d16d4cfd
+  state_str: 57654eefcbf371ec14737346e1cbb534412041755cb5889c60ce39e3ce434ca5
+- Choice: 3
+  Input: 'null'
+  State: "<p id=0>Create a new group</p>\n <input id=1 >Classmates</input>\n <button\
+    \ id=2>Cancel</button>\n <button id=3>OK</button>\n <button id=4>go back</button>"
+  new_state_str: ee0d46079221a453663e2a57d3b5a82f6438565f5b9218fb3f721782fd7ca11f
+  state_str: 38b51f0230c85e87264416b4d570b5fe46c09aec1a254ca4b24d50e725dd2ba0
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Classmates (0)</button>
+
+    <button id=5 text=''Create group''></button>
+
+    <button id=6 text=''Dialpad''></button>
+
+    <button id=7>Contacts</button>
+
+    <button id=8>Favorites</button>
+
+    <p id=9>Groups</p>
+
+    <button id=10>go back</button>'
+  new_state_str: 676d9244012ccdc3def099e3dd70b9dde2a753e535defc3ddc178deb05428a04
+  state_str:
+  - 5c0e6f09f6fc18fab531888606db6f85989ecc68d4ed5af0e1dfd1e08f138a9f
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Classmates</p>\n <button id=1 text='Ringtone'></button>\n <button\
+    \ id=2 text='Send SMS to group'></button>\n <button id=3 text='Send email to group'></button>\n\
+    \ <p id=4>This group is empty</p>\n <button id=5>Add contacts</button>\n <button\
+    \ id=6>go back</button>"
+  new_state_str: 01494553a530188fb97ef0dbcfdbdd98eac8590c89e7b37b001632bdc57cdf12
+  state_str: 163e8f0f07ca086e02ee417e3dd656455411d389e69622abe029253d3bc7b397
+- Choice: 0
+  Input: 'null'
+  State: "<button id=0>Alice</button>\n <button id=1>Bob</button>\n <button id=2>Jack</button>\n\
+    \ <button id=3>A\nB\nJ</button>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 2eee36feaf49883f4089091008f95ae95271406fec37cb90f330f9e766bc3595
+  state_str: befe7335c210fb889e1a729b451299e6e6a558ac91f98f4dd0d785d4f4fa7aac
+- Choice: 1
+  Input: 'null'
+  State: "<button id=0>Alice</button>\n <button id=1>Bob</button>\n <button id=2>Jack</button>\n\
+    \ <button id=3>A\nB\nJ</button>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 2eee36feaf49883f4089091008f95ae95271406fec37cb90f330f9e766bc3595
+  state_str: b39658c6b02c6488f80eda36be02811a84513ba72d5357d89f181e921532d3cd
+- Choice: 2
+  Input: 'null'
+  State: "<button id=0>Alice</button>\n <button id=1>Bob</button>\n <button id=2>Jack</button>\n\
+    \ <button id=3>A\nB\nJ</button>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 2eee36feaf49883f4089091008f95ae95271406fec37cb90f330f9e766bc3595
+  state_str: df179edc244bad14e5f7d93a3fc3875c37961e79b0edb154a6d8301f041b37c0
+- Choice: 5
+  Input: 'null'
+  State: "<button id=0>Alice</button>\n <button id=1>Bob</button>\n <button id=2>Jack</button>\n\
+    \ <button id=3>A\nB\nJ</button>\n <button id=4>Cancel</button>\n <button id=5>OK</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 2eee36feaf49883f4089091008f95ae95271406fec37cb90f330f9e766bc3595
+  state_str: c882ec2ee7ab70446e9b7afce0b8d42c785de2b5a5da8087bb4379b3081ce0ba
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>Classmates</p>\n <button id=1 text='Ringtone'></button>\n <button\
+    \ id=2 text='Send SMS to group'></button>\n <button id=3 text='Send email to group'></button>\n\
+    \ <button id=4>Alice</button>\n <button id=5>Bob</button>\n <button id=6>Jack</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: c8cc7d930a1206cf7d91c84d34a0950a5e7b0d3467589a5946e1218c95738760
+  state_str: 051742655a58384ac361146aafdef9d391b553733a17646cea51bcaa3c8c57c3
+- Choice: 4
+  Input: GatheringInTheOldPlace
+  State: "<p id=0>Alice, Bob, Jack</p>\n <button id=1 text='Add Person'></button>\n\
+    \ <button id=2 text='More options'></button>\n <button id=3 text='Attachment'></button>\n\
+    \ <input id=4 >Type a message\u2026</input>\n <button id=5 text='OK'>SMS</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 8410c0e1f2e335626c06860cefb5656bd6a3ed1b6d4e88c2cc407a08a26e0f10
+  state_str: ac4b9da42b2790dfdefe1e498abb401190dc36a38123a0807fd611769f0e19ca
+- Choice: 5
+  Input: 'null'
+  State: "<p id=0>Alice, Bob, Jack</p>\n <button id=1 text='Add Person'></button>\n\
+    \ <button id=2 text='More options'></button>\n <button id=3 text='Attachment'></button>\n\
+    \ <input id=4 >GatheringInTheOldPlace</input>\n <button id=5 text='OK'>SMS</button>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: dc1061a46ce9bc48f88f6bb977053dc41af759f4e09d6f30e964e0fb09d8ba8a
+  state_str: 03c821b063ead49442a766701bbaa9e23424765f58bbc34a5200b3cef741a335
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>SMS Messenger would like to send a message to 333333.</p>\n <p id=1>This\
+    \ may cause charges on your mobile account.</p>\n <p id=2>Remember my choice</p>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>Send</button>\n <button id=5>go\
+    \ back</button>"
+  new_state_str: a52da9d9958ffc319e44131923ded05995bb68a77d881c77d90403360b03511e
+  state_str: 3c4cad8fe0575a21b56ab62cf52cca0c329ef559fc3861e61268d1448523351c
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>SMS Messenger would like to send a message to 222222.</p>\n <p id=1>This\
+    \ may cause charges on your mobile account.</p>\n <p id=2>Remember my choice</p>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>Send</button>\n <button id=5>go\
+    \ back</button>"
+  new_state_str: 4dc2430e5bd61b492fdbc6b5a2139830e6a8cc5f30b7a31614064ae9b752e151
+  state_str: b404888b3416ff7b026214006464db965ba3d531229c4d5b7437b3c47ae95ddf
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>SMS Messenger would like to send a message to 111111.</p>\n <p id=1>This\
+    \ may cause charges on your mobile account.</p>\n <p id=2>Remember my choice</p>\n\
+    \ <button id=3>Cancel</button>\n <button id=4>Send</button>\n <button id=5>go\
+    \ back</button>"
+  new_state_str: a763b786f93751a2ea9714ba001411273683e2641697f0a36ef6d795cde502b2
+  state_str: 4633ee21ca009b8a0db6e9e35a0991f6ffa85b7fb3b58a1c741c952d89ba51a5
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0>Classmates</p>\n <button id=1 text='Ringtone'></button>\n <button\
+    \ id=2 text='Send SMS to group'></button>\n <button id=3 text='Send email to group'></button>\n\
+    \ <button id=4>Alice</button>\n <button id=5>Bob</button>\n <button id=6>Jack</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: c8cc7d930a1206cf7d91c84d34a0950a5e7b0d3467589a5946e1218c95738760
+  state_str: 051742655a58384ac361146aafdef9d391b553733a17646cea51bcaa3c8c57c3
+step_num: 20
+task_name: Create a new group 'Classmates',add Alice,Bob and Jack to the new group,
+  and text to the group 'GatheringInTheOldPlace'

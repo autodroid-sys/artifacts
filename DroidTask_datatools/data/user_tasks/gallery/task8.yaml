@@ -1,0 +1,110 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Internal<br>2</button>
+
+    <button id=5>DCIM<br>6</button>
+
+    <button id=6>go back</button>'
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str:
+  - 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+- Choice: 5
+  Input: 'null'
+  State: "<button id=0>Sort by</button>\n <button id=1>Filter media</button>\n <button\
+    \ id=2>Change view type</button>\n <button id=3>Temporarily show hidden</button>\n\
+    \ <button id=4>Temporarily show excluded</button>\n <button id=5>Create new folder</button>\n\
+    \ <button id=6>Column count</button>\n <button id=7>Settings</button>\n <button\
+    \ id=8>About</button>\n <button id=9>go back</button>"
+  new_state_str: f27215cd13aecb6d203d7bed4c753284d24de06edc57717b9b126076303b5fdc
+  state_str: 62409de9ff271ddcfd1127b1b0607e1121d86b4c33c729be5a3a7df29dcc02a2
+- Choice: 5
+  Input: 'null'
+  State: '<p id=0>Select a folder</p>
+
+    <button id=1>Internal</button>
+
+    <button id=2>Alarms<br>0 items</button>
+
+    <button id=3>Android<br>3 items</button>
+
+    <button id=4>Audiobooks<br>0 items</button>
+
+    <button id=5>DCIM<br>6 items</button>
+
+    <button id=6>Documents<br>0 items</button>
+
+    <button id=7>Download<br>1 item</button>
+
+    <button id=8>Movies<br>0 items</button>
+
+    <button id=9>Music<br>1 item</button>
+
+    <button id=10>Notifications<br>0 items</button>
+
+    <button id=11>Pictures<br>0 items</button>
+
+    <button id=12>Cancel</button>
+
+    <button id=13>OK</button>
+
+    <button id=14>go back</button>
+
+    <button id=15>Podcasts<br>0 items</button>
+
+    <button id=16>Ringtones<br>0 items</button>
+
+    <button id=17>screen_2023-06-30_141247.png<br>16.1 kB</button>
+
+    <button id=18>screen_2023-06-30_143638.png<br>0 B</button>
+
+    <p id=19 text=''handleImage''></p>'
+  new_state_str: 439da42741fa3e717568b85f7850d504c6e01288f51f6e8036e63fc0cf7da179
+  state_str:
+  - 98b951ce04ed3308764e9a2e9e04c53e41fe18b872892ae1ae1eea535e414ba6
+  - 5c510586212f3ab1289430a98059f590bfdd058ac6c15907834b118893d9b67e
+- Choice: 2
+  Input: traveling_photos
+  State: "<p id=0>Create new folder</p>\n <input id=1 >Internal/DCIM/</input>\n <input\
+    \ id=2 >Title</input>\n <button id=3>Cancel</button>\n <button id=4>OK</button>\n\
+    \ <button id=5>go back</button>"
+  new_state_str: 998974a1ac22cdbe770dad5ea713c017056119757f0b13972ec92e97a610fe06
+  state_str: 2a62d0afd3b1ee494a4e6335418e615782e2f62f0181955b7f8ea3f9e7d5948c
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Create new folder</p>\n <input id=1 >Internal/DCIM/</input>\n <input\
+    \ id=2 >traveling_photos</input>\n <button id=3>Cancel</button>\n <button id=4>OK</button>\n\
+    \ <button id=5>go back</button>"
+  new_state_str: 59b06acd59ddfc281088e803933f226578916c81f43cf60dab616ef430973f90
+  state_str: 147ceadcc91ae253329600fe42ee859ca1f8e370ec66656a01be8c302db4c2a8
+- Choice: -1
+  Input: 'null'
+  State: '<input id=0>Search folders</input>
+
+    <button id=1 text=''Open camera''></button>
+
+    <button id=2 text=''Show all folders content''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>traveling_photos<br>0</button>
+
+    <button id=5>Internal<br>2</button>
+
+    <button id=6>DCIM<br>6</button>
+
+    <button id=7>go back</button>'
+  new_state_str: ec4b5fcd6e337fcedb5d400c87218297b7825df24432d3c75cb7ce7f6e5a23d5
+  state_str:
+  - d26d91bcf41f568ada1f55460fade39a7557ddbfc2fe29ec247ea8af1dc329e8
+step_num: 6
+task_name: create a folder and name it 'traveling_photos' in the 'DCIM' folder, the
+  folder path is 'Internal/DCIM/'

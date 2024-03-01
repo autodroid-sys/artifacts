@@ -1,0 +1,66 @@
+records:
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Recordings<br>2 Tracks</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <p id=8>Albums</p>
+
+    <button id=9>Tracks</button>
+
+    <button id=10>go back</button>'
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str:
+  - ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+- Choice: 2
+  Input: 'null'
+  State: "<p id=0>Recordings</p>\n <button id=1>Recordings<br><unknown><br>2 Tracks\
+    \ \u2022 0:00:17</button>\n <button id=2>0<br>test1<br>00:10</button>\n <button\
+    \ id=3>0<br>test2<br>00:07</button>\n <button id=4>go back</button>"
+  new_state_str: 631930242f8d8db76296db1c59637a2b3369e36d202946afd77c5a48fb70bd9d
+  state_str: 6a0526d443ef469d1a7f9494a58564638ecc5f6eb482c171e7cad2e5315ece49
+- Choice: 10
+  Input: 'null'
+  State: "<p id=0 text='Album'></p>\n <button id=1>00:00</button>\n <p id=2>1x</p>\n\
+    \ <button id=3>00:10</button>\n <p id=4>test1</p>\n <p id=5><unknown></p>\n <button\
+    \ id=6 text='Disable shuffle'></button>\n <button id=7 text='Previous'></button>\n\
+    \ <button id=8 text='Play / Pause'></button>\n <button id=9 text='Next'></button>\n\
+    \ <button id=10 text='Repeat all'></button>\n <button id=11>Next: test2</button>\n\
+    \ <button id=12>go back</button>"
+  new_state_str: 55ce8a4ed3df4ef00b18c288ef6a737a6e5502659f1b884cc308144286d54f58
+  state_str: f50f45f9a985e65777cc82b2099ed3ec6a860bb0889b1e193932a05279f03d9e
+- Choice: 10
+  Input: 'null'
+  State: "<p id=0 text='Album'></p>\n <button id=1>00:00</button>\n <p id=2>1x</p>\n\
+    \ <button id=3>00:10</button>\n <p id=4>test1</p>\n <p id=5><unknown></p>\n <button\
+    \ id=6 text='Disable shuffle'></button>\n <button id=7 text='Previous'></button>\n\
+    \ <button id=8 text='Play / Pause'></button>\n <button id=9 text='Next'></button>\n\
+    \ <button id=10 text='Repeat current song'></button>\n <button id=11>Next: test2</button>\n\
+    \ <button id=12>go back</button>"
+  new_state_str: 500a7062c6d00ccc304dec7bd680ba82df11b5223b928efe40076bce90a93ff9
+  state_str: 984fdbc42b3d6f948c93bda742335013d53d6d1360ee5217761d1bd740d91ed5
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0 text='Album'></p>\n <button id=1>00:00</button>\n <p id=2>1x</p>\n\
+    \ <button id=3>00:10</button>\n <p id=4>test1</p>\n <p id=5><unknown></p>\n <button\
+    \ id=6 text='Disable shuffle'></button>\n <button id=7 text='Previous'></button>\n\
+    \ <button id=8 text='Play / Pause'></button>\n <button id=9 text='Next'></button>\n\
+    \ <button id=10 text='Stop playback after current song'></button>\n <button id=11>Next:\
+    \ test2</button>\n <button id=12>go back</button>"
+  new_state_str: 4c4015177e901f6d873e0e6dca28e22301c4a79558c19cee7e22fb588419d689
+  state_str: 691a995c485616a3ebcece7f6d393a3a74aaca318c9dc8acd50227ceeb666e9f
+step_num: 5
+task_name: play 'test1' in recordings and set the loop mode to 'loop the current song'

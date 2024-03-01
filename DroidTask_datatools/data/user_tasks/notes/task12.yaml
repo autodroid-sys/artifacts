@@ -1,0 +1,68 @@
+records:
+- Choice: 3
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+- Choice: 6
+  Input: 'null'
+  State: "<button id=0>Rename note</button>\n <button id=1>Share</button>\n <button\
+    \ id=2>Create shortcut</button>\n <button id=3>Lock note</button>\n <button id=4>Open\
+    \ file</button>\n <button id=5>Import notes</button>\n <button id=6>Export as\
+    \ file</button>\n <button id=7>Export all notes</button>\n <button id=8>Print</button>\n\
+    \ <button id=9>Delete note</button>\n <button id=10>Settings</button>\n <button\
+    \ id=11>About</button>\n <button id=12>go back</button>"
+  new_state_str: d30d629d793bfe53cdcfb3f2984315c78089bafee2ba0f45ef8bc2c0dcf7909a
+  state_str: 4e5778fa48b7653d78c78d9fc93185b3bf480d25f784957a6e6ce8b90ed6573d
+- Choice: 11
+  Input: 'null'
+  State: "<p id=0>Downloads</p>\n <p id=1>FILES IN DOWNLOADS</p>\n <button id=2 text='List\
+    \ view'></button>\n <button id=3 text='Show roots'></button>\n <p id=4>Downloads</p>\n\
+    \ <button id=5 text='New folder'></button>\n <button id=6 text='More options'></button>\n\
+    \ <p id=7>Diary.pdf</p>\n <p id=8>6.24 kB</p>\n <p id=9>Jun 30</p>\n <input id=10\
+    \ >Diary.txt</input>\n <button id=11>SAVE</button>\n <button id=12>go back</button>"
+  new_state_str: 116e30059d4712a3e2a39a6747be36968a1e2f72e53b9bcee1bcd1bc875aa030
+  state_str: 113e18b47e5f7bc9736f329621e4bab5d4bef4455fd274b7e663e04139f9cefb
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=False>Update the file itself at updating the note\n\
+    note </checkbox>\n <checkbox id=1 checked=False>Only export the current file content\n(changing the note will not affect the file)</checkbox>\n <button id=2>go back</button>"
+  new_state_str: 960353b1affd0b2c421f0cf8a75b6497c066254fb9241986de5120bbd9c66082
+  state_str: 3e20f0155ac6725adbd3e7088caecb38eeada2e81a6d40a1ab31e918ab86dfa2
+- Choice: -1
+  Input: 'null'
+  State: '<button id=0 text=''Search''></button>
+
+    <button id=1 text=''Open note''></button>
+
+    <button id=2 text=''Create a new note''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <p id=4>Diary</p>
+
+    <button id=5>General note</button>
+
+    <input id=6>2023.6.10 Sunny</input>
+
+    <button id=7>go back</button>'
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str:
+  - 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+step_num: 5
+task_name: export note 'Diary' as file diary.txt, only export the current file content

@@ -1,0 +1,105 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+- Choice: 3
+  Input: homework
+  State: "<button id=0 text='Navigate up'></button>\n <p id=1>New Event</p>\n <button\
+    \ id=2 text='Save'></button>\n <input id=3 >Title</input>\n <input id=4 >Location</input>\n\
+    \ <input id=5 >Description</input>\n <checkbox id=6 checked=False>All-day OFF</checkbox>\n\
+    \ <button id=7>July 1 (Sat)</button>\n <button id=8>12:00 PM</button>\n <button\
+    \ id=9>July 1 (Sat)</button>\n <button id=10>12:00 PM</button>\n <button id=11>10\
+    \ minutes before</button>\n <button id=12>Add another reminder</button>\n <button\
+    \ id=13>No repetition</button>\n <button id=14>Regular event</button>\n <button\
+    \ id=15>go back</button>"
+  new_state_str: 77dfea11565b42a31fee51cb52720d35ec189b30db4c597fd2ea88af5f833b2e
+  state_str: f1c1ea25cb8ca110b0ea05d094a45582373af6b36e28972a0cc2c884c447a812
+- Choice: 13
+  Input: 'null'
+  State: "<button id=0 text='Navigate up'></button>\n <p id=1>New Event</p>\n <button\
+    \ id=2 text='Save'></button>\n <input id=3 >homework</input>\n <input id=4 >Location</input>\n\
+    \ <input id=5 >Description</input>\n <checkbox id=6 checked=False>All-day OFF</checkbox>\n\
+    \ <button id=7>July 1 (Sat)</button>\n <button id=8>12:00 PM</button>\n <button\
+    \ id=9>July 1 (Sat)</button>\n <button id=10>12:00 PM</button>\n <button id=11>10\
+    \ minutes before</button>\n <button id=12>Add another reminder</button>\n <button\
+    \ id=13>No repetition</button>\n <button id=14>Regular event</button>\n <button\
+    \ id=15>go back</button>"
+  new_state_str: 85fe5699d343f25b3aa945f9a88d6d9199fcf0065ce3e85acd7a7478b91196d3
+  state_str: 3e9da25d2b9558463e7562974f39fd25beda263a31b8974a5816a30bb482c722
+- Choice: 1
+  Input: 'null'
+  State: "<checkbox id=0 checked=True>No repetition</checkbox>\n <checkbox id=1 checked=False>Daily</checkbox>\n\
+    \ <checkbox id=2 checked=False>Weekly</checkbox>\n <checkbox id=3 checked=False>Monthly</checkbox>\n\
+    \ <checkbox id=4 checked=False>Yearly</checkbox>\n <checkbox id=5 checked=False>Custom</checkbox>\n\
+    \ <button id=6>go back</button>"
+  new_state_str: 67d7de90b58f15bd10b1849244985f177aca5e5185efb840cdf4abb0929d3b22
+  state_str: 6c55843af20044112af022f5337be9c0aca66e6a47f5a624ca779d17dbe60642
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>New Event</p>
+
+    <button id=2 text=''Save''></button>
+
+    <input id=3>homework</input>
+
+    <input id=4>Location</input>
+
+    <input id=5>Description</input>
+
+    <checkbox id=6 checked=False>All-day OFF</checkbox>
+
+    <button id=7>July 1 (Sat)</button>
+
+    <button id=8>12:00 PM</button>
+
+    <button id=9>10 minutes before</button>
+
+    <button id=10>Add another reminder</button>
+
+    <button id=11>Daily</button>
+
+    <button id=12>Repeat<br>Forever</button>
+
+    <button id=13>Regular event</button>
+
+    <button id=14>go back</button>'
+  new_state_str: c66b163757febdb97b6c54a447c2ba4aa44fb0bee08247c843392bd7db18857c
+  state_str:
+  - 2aac1cf23e023e3f33150b637c2122ee06d9cce39c2c0ff03db99dd3f586814f
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str:
+  - e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+step_num: 7
+task_name: create an event of 'homework' with daily repetition and save it

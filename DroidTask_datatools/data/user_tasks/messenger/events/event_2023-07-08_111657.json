@@ -1,0 +1,50 @@
+{
+  "tag": "2023-07-08_111657",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.android.settings",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          710
+        ],
+        [
+          904,
+          769
+        ]
+      ],
+      "resource_id": "com.android.settings:id/switch_text",
+      "checked": false,
+      "text": "All SMS Messenger notifications",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "706*59",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.settings:id/switch_text[text]All SMS Messenger notifications[enabled,,]",
+      "view_str": "e18c97b1c56f0ce987fe40d333981559",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.settings:id/switch_text"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "553185cabf348905ce616402d8b36f82df03ee01c44b9a24c6421a3032ab73da",
+  "stop_state": "b726ef027d6656306e37132d15cfd9709959fffd733d1179794d6c719436772a",
+  "event_str": "TouchEvent(state=553185cabf348905ce616402d8b36f82df03ee01c44b9a24c6421a3032ab73da, view=e18c97b1c56f0ce987fe40d333981559(Settings$AppNotificationSettingsActivity/TextView-All SMS Me))"
+}

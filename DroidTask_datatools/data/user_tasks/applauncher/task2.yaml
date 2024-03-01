@@ -1,0 +1,35 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Calendar</button>\n <button id=5>Camera</button>\n <button id=6>Clock</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: ca84887fa50fbe8cb13d9c9fbcd7f1e568612b5e7448bbc9ac0425944993c94c
+- Choice: 4
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>Title</checkbox>\n <checkbox\
+    \ id=2 checked=False>Custom</checkbox>\n <checkbox id=3 checked=True>Ascending</checkbox>\n\
+    \ <checkbox id=4 checked=False>Descending</checkbox>\n <button id=5>Cancel</button>\n\
+    \ <button id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 7bd9e2ded8ae3ec34dffeefb946dad82da73e3a8c7d983d8eed62b7ba2093beb
+  state_str: 70bfe9da5a48f69d777a60eb66784f548c873cca4a9e34134ee7c9a6262d1e89
+- Choice: 6
+  Input: 'null'
+  State: "<p id=0>Sort by</p>\n <checkbox id=1 checked=True>Title</checkbox>\n <checkbox\
+    \ id=2 checked=False>Custom</checkbox>\n <checkbox id=3 checked=False>Ascending</checkbox>\n\
+    \ <checkbox id=4 checked=True>Descending</checkbox>\n <button id=5>Cancel</button>\n\
+    \ <button id=6>OK</button>\n <button id=7>go back</button>"
+  new_state_str: 1d1c21762d4842a6f0e455ce1321480e39d0413cdda62f58f51f742bedf2f194
+  state_str: 313df1fcaaa12eca00c9156d1119ebc2a246c689938a683bb0374ec09bb6922f
+- Choice: -1
+  Input: 'null'
+  State: "<input id=0 >Search</input>\n <button id=1 text='Sort by'></button>\n <button\
+    \ id=2 text='Toggle app name visibility'></button>\n <button id=3 text='More options'></button>\n\
+    \ <button id=4>Clock</button>\n <button id=5>Camera</button>\n <button id=6>Calendar</button>\n\
+    \ <button id=7>go back</button>"
+  new_state_str: b5327a6ca3fab812a0c123130a8dbab27a1168406851f9e1afc30a08ce631515
+  state_str: 92555ffd38a0f4bf048b06d1b0e8d426ba7418fee5fe79b6bcccf8fca09e9c48
+step_num: 4
+task_name: Sort apps by title in descending order

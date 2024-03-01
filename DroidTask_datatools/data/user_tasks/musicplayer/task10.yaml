@@ -1,0 +1,67 @@
+records:
+- Choice: 0
+  Input: test1
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>test1<br>00:10</button>
+
+    <button id=5>test2<br>00:07</button>
+
+    <button id=6>Playlists</button>
+
+    <button id=7>Folders</button>
+
+    <button id=8>Artists</button>
+
+    <button id=9>Albums</button>
+
+    <p id=10>Tracks</p>
+
+    <button id=11>go back</button>'
+  new_state_str: 1e43e274a76f614fea0fa0b0ca5c223a6a64d533eea8039dbb7d81277c71a122
+  state_str:
+  - 09ec4c800598df967694c07f5d5cdcdf197f1e855a1edb32eb151a6baa5643f7
+- Choice: 4
+  Input: 'null'
+  State: '<input id=0>test1</input>
+
+    <button id=1 text=''Sort by''></button>
+
+    <button id=2 text=''Equalizer''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>test1<br>00:10</button>
+
+    <button id=5>Playlists</button>
+
+    <button id=6>Folders</button>
+
+    <button id=7>Artists</button>
+
+    <button id=8>Albums</button>
+
+    <p id=9>Tracks</p>
+
+    <button id=10>go back</button>'
+  new_state_str: a7adc054f15d28733831046e4cf0d42c5f303599b7f3a2fe57a0fd73986e72be
+  state_str:
+  - 0fcc4b62359c63b2d525bebc2827a11c1cc8f801eff146f8ef5e2090bb0c99fa
+- Choice: -1
+  Input: 'null'
+  State: "<p id=0 text='Album'></p>\n <button id=1>00:00</button>\n <p id=2>1x</p>\n\
+    \ <button id=3>00:10</button>\n <button id=4>test1</button>\n <button id=5><unknown></button>\n\
+    \ <button id=6 text='Disable shuffle'></button>\n <button id=7 text='Previous'></button>\n\
+    \ <button id=8 text='Play / Pause'></button>\n <button id=9 text='Next'></button>\n\
+    \ <button id=10 text='Repeat all'></button>\n <button id=11>Next: test2</button>\n\
+    \ <button id=12>go back</button>"
+  new_state_str: 927b50c8b4908556f19ebed56c6e9b9ffa38117cbed75a47a0eec4a2ecdb023b
+  state_str: dae3959065f4ee8d22f322643ddc25df68c26ad989eb005f1c36cdcf18f91807
+step_num: 7
+task_name: Search for the song "test1" and play it

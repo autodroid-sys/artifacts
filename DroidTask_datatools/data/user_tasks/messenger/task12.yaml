@@ -1,0 +1,107 @@
+records:
+- Choice: 1
+  Input: 'null'
+  State: '<input id=0>Search</input>
+
+    <button id=1 text=''Settings''></button>
+
+    <button id=2 text=''About''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>Bob<br>Hey<br>30.06</button>
+
+    <button id=5>Alice<br>Hello<br>30.06</button>
+
+    <button id=6>go back</button>'
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str:
+  - ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+- Choice: 15
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Change date and time format</button>
+
+    <button id=5>Manage blocked numbers</button>
+
+    <button id=6>Font size<br>Medium</button>
+
+    <p id=7>NOTIFICATIONS</p>
+
+    <button id=8>Customize notifications</button>
+
+    <button id=9>Lock screen notification visibility<br>Sender and message</button>
+
+    <p id=10>OUTGOING MESSAGES</p>
+
+    <checkbox id=11 checked=False>Show a character counter at writing messages</checkbox>
+
+    <button id=12>go back</button>
+
+    <checkbox id=13 checked=False>Remove accents and diacritics at sending messages</checkbox>
+
+    <checkbox id=14 checked=False>Send message on pressing Enter</checkbox>
+
+    <checkbox id=15 checked=False>Enable delivery reports</checkbox>
+
+    <checkbox id=16 checked=False>Send long messages as MMS</checkbox>
+
+    <checkbox id=17 checked=False>Send group messages as MMS</checkbox>
+
+    <button id=18>Resize sent MMS images<br>600KB</button>'
+  new_state_str: bad64af50b28261e6fc5ca0ed80019492fe49097d36edc5faa2a2742789f3dbc
+  state_str:
+  - 2c5664b27094d5b399cec3fa113aa97a1464ec8b9af968fa8018c436587674e6
+  - f7428990ab52dfba4ccb2c79d5cb71b7c0546fd5f953239f826a39d7d99eda03
+- Choice: -1
+  Input: 'null'
+  State: '<p id=0>Settings</p>
+
+    <p id=1>COLOR CUSTOMIZATION</p>
+
+    <button id=2>Customize colors</button>
+
+    <p id=3>GENERAL</p>
+
+    <button id=4>Change date and time format</button>
+
+    <button id=5>Manage blocked numbers</button>
+
+    <button id=6>Font size<br>Medium</button>
+
+    <p id=7>NOTIFICATIONS</p>
+
+    <button id=8>Customize notifications</button>
+
+    <button id=9>Lock screen notification visibility<br>Sender and message</button>
+
+    <p id=10>OUTGOING MESSAGES</p>
+
+    <checkbox id=11 checked=False>Show a character counter at writing messages</checkbox>
+
+    <button id=12>go back</button>
+
+    <checkbox id=13 checked=False>Remove accents and diacritics at sending messages</checkbox>
+
+    <checkbox id=14 checked=False>Send message on pressing Enter</checkbox>
+
+    <checkbox id=15 checked=True>Enable delivery reports</checkbox>
+
+    <checkbox id=16 checked=False>Send long messages as MMS</checkbox>
+
+    <checkbox id=17 checked=False>Send group messages as MMS</checkbox>
+
+    <button id=18>Resize sent MMS images<br>600KB</button>'
+  new_state_str: 0d4c8206b5f02ffa507a52caf8e81505497bce0ee7d3e53f8497b60161c70d20
+  state_str:
+  - 2c5664b27094d5b399cec3fa113aa97a1464ec8b9af968fa8018c436587674e6
+  - b0a890cb77c3c6a36da8a1b85ffa92f8ce2b7dafdbfb5ca07293516aa1b577a6
+step_num: 3
+task_name: Enable delivery reports
