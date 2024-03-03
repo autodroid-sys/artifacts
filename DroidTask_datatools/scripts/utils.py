@@ -9,14 +9,14 @@ MAX_RETRIES = 12
 # set your GPT url & API key here.
 GPT_URL = ""
 API_KEY = ""
-model_name = "gpt-3.5-turbo-16k"
+model_name = "gpt-4-32k"
 
 def queryGPT(prompt: str, console: Console | None = None, identifier="", retry_times=12):
         # print(prompt)
     client = OpenAI(
         base_url='https://api.openai-proxy.org/v1',
         # This is the default and can be omitted
-        api_key='sk-otu6p5ykBAemvGndQbbed7mSKD5deXNESjo1i6TF482pjT4Y'
+        api_key='sk-WEAQvDQrv20aM9kOkwDwrLXgTsYy929znRt5N3JgD87bMOkc'
     )
     retry = 0
     while retry < retry_times:
@@ -29,7 +29,8 @@ def queryGPT(prompt: str, console: Console | None = None, identifier="", retry_t
                     }
                 ],
                 model=model_name,
-                timeout=15
+                timeout=15,
+                temperature=0.84,
             )
             if identifier:
                 if retry != 0:

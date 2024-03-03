@@ -315,7 +315,9 @@ class Explorator:
                         {"path": path, "task": desc, "gpath": gpath}
                     )
                     task_list.append(desc)
-            result[app]["data"] = encoder.encode(task_list)
+            encoded_tasks = encoder.encode(task_list)
+            # pdb.set_trace()
+            result[app]["data"] = encoded_tasks.tolist()
         if self.backup_mode:
             np.save("configs/external_mem.npy", result)
         return result

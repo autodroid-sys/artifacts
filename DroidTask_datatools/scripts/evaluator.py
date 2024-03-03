@@ -360,7 +360,7 @@ class Evaluator:
             mem = ""
         return intro + task + history + interface + mem + question
 
-    def evaluate(self):
+    def evaluatev1(self):
         result_analysis = self.__profile_tree
         if not self.load_ckpt:
             self.__fetchAnswers()
@@ -536,6 +536,188 @@ class Evaluator:
                 result_analysis = json.load(f)
         self.__showResults(result_analysis)
 
+    def evaluate(self):
+        result_analysis = self.__profile_tree
+        if not self.load_ckpt:
+            self.__fetchAnswers()
+            if self.disable_query:
+                return
+        if not self.load_result:
+            results_jsons = list(self.ckpt_folder.glob("result_*.json"))
+            for results_file in results_jsons:
+                app = re.findall("result_(.*?).json", str(results_file))[0]
+                if app not in self.__profile_tree:
+                    continue
+                with open(results_file, "r") as f:
+                    results = json.load(f)
+                for k, v in results.items():
+                    try:
+                        task_hash, idx = eval(k)
+                    except:
+                        task_hash = k.split("-")[0]
+                        idx = int(k.split("-")[1])
+                    if "correct" not in result_analysis[app][task_hash]:
+                        result_analysis[app][task_hash]["correct"] = 0
+                    if "end_correct" not in result_analysis[app][task_hash]:
+                        result_analysis[app][task_hash]["end_correct"] = False
+                    label = result_analysis[app][task_hash]["profile"][idx]["label"]
+                    correct = False
+                    gt_id = label[0]
+                    gt_input = label[1]
+                    llm_id = "N/A"
+                    llm_action = "N/A"
+                    llm_input = "N/A"
+                    if v is None:
+                        llm_id = -1
+                    elif self.use_baseline:
+                        try:
+                            llm_id = re.findall("ID:\s?(N/A|-?\d+)", v)[0]
+                            if llm_id == "N/A":
+                                llm_id = -1
+                            else:
+                                llm_id = int(llm_id)
+                        except:
+                            llm_id = int(input(v + "\nPlease input id: "))
+                        if llm_id == -1:
+                            llm_input =  "N/A"
+                        else:
+                            try:
+                                llm_input = re.findall("Input:\s?(.*)", v)[0]
+                            except:
+                                llm_input = input(v + "\nPlease input text: ")
+                                try:
+                                    if int(llm_input) == -1:
+                                        llm_input = "N/A"
+                                except:
+                                    pass
+                        llm_action = None
+                        if gt_input == "null" and llm_id == gt_id:
+                            correct = True
+                            result_analysis[app][task_hash]["correct"] += int(correct)
+                        if gt_input != "null" and llm_id == gt_id:
+                            correct = gt_input == llm_input
+                            result_analysis[app][task_hash]["correct"] += int(correct)
+                    else:
+                        try:
+                            if isinstance(v, str):
+                                v = json.loads(v)
+                        except:
+                            print('format error: v')
+                            llm_id = -1
+                            llm_action = "N/A"
+                            llm_input = "N/A"
+                        try:
+                            if 'Finished' in v.keys():
+                                whether_finished_answer = v['Finished'].lower() == 'yes' or v['Finished'].lower() == 'y' or v['Finished'].lower() == 'true' or 'finished' in v['Finished'].lower() 
+                            elif 'finished' in v.keys():
+                                whether_finished_answer = v['finished'].lower() == 'yes' or v['finished'].lower() == 'y' or v['finished'].lower() == 'true' or 'finished' in v['finished'].lower() 
+                            else:
+                                whether_finished_answer = False
+                            if whether_finished_answer:
+                                llm_id = -1
+                                llm_action = "N/A"
+                                llm_input = "N/A"
+                            else:
+                                llm_id = 'N/A'
+
+                        except:
+                            pass
+                        if llm_id != -1:
+                            # if 'Next step' in v.keys():
+                            #     step_desc = v['Next step']
+                            # elif 'next step' in v.keys():
+                            #     step_desc = v['next step']
+                            
+                            # elif 'next_step' in v.keys():
+                            #     step_desc = v['next_step']
+                            # else:
+                            #     print('next step not found')
+                            #     llm_id = -1
+                            step_desc = v
+                            try:
+                                llm_id = step_desc['id']
+                                llm_action = step_desc['action']
+                                llm_input = step_desc['input_text']
+                                if llm_id == "N/A":
+                                    llm_id = -1
+                                else:
+                                    llm_id = int(llm_id)
+                                if "tap" in llm_action.lower() or "check" in llm_action.lower() or "choose" in llm_action.lower():
+                                    llm_action = "tap"
+                                elif "none" in llm_action.lower():
+                                    llm_action = "N/A"
+                                elif "click" in llm_action.lower():
+                                    llm_action = "tap"
+                                elif "input" in llm_action.lower():
+                                    llm_action = "input"
+                                assert llm_action in ["tap", "input", "N/A"]
+                            except:
+                                llm_id = -1
+                                # try:
+                                #     llm_id, llm_action = re.findall(
+                                #         "id=(N/A|-?\d+)(?:.|\\n)*(?:-|,)\s?action=(N/A|\w+)", v.lower(), flags=re.S
+                                #     )[0]
+                                #     llm_id = int(llm_id)
+                                #     if (
+                                #         "tapon" in llm_action.lower()
+                                #         or "check" in llm_action.lower()
+                                #         or "uncheck" in llm_action.lower()
+                                #     ):
+                                #         llm_action = "tap"
+                                #     elif "none" in llm_action.lower():
+                                #         llm_action = "N/A"
+                                #     assert llm_action in ["tap", "input", "N/A"]
+                                # except:
+                                #     try:
+                                #         llm_id, llm_action, llm_input = re.findall(
+                                #             "Action: (N/A|\w+)\\nid=(-?\d+)\\ninput text=(N/A|\w+)", v
+                                #         )[0]
+                                #         llm_id = int(llm_id)
+                                #     except:
+                                #         llm_id, llm_action, llm_input = eval(
+                                #             input(
+                                #                 v + "\nPlease input id, action, and text: "
+                                #             )
+                                #         )
+                                #         llm_id = int(llm_id)
+                                #         llm_action = ["tap", "input", "N/A"][
+                                #             int(llm_action)
+                                #         ]
+                                #         try:
+                                #             if int(llm_input) == -1:
+                                #                 llm_input = "N/A"
+                                #         except:
+                                #             pass
+                        if gt_id == -1:
+                            correct = llm_id == gt_id
+                            if correct:
+                                result_analysis[app][task_hash]["end_correct"] = True
+                        elif gt_input == "null" and llm_action != "input":
+                            correct = llm_id == gt_id
+                        elif (
+                            gt_input != "null"
+                            and llm_action == "input"
+                            and llm_id == gt_id
+                        ):
+                            correct = llm_input == gt_input
+                        result_analysis[app][task_hash]["correct"] += int(correct)
+                    result_analysis[app][task_hash]["profile"][idx]["answer"] = (
+                        llm_id,
+                        llm_action,
+                        llm_input,
+                    )
+                    result_analysis[app][task_hash]["profile"][idx]["correct"] = correct
+                    result_analysis[app][task_hash]["profile"][idx]["raw"] = v
+                    result_analysis[app][task_hash]["profile"][idx][
+                        "prompt"
+                    ] = self.__prompts_data[app][task_hash][idx]
+            with open(self.log_folder / "result_analysis.json", "w") as f:
+                json.dump(result_analysis, f)
+        else:
+            with open(self.log_folder / "result_analysis.json", "r") as f:
+                result_analysis = json.load(f)
+        self.__showResults(result_analysis)
+
     def __showResults(self, result_analysis):
         results = {}
         ss = 0
@@ -557,7 +739,7 @@ class Evaluator:
                 c += correct
                 e += int(end_correct)
                 wc += int(step_num == correct)
-                pwc += int(step_num == correct + 1 and not end_correct)
+                pwc += int(step_num == correct + 1) and not end_correct
                 cnt += 1
             results[app] = [
                 (round(c / s, 3), round(e / len(result_analysis[app]), 3)),
@@ -567,7 +749,7 @@ class Evaluator:
             cc += c
         results["Acc"] = (round(cc / ss, 3), f"{cc}/{ss}")
         results["Whole_task_Acc"] = (round(wc / cnt, 3), f"{wc}/{cnt}")
-        results["Whole_task_Acc_except_end"] = (round(pwc / cnt, 3), f"{pwc}/{cnt}")
+        results["Whole_task_Acc_without_end"] = (round((pwc+wc) / cnt, 3), f"{pwc+wc}/{cnt}")
         results["Tokens"] = self.__tokens
         print(results)
 
@@ -586,3 +768,190 @@ class Evaluator:
 
     def __repr__(self) -> str:
         return str(self.__cfg_structure)
+    
+    def get_acc_by_types(self):
+        tap_num, input_num, end_num = 0, 0, 0
+        tap_right_num, input_right_num, end_right_num = 0, 0, 0
+        result_analysis = self.__profile_tree
+        if not self.load_result:
+            results_jsons = list(self.ckpt_folder.glob("result_*.json"))
+            for results_file in results_jsons:
+                app = re.findall("result_(.*?).json", str(results_file))[0]
+                if app not in self.__profile_tree:
+                    continue
+                with open(results_file, "r") as f:
+                    results = json.load(f)
+                for k, v in results.items():
+                    try:
+                        task_hash, idx = eval(k)
+                    except:
+                        task_hash = k.split("-")[0]
+                        idx = int(k.split("-")[1])
+                    if "correct" not in result_analysis[app][task_hash]:
+                        result_analysis[app][task_hash]["correct"] = 0
+                    if "end_correct" not in result_analysis[app][task_hash]:
+                        result_analysis[app][task_hash]["end_correct"] = False
+                    label = result_analysis[app][task_hash]["profile"][idx]["label"]
+                    correct = False
+                    gt_id = label[0]
+                    gt_input = label[1]
+                    llm_id = "N/A"
+                    llm_action = "N/A"
+                    llm_input = "N/A"
+                    if v is None:
+                        llm_id = -1
+                    elif self.use_baseline:
+                        try:
+                            llm_id = re.findall("ID:\s?(N/A|-?\d+)", v)[0]
+                            if llm_id == "N/A":
+                                llm_id = -1
+                            else:
+                                llm_id = int(llm_id)
+                        except:
+                            llm_id = int(input(v + "\nPlease input id: "))
+                        if llm_id == -1:
+                            llm_input =  "N/A"
+                        else:
+                            try:
+                                llm_input = re.findall("Input:\s?(.*)", v)[0]
+                            except:
+                                llm_input = input(v + "\nPlease input text: ")
+                                try:
+                                    if int(llm_input) == -1:
+                                        llm_input = "N/A"
+                                except:
+                                    pass
+                        llm_action = None
+                        if gt_input == "null" and llm_id == gt_id:
+                            correct = True
+                            result_analysis[app][task_hash]["correct"] += int(correct)
+                        if gt_input != "null" and llm_id == gt_id:
+                            correct = gt_input == llm_input
+                            result_analysis[app][task_hash]["correct"] += int(correct)
+                    else:
+                        try:
+                            if isinstance(v, str):
+                                v = json.loads(v)
+                        except:
+                            print('format error: v')
+                            llm_id = -1
+                            llm_action = "N/A"
+                            llm_input = "N/A"
+                        try:
+                            if 'Finished' in v.keys():
+                                whether_finished_answer = v['Finished'].lower() == 'yes' or v['Finished'].lower() == 'y' or v['Finished'].lower() == 'true' or 'finished' in v['Finished'].lower() 
+                            elif 'finished' in v.keys():
+                                whether_finished_answer = v['finished'].lower() == 'yes' or v['finished'].lower() == 'y' or v['finished'].lower() == 'true' or 'finished' in v['finished'].lower() 
+                            else:
+                                whether_finished_answer = False
+                            if whether_finished_answer:
+                                llm_id = -1
+                                llm_action = "N/A"
+                                llm_input = "N/A"
+                            else:
+                                llm_id = 'N/A'
+
+                        except:
+                            pass
+                        if llm_id != -1:
+                            # if 'Next step' in v.keys():
+                            #     step_desc = v['Next step']
+                            # elif 'next step' in v.keys():
+                            #     step_desc = v['next step']
+                            
+                            # elif 'next_step' in v.keys():
+                            #     step_desc = v['next_step']
+                            # else:
+                            #     print('next step not found')
+                            #     llm_id = -1
+                            step_desc = v
+                            try:
+                                llm_id = step_desc['id']
+                                llm_action = step_desc['action']
+                                llm_input = step_desc['input_text']
+                                if llm_id == "N/A":
+                                    llm_id = -1
+                                else:
+                                    llm_id = int(llm_id)
+                                if "tap" in llm_action.lower() or "check" in llm_action.lower() or "choose" in llm_action.lower():
+                                    llm_action = "tap"
+                                elif "none" in llm_action.lower():
+                                    llm_action = "N/A"
+                                elif "click" in llm_action.lower():
+                                    llm_action = "tap"
+                                elif "input" in llm_action.lower():
+                                    llm_action = "input"
+                                assert llm_action in ["tap", "input", "N/A"]
+                            except:
+                                llm_id = -1
+                                # try:
+                                #     llm_id, llm_action = re.findall(
+                                #         "id=(N/A|-?\d+)(?:.|\\n)*(?:-|,)\s?action=(N/A|\w+)", v.lower(), flags=re.S
+                                #     )[0]
+                                #     llm_id = int(llm_id)
+                                #     if (
+                                #         "tapon" in llm_action.lower()
+                                #         or "check" in llm_action.lower()
+                                #         or "uncheck" in llm_action.lower()
+                                #     ):
+                                #         llm_action = "tap"
+                                #     elif "none" in llm_action.lower():
+                                #         llm_action = "N/A"
+                                #     assert llm_action in ["tap", "input", "N/A"]
+                                # except:
+                                #     try:
+                                #         llm_id, llm_action, llm_input = re.findall(
+                                #             "Action: (N/A|\w+)\\nid=(-?\d+)\\ninput text=(N/A|\w+)", v
+                                #         )[0]
+                                #         llm_id = int(llm_id)
+                                #     except:
+                                #         llm_id, llm_action, llm_input = eval(
+                                #             input(
+                                #                 v + "\nPlease input id, action, and text: "
+                                #             )
+                                #         )
+                                #         llm_id = int(llm_id)
+                                #         llm_action = ["tap", "input", "N/A"][
+                                #             int(llm_action)
+                                #         ]
+                                #         try:
+                                #             if int(llm_input) == -1:
+                                #                 llm_input = "N/A"
+                                #         except:
+                                #             pass
+                        if gt_id == -1:
+                            correct = llm_id == gt_id
+                            if correct:
+                                result_analysis[app][task_hash]["end_correct"] = True
+                                end_right_num += 1
+                            end_num += 1
+                        elif gt_input == "null" and llm_action != "input":
+                            correct = llm_id == gt_id
+                            tap_num += 1
+                            if correct:
+                                tap_right_num += 1
+                        elif (
+                            gt_input != "null"
+                            and llm_action == "input"
+                            and llm_id == gt_id
+                        ):
+                            correct = llm_input == gt_input
+                            input_num += 1
+                            if correct:
+                                input_right_num += 1
+                        result_analysis[app][task_hash]["correct"] += int(correct)
+                    result_analysis[app][task_hash]["profile"][idx]["answer"] = (
+                        llm_id,
+                        llm_action,
+                        llm_input,
+                    )
+                    result_analysis[app][task_hash]["profile"][idx]["correct"] = correct
+                    result_analysis[app][task_hash]["profile"][idx]["raw"] = v
+                    result_analysis[app][task_hash]["profile"][idx][
+                        "prompt"
+                    ] = self.__prompts_data[app][task_hash][idx]
+            print(f"tap_acc: {tap_right_num/tap_num}, input_acc: {input_right_num/input_num}, end_acc: {end_right_num/end_num}")
+        # else:
+        #     with open(self.log_folder / "result_analysis.json", "r") as f:
+        #         result_analysis = json.load(f)
+        # self.__showResults(result_analysis)
