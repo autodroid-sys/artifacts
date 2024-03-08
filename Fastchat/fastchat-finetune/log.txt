@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/home/wenhao/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 578, in save_pretrained
+    raise ValueError(str([w.message for w in caught_warnings]))
+ValueError: [UserWarning('`do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.'), UserWarning('`do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wenhao/FastChat/fastchat/train/train_mem.py", line 13, in <module>
+    train()
+  File "/home/wenhao/FastChat/fastchat/train/train.py", line 314, in train
+    trainer_save_model_safe(trainer)
+  File "/home/wenhao/FastChat/fastchat/train/train.py", line 89, in trainer_save_model_safe
+    trainer.save_model()
+  File "/home/wenhao/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2998, in save_model
+    self._save(output_dir, state_dict=state_dict)
+  File "/home/wenhao/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3077, in _save
+    unwrap_model(self.model).save_pretrained(
+  File "/home/wenhao/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2326, in save_pretrained
+    model_to_save.generation_config.save_pretrained(save_directory)
+  File "/home/wenhao/.local/lib/python3.10/site-packages/transformers/generation/configuration_utils.py", line 580, in save_pretrained
+    raise ValueError(
+ValueError: The generation config instance is invalid -- `.validate()` throws warnings and/or exceptions. Fix these issues to save the configuration.
+
+Thrown during validation:
+[UserWarning('`do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.'), UserWarning('`do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.')]
+[2024-03-01 15:57:22,254] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 1636690) of binary: /usr/bin/python3
+Traceback (most recent call last):
+  File "/home/wenhao/.local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/home/wenhao/.local/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/home/wenhao/.local/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/wenhao/.local/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/wenhao/.local/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/wenhao/.local/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+fastchat/train/train_mem.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-03-01_15:57:22
+  host      : aiot-a800
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1636690)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
