@@ -30,7 +30,7 @@ def queryGPT(prompt: str, console: Console | None = None, identifier="", retry_t
                 ],
                 model=model_name,
                 timeout=15,
-                temperature=0.84,
+                temperature=0.85,
             )
             if identifier:
                 if retry != 0:

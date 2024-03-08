@@ -2,11 +2,6 @@
 
 Dataset and evaluator of AutoDroid
 
-You can get access to our [homepage](https://autodroid-sys.github.io) and [paper](https://arxiv.org/abs/2308.15272) for more details.
-
-Download all the data to be used from [Google Drive](https://drive.google.com/drive/folders/1SergVsuQQThuhmRl63CtkQ5Vv-Pj68OQ?usp=share_link). Besides, we provide additional 
-data in the `data` folder.
-
 ## Environment Setup
 ```
 conda create -n droidtask python=3.10
@@ -77,6 +72,7 @@ code and adjust your save path if needed.
 ## Evaluator
 You can evaluate LLM's answers through this code.
 
+**Note: If you set `load_ckpt` to `False`, you will query GPT to generate answers, which costs at least 272,8416 input tokens, and about 150,000 output tokens for all the apps. If you want to use the existing checkpoint, set `load_ckpt` to `False`, and set `INSTANCE_NAME` to the name of the existing checkpoint, for example, `INSTANCE_NAME = "gpt-3.5" or "gpt-4"`.**
 ```python
 # run_evaluator.py
 # example on evaluator.py usage, remember to specify API keys in `utils.py`
@@ -99,6 +95,7 @@ ev.evaluate()
 Some explanations on the parameters:
 - `data_folder`: `utgs` folder path.
 - `log_root`: log folder.
+- `load_ckpt`: bool, whether to use the existing checkpoint.
 - `use_memory`: bool, whether to integrate memory.
 - `memory_folder`(only if `use_memory`): `navigation` folder path; we provide our data in `data/navigation`, which is similar to `UI_function_table` in the paper; each key represents a `state_str`
 of one UI state, and values represent next UI state's functions when operating on these indices of
@@ -114,24 +111,4 @@ option, set the `instance_name` same as the logs you want to load from.
 
 ### Notice
 
-Because LLM would sometimes not output in the format we design strictly, we enable
-the code to let you parse the unformatted output yourself, instead of just leaving them out.
-
-For example, we ask LLM to output like:
-
-`- id=<id number> - action=<tap/input> - input text=<text or N/A>`
-
-but it may answer with "The id is xxx, the action is xxx, and no text is needed." (sometimes maybe more complex and hard to predict)
-
-So when `Evaluator` find out the answer is not the format we want, it will **print the raw answer to the console** and let you read it, so that you can judge what the LLM really want to say.
-
-Assume the example below:
-
-`The id is 2, the action is tap, and no text is needed.`
-
-The `Evaluator` would ask you to *"Please input id, action, and text: "*
-- for `id`, you just type 2, that is fine;
-- for `action`, we modify the code here, so you will not need to input `t-a-p`. Instead, you should type the index of `["tap", "input", "N/A"]`. In this example, the number is 0. 
-    - For smaller models such as GPT-3.5 or Vicuna, there are quite a lot "mis-answers" like this.
-- for `input_text`, if no text is needed, type -1; otherwise you type the text itself.
-- To sum up, you should answer: `2, 0, -1` in this example.
+- The output of GPT is random, so the evaluation results may vary. The results in the paper are averaged over 3 runs.

@@ -5,6 +5,10 @@ import ast
 from openai import OpenAI
 ACTION_MISSED = None
 
+# set your GPT url & API key here.
+GPT_URL = ""
+API_KEY = ""
+model_name = "gpt-3.5-turbo"
 def get_id_from_view_desc(view_desc):
     '''
     given a view(UI element), get its ID
@@ -58,8 +62,13 @@ def get_view_without_id(view_desc):
 
 def query_gpt(prompt):
     # print(prompt)
+    # client = OpenAI(
+    #     api_key=os.environ['APIKey']
+    # )
     client = OpenAI(
-        api_key=os.environ['APIKey']
+        base_url=GPT_URL,
+        # This is the default and can be omitted
+        api_key=API_KEY,
     )
     retry = 0
     completion = client.chat.completions.create(

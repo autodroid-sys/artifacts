@@ -716,7 +716,7 @@ class Evaluator:
         else:
             with open(self.log_folder / "result_analysis.json", "r") as f:
                 result_analysis = json.load(f)
-        self.__showResults(result_analysis)
+        return self.__showResults(result_analysis)
 
     def __showResults(self, result_analysis):
         results = {}
@@ -752,6 +752,7 @@ class Evaluator:
         results["Whole_task_Acc_without_end"] = (round((pwc+wc) / cnt, 3), f"{pwc+wc}/{cnt}")
         results["Tokens"] = self.__tokens
         print(results)
+        return results
 
     def to_dict(self) -> dict:
         output = {}
@@ -951,6 +952,7 @@ class Evaluator:
                         "prompt"
                     ] = self.__prompts_data[app][task_hash][idx]
             print(f"tap_acc: {tap_right_num/tap_num}, input_acc: {input_right_num/input_num}, end_acc: {end_right_num/end_num}")
+            return {'tap_acc': tap_right_num/tap_num, 'input_acc': input_right_num/input_num, 'end_acc': end_right_num/end_num}
         # else:
         #     with open(self.log_folder / "result_analysis.json", "r") as f:
         #         result_analysis = json.load(f)
