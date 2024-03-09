@@ -14,9 +14,9 @@ model_name = "gpt-4-32k"
 def queryGPT(prompt: str, console: Console | None = None, identifier="", retry_times=12):
         # print(prompt)
     client = OpenAI(
-        base_url='https://api.openai-proxy.org/v1',
+        base_url=GPT_URL,
         # This is the default and can be omitted
-        api_key='sk-WEAQvDQrv20aM9kOkwDwrLXgTsYy929znRt5N3JgD87bMOkc'
+        api_key=API_KEY
     )
     retry = 0
     while retry < retry_times:
