@@ -7,8 +7,8 @@ from openai import OpenAI
 
 MAX_RETRIES = 12
 # set your GPT url & API key here.
-GPT_URL = "https://api.openai-proxy.org/v1"
-API_KEY = "sk-otu6p5ykBAemvGndQbbed7mSKD5deXNESjo1i6TF482pjT4Y"
+GPT_URL = ""
+API_KEY = ""
 model_name = "gpt-3.5-turbo"
 
 def queryGPT(prompt: str, console: Console | None = None, identifier="", retry_times=12):
